@@ -1,0 +1,21 @@
+[versions]
+agp = "8.6.0"
+kotlin = "2.0.21"
+coroutines = "1.9.0"
+protobuf = "4.36.0"
+webrtc = "1.1.1"
+
+[libraries]
+# Coroutines（StateFlow / suspend 出现在公开 API，需 api 暴露）
+coroutines-core = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-core", version.ref = "coroutines" }
+coroutines-android = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-android", version.ref = "coroutines" }
+
+# Protobuf（ImProto 生成代码内部使用）
+protobuf-java = { group = "com.google.protobuf", name = "protobuf-java", version.ref = "protobuf" }
+
+# WebRTC（RtcEngine 公开 API 暴露 VideoTrack/EglBase 等类型，需 api 传递）
+webrtc-android = { group = "io.getstream", name = "stream-webrtc-android", version.ref = "webrtc" }
+
+[plugins]
+android-library = { id = "com.android.library", version.ref = "agp" }
+kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
