@@ -102,11 +102,13 @@ class MeshGroupTransport(
             callback.onRemoteMemberRemoved?.invoke(userId)
         }
         // 为新加入的成员补建连接（offer 决策与 start 一致，两端结果相同无冲突）。
+        // 排除自己：服务端 JOIN 通知/roomState 成员列表均包含本人，
+        // 若不排除会 connectPeer(自己) 建出一个永远等不到 offer 的空连接
         // 时序：服务端仅在成员 join 时向其本人下发 roomState，其他成员只收到
         // participantNotify —— 发起人收到 roomState 时后加入者尚未 JOINED，
         // 若不在 join 通知中补建，当发起人是 offerer（字典序较小）时双方
         // 互相等待 offer，永远无法建联（卡在连接中）
-        val missing = synchronized(peers) { joinedUserIds.filter { it !in peers.keys } }
+        val missing = synchronized(peers) { joinedUserIds.filter { it != me && it !in peers.keys } }
         if (missing.isEmpty()) return
         signalScope.launch {
             for (peerId in missing) {
