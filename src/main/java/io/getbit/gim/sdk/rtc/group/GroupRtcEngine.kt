@@ -91,6 +91,9 @@ class GroupRtcEngine(
          */
         @Volatile
         var connectTimeoutMs = 30_000L
+
+        /** transport 未就绪期间媒体信令缓冲上限（防异常场景无限增长） */
+        private const val MAX_BUFFERED_MEDIA_SIGNALS = 50
     }
 
     // ====================== 内部状态 ======================
@@ -116,6 +119,9 @@ class GroupRtcEngine(
 
     /** 媒体传输层（Mesh/SFU，roomState 到达后创建） */
     private var transport: GroupMediaTransport? = null
+
+    /** transport 未就绪期间缓冲的媒体信令（callId 匹配），transport 启动后重放 */
+    private val pendingMediaSignals = mutableListOf<ImProto.RtcSignal>()
 
     // ---- Mesh 本地媒体（引擎获取并持有；SFU 由 LiveKit 管理） ----
     private var factory: PeerConnectionFactory? = null
@@ -290,9 +296,30 @@ class GroupRtcEngine(
         }
     }
 
-    /** 处理点对点媒体信令（cmd=50，Mesh 模式专用） */
+    /**
+     * 处理点对点媒体信令（cmd=50，Mesh 模式专用）
+     *
+     * transport 未创建时（roomState 处理中/本地媒体采集中）缓冲当前通话信令，
+     * 就绪后重放：对端可能先于本端 roomState 到达即发来 offer —— 若直接丢弃，
+     * 对端已发 offer 等 answer，双方互等永远无法建联（与 Flutter SDK 同款防御）
+     */
     fun handleMediaSignal(signal: ImProto.RtcSignal) {
-        transport?.handleMediaSignal(signal)
+        val current = transport
+        if (current != null) {
+            current.handleMediaSignal(signal)
+            return
+        }
+        if (callId.isNotEmpty() && signal.callId == callId) {
+            if (pendingMediaSignals.size >= MAX_BUFFERED_MEDIA_SIGNALS) {
+                pendingMediaSignals.removeAt(0)
+            }
+            pendingMediaSignals.add(signal)
+            Log.d(
+                TAG, "transport not ready, buffer media signal: " +
+                    "type=${signal.signalType} from=${signal.senderId} " +
+                    "(${pendingMediaSignals.size} pending)"
+            )
+        }
     }
 
     /** 当前群通话是否可处理该 callId 的点对点媒体信令 */
@@ -515,6 +542,21 @@ class GroupRtcEngine(
         }
 
         transport?.start(roomState)
+
+        // 重放 transport 就绪前缓冲的媒体信令（offer/answer/ICE）
+        replayBufferedMediaSignals()
+    }
+
+    /** 重放缓冲的媒体信令（transport 创建并 start 后调用） */
+    private fun replayBufferedMediaSignals() {
+        val current = transport ?: return
+        if (pendingMediaSignals.isEmpty()) return
+        val buffered = pendingMediaSignals.toList()
+        pendingMediaSignals.clear()
+        Log.d(TAG, "replay ${buffered.size} buffered media signals")
+        for (signal in buffered) {
+            current.handleMediaSignal(signal)
+        }
     }
 
     /** 媒体连接就绪（首个对端连通 / SFU 房间连接成功）→ 启动计时 */
@@ -666,6 +708,7 @@ class GroupRtcEngine(
         try {
             transport?.dispose()
             transport = null
+            pendingMediaSignals.clear()
             // 停止摄像头捕获
             try {
                 cameraCapturer?.stopCapture()
