@@ -578,20 +578,28 @@ class RtcEngine(
 
     /** 处理远端 ICE Candidate */
     private fun onIceCandidate(signal: ImProto.RtcSignal) {
-        // 引擎已清理或 PeerConnection 未创建 → 丢弃，防止对已释放对象操作
-        if (disposed || peerConnection == null) {
-            Log.d(TAG, "ICE candidate dropped (no active peer connection)")
+        // 引擎已清理 → 丢弃，防止对已释放对象操作
+        // PeerConnection 未创建（被叫在收到 offer 前）→ 仍需缓冲：主叫的候选 gathering
+        // 早于 offer 发出，大量候选会先于 OFFER 到达，丢弃会导致 ICE 无候选对、
+        // 双方卡在连接中（对标 Flutter：PC 未就绪时统一缓冲，远端描述就绪后回放）
+        if (disposed) {
+            Log.d(TAG, "ICE candidate dropped (engine disposed)")
             return
         }
 
-        val payload = JSONObject(signal.payload)
-        val candidate = IceCandidate(
-            payload.getString("sdpMid"),
-            payload.getInt("sdpMLineIndex"),
-            payload.getString("candidate"),
-        )
+        val candidate = try {
+            val payload = JSONObject(signal.payload)
+            IceCandidate(
+                payload.getString("sdpMid"),
+                payload.getInt("sdpMLineIndex"),
+                payload.getString("candidate"),
+            )
+        } catch (e: Exception) {
+            Log.e(TAG, "parse ICE candidate error: ${e.message}")
+            return
+        }
 
-        if (_remoteDescSet) {
+        if (peerConnection != null && _remoteDescSet) {
             peerConnection?.addIceCandidate(candidate)
             Log.d(TAG, "Remote ICE candidate added immediately")
         } else {
@@ -678,7 +686,8 @@ class RtcEngine(
         })
 
         _remoteDescSet = false
-        pendingCandidates.clear()
+        // 注意：此处不清空 pendingCandidates —— 被叫在收到 offer 前缓冲的主叫候选
+        // 依赖它存活到 setRemoteDescription 后回放；上一通话的残留由 cleanup() 清理
 
         // 将本地媒体轨道添加到 PeerConnection（UNIFIED_PLAN，无需 MediaStream）
         _localAudioTrack?.let { peerConnection?.addTrack(it) }

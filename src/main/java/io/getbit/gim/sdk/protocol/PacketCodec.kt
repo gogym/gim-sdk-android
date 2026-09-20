@@ -1,6 +1,6 @@
 package io.getbit.gim.sdk.protocol
 
-import com.google.protobuf.GeneratedMessage
+import com.google.protobuf.GeneratedMessageLite
 import java.util.concurrent.atomic.AtomicLong
 
 /**
@@ -31,7 +31,7 @@ object PacketCodec {
         cmd: Int,
         seq: Long? = null,
         requestId: String? = null,
-        body: GeneratedMessage? = null,
+        body: GeneratedMessageLite<*, *>? = null,
         chatType: Int? = null,
     ): ImProto.Packet {
         val builder = ImProto.Packet.newBuilder()

@@ -50,17 +50,12 @@ dependencies {
     api(libs.coroutines.core)
     api(libs.coroutines.android)
 
-    // Protobuf：ImProto.Packet(GeneratedMessage) 出现在公开 API → api
-    api(libs.protobuf.java)
+    // Protobuf lite：ImProto lite 生成代码（GeneratedMessageLite）出现在公开 API → api
+    // 与 LiveKit 传递依赖同为 javalite，全链路单一 protobuf runtime，无需排除
+    api(libs.protobuf.javalite)
 
     // LiveKit（SFU 群通话传输层；GroupRtcEngine 公开 API 暴露 Track 类型 → api）
-    // 排除 LiveKit 传递依赖 protobuf-javalite：SDK 上方以 api 暴露完整版 protobuf-java，
-    // 两者同包名类冲突（Duplicate class AbstractMessageLite 等，dex 打包阶段报错）。
-    // 完整版 runtime 是 lite runtime 的同名超集，LiveKit 的 lite 生成代码可直接运行其上。
-    // 该排除随 POM/module metadata 发布，对 SDK 所有消费者生效，无需各自再排除。
-    api(libs.livekit.android) {
-        exclude(group = "com.google.protobuf", module = "protobuf-javalite")
-    }
+    api(libs.livekit.android)
     // 单测（JVM）：junit + 真实 org.json（Android stub 在本地单测中抛异常）
     testImplementation("junit:junit:4.13.2")
     testImplementation("org.json:json:20240303")

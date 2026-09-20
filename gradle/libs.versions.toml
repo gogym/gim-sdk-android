@@ -12,7 +12,7 @@ coroutines-core = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-
 coroutines-android = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-android", version.ref = "coroutines" }
 
 # Protobuf（ImProto 生成代码内部使用）
-protobuf-java = { group = "com.google.protobuf", name = "protobuf-java", version.ref = "protobuf" }
+protobuf-javalite = { group = "com.google.protobuf", name = "protobuf-javalite", version.ref = "protobuf" }
 
 # WebRTC（RtcEngine 公开 API 暴露 VideoTrack/EglBase 等类型，需 api 传递）
 webrtc-android = { group = "io.getstream", name = "stream-webrtc-android", version.ref = "webrtc" }
