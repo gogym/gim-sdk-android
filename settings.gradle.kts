@@ -16,6 +16,8 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
+        // LiveKit Android SDK 依赖的 WebRTC 预编译包
+        maven { url = uri("https://jitpack.io") }
     }
 }
 

@@ -225,6 +225,10 @@ class GimImService {
             // WebRTC 信令
             Cmd.RTC_SIGNAL ->
                 listener.onRtcSignal(packet)
+
+            // WebRTC 群通话信令
+            Cmd.RTC_GROUP ->
+                listener.onRtcGroupSignal(packet)
         }
     }
 

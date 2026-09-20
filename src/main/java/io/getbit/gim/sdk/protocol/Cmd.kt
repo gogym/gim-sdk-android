@@ -83,6 +83,9 @@ object Cmd {
     /** WebRTC 信令消息 */
     const val RTC_SIGNAL = 50
 
+    /** WebRTC 群通话信令 */
+    const val RTC_GROUP = 51
+
     /** 根据 cmd 返回可读名称（调试用） */
     fun nameOf(cmd: Int): String = when (cmd) {
         BIND_REQ -> "BIND_REQ"
@@ -104,6 +107,7 @@ object Cmd {
         GROUP_NOTIFY -> "GROUP_NOTIFY"
         GROUP_JOIN_REQUEST_NOTIFY -> "GROUP_JOIN_REQUEST_NOTIFY"
         RTC_SIGNAL -> "RTC_SIGNAL"
+        RTC_GROUP -> "RTC_GROUP"
         else -> "UNKNOWN($cmd)"
     }
 }

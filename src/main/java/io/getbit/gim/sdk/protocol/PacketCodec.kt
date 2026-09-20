@@ -231,6 +231,38 @@ object PacketCodec {
     fun parseKickNotify(packet: ImProto.Packet): ImProto.KickNotify =
         ImProto.KickNotify.parseFrom(packet.body)
 
+    // ====================== 群通话信令 ======================
+
+    /**
+     * 构建群通话信令 Packet（cmd=51 RTC_GROUP，对标 Flutter PacketCodec.buildRtcGroup）
+     *
+     * @param mode 会话模式（0-Mesh 1-SFU），仅发起请求时由调用方决定，其余场景服务端回填
+     */
+    fun buildRtcGroup(
+        signalType: Int,
+        senderId: String,
+        groupId: String,
+        payload: String = "",
+        callId: String = "",
+        roomId: String = "",
+        mode: Int = 0,
+    ): ImProto.Packet {
+        val body = ImProto.RtcGroup.newBuilder()
+            .setSignalType(signalType)
+            .setSenderId(senderId)
+            .setGroupId(groupId)
+            .setPayload(payload)
+            .setCallId(callId)
+            .setRoomId(roomId)
+            .setMode(mode)
+            .build()
+        return create(Cmd.RTC_GROUP, body = body)
+    }
+
+    /** 解析 Packet body 为 RtcGroup */
+    fun parseRtcGroup(packet: ImProto.Packet): ImProto.RtcGroup =
+        ImProto.RtcGroup.parseFrom(packet.body)
+
     // ====================== 序列化 ======================
 
     /** 将 Packet 序列化为字节数组（用于网络传输） */

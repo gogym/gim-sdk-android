@@ -50,6 +50,9 @@ open class ImEventListener {
     /** WebRTC 信令 */
     open fun onRtcSignal(packet: ImProto.Packet) {}
 
+    /** WebRTC 群通话信令 */
+    open fun onRtcGroupSignal(packet: ImProto.Packet) {}
+
     /** 被踢下线 */
     open fun onKicked(code: Int, message: String) {}
 

@@ -123,20 +123,20 @@ public final class ImProto extends com.google.protobuf.GeneratedFile {
 
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return ImProto.internal_static_gim_im_Packet_descriptor;
+      return io.getbit.gim.sdk.protocol.ImProto.internal_static_gim_im_Packet_descriptor;
     }
 
     @java.lang.Override
     public com.google.protobuf.Descriptors.Descriptor getDescriptorForType() {
-      return ImProto.internal_static_gim_im_Packet_descriptor;
+      return io.getbit.gim.sdk.protocol.ImProto.internal_static_gim_im_Packet_descriptor;
     }
 
     @java.lang.Override
     protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return ImProto.internal_static_gim_im_Packet_fieldAccessorTable
+      return io.getbit.gim.sdk.protocol.ImProto.internal_static_gim_im_Packet_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
-              ImProto.Packet.class, ImProto.Packet.Builder.class);
+              io.getbit.gim.sdk.protocol.ImProto.Packet.class, io.getbit.gim.sdk.protocol.ImProto.Packet.Builder.class);
     }
 
     public static final int CMD_FIELD_NUMBER = 1;
@@ -317,10 +317,10 @@ public final class ImProto extends com.google.protobuf.GeneratedFile {
       if (obj == this) {
        return true;
       }
-      if (!(obj instanceof ImProto.Packet)) {
+      if (!(obj instanceof io.getbit.gim.sdk.protocol.ImProto.Packet)) {
         return super.equals(obj);
       }
-      ImProto.Packet other = (ImProto.Packet) obj;
+      io.getbit.gim.sdk.protocol.ImProto.Packet other = (io.getbit.gim.sdk.protocol.ImProto.Packet) obj;
 
       if (getCmd()
           != other.getCmd()) return false;
@@ -360,44 +360,44 @@ public final class ImProto extends com.google.protobuf.GeneratedFile {
       return hash;
     }
 
-    public static ImProto.Packet parseFrom(
+    public static io.getbit.gim.sdk.protocol.ImProto.Packet parseFrom(
         java.nio.ByteBuffer data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static ImProto.Packet parseFrom(
+    public static io.getbit.gim.sdk.protocol.ImProto.Packet parseFrom(
         java.nio.ByteBuffer data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static ImProto.Packet parseFrom(
+    public static io.getbit.gim.sdk.protocol.ImProto.Packet parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static ImProto.Packet parseFrom(
+    public static io.getbit.gim.sdk.protocol.ImProto.Packet parseFrom(
         com.google.protobuf.ByteString data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static ImProto.Packet parseFrom(byte[] data)
+    public static io.getbit.gim.sdk.protocol.ImProto.Packet parseFrom(byte[] data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static ImProto.Packet parseFrom(
+    public static io.getbit.gim.sdk.protocol.ImProto.Packet parseFrom(
         byte[] data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static ImProto.Packet parseFrom(java.io.InputStream input)
+    public static io.getbit.gim.sdk.protocol.ImProto.Packet parseFrom(java.io.InputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessage
           .parseWithIOException(PARSER, input);
     }
-    public static ImProto.Packet parseFrom(
+    public static io.getbit.gim.sdk.protocol.ImProto.Packet parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
@@ -405,26 +405,26 @@ public final class ImProto extends com.google.protobuf.GeneratedFile {
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
-    public static ImProto.Packet parseDelimitedFrom(java.io.InputStream input)
+    public static io.getbit.gim.sdk.protocol.ImProto.Packet parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessage
           .parseDelimitedWithIOException(PARSER, input);
     }
 
-    public static ImProto.Packet parseDelimitedFrom(
+    public static io.getbit.gim.sdk.protocol.ImProto.Packet parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessage
           .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
-    public static ImProto.Packet parseFrom(
+    public static io.getbit.gim.sdk.protocol.ImProto.Packet parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessage
           .parseWithIOException(PARSER, input);
     }
-    public static ImProto.Packet parseFrom(
+    public static io.getbit.gim.sdk.protocol.ImProto.Packet parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
@@ -437,7 +437,7 @@ public final class ImProto extends com.google.protobuf.GeneratedFile {
     public static Builder newBuilder() {
       return DEFAULT_INSTANCE.toBuilder();
     }
-    public static Builder newBuilder(ImProto.Packet prototype) {
+    public static Builder newBuilder(io.getbit.gim.sdk.protocol.ImProto.Packet prototype) {
       return DEFAULT_INSTANCE.toBuilder().mergeFrom(prototype);
     }
     @java.lang.Override
@@ -463,18 +463,18 @@ public final class ImProto extends com.google.protobuf.GeneratedFile {
     public static final class Builder extends
         com.google.protobuf.GeneratedMessage.Builder<Builder> implements
         // @@protoc_insertion_point(builder_implements:gim.im.Packet)
-        ImProto.PacketOrBuilder {
+        io.getbit.gim.sdk.protocol.ImProto.PacketOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
           getDescriptor() {
-        return ImProto.internal_static_gim_im_Packet_descriptor;
+        return io.getbit.gim.sdk.protocol.ImProto.internal_static_gim_im_Packet_descriptor;
       }
 
       @java.lang.Override
       protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
           internalGetFieldAccessorTable() {
-        return ImProto.internal_static_gim_im_Packet_fieldAccessorTable
+        return io.getbit.gim.sdk.protocol.ImProto.internal_static_gim_im_Packet_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
-                ImProto.Packet.class, ImProto.Packet.Builder.class);
+                io.getbit.gim.sdk.protocol.ImProto.Packet.class, io.getbit.gim.sdk.protocol.ImProto.Packet.Builder.class);
       }
 
       // Construct using io.getbit.gim.sdk.protocol.ImProto.Packet.newBuilder()
@@ -502,17 +502,17 @@ public final class ImProto extends com.google.protobuf.GeneratedFile {
       @java.lang.Override
       public com.google.protobuf.Descriptors.Descriptor
           getDescriptorForType() {
-        return ImProto.internal_static_gim_im_Packet_descriptor;
+        return io.getbit.gim.sdk.protocol.ImProto.internal_static_gim_im_Packet_descriptor;
       }
 
       @java.lang.Override
-      public ImProto.Packet getDefaultInstanceForType() {
-        return ImProto.Packet.getDefaultInstance();
+      public io.getbit.gim.sdk.protocol.ImProto.Packet getDefaultInstanceForType() {
+        return io.getbit.gim.sdk.protocol.ImProto.Packet.getDefaultInstance();
       }
 
       @java.lang.Override
-      public ImProto.Packet build() {
-        ImProto.Packet result = buildPartial();
+      public io.getbit.gim.sdk.protocol.ImProto.Packet build() {
+        io.getbit.gim.sdk.protocol.ImProto.Packet result = buildPartial();
         if (!result.isInitialized()) {
           throw newUninitializedMessageException(result);
         }
@@ -520,14 +520,14 @@ public final class ImProto extends com.google.protobuf.GeneratedFile {
       }
 
       @java.lang.Override
-      public ImProto.Packet buildPartial() {
-        ImProto.Packet result = new ImProto.Packet(this);
+      public io.getbit.gim.sdk.protocol.ImProto.Packet buildPartial() {
+        io.getbit.gim.sdk.protocol.ImProto.Packet result = new io.getbit.gim.sdk.protocol.ImProto.Packet(this);
         if (bitField0_ != 0) { buildPartial0(result); }
         onBuilt();
         return result;
       }
 
-      private void buildPartial0(ImProto.Packet result) {
+      private void buildPartial0(io.getbit.gim.sdk.protocol.ImProto.Packet result) {
         int from_bitField0_ = bitField0_;
         if (((from_bitField0_ & 0x00000001) != 0)) {
           result.cmd_ = cmd_;
@@ -548,16 +548,16 @@ public final class ImProto extends com.google.protobuf.GeneratedFile {
 
       @java.lang.Override
       public Builder mergeFrom(com.google.protobuf.Message other) {
-        if (other instanceof ImProto.Packet) {
-          return mergeFrom((ImProto.Packet)other);
+        if (other instanceof io.getbit.gim.sdk.protocol.ImProto.Packet) {
+          return mergeFrom((io.getbit.gim.sdk.protocol.ImProto.Packet)other);
         } else {
           super.mergeFrom(other);
           return this;
         }
       }
 
-      public Builder mergeFrom(ImProto.Packet other) {
-        if (other == ImProto.Packet.getDefaultInstance()) return this;
+      public Builder mergeFrom(io.getbit.gim.sdk.protocol.ImProto.Packet other) {
+        if (other == io.getbit.gim.sdk.protocol.ImProto.Packet.getDefaultInstance()) return this;
         if (other.getCmd() != 0) {
           setCmd(other.getCmd());
         }
@@ -913,12 +913,12 @@ public final class ImProto extends com.google.protobuf.GeneratedFile {
     }
 
     // @@protoc_insertion_point(class_scope:gim.im.Packet)
-    private static final ImProto.Packet DEFAULT_INSTANCE;
+    private static final io.getbit.gim.sdk.protocol.ImProto.Packet DEFAULT_INSTANCE;
     static {
-      DEFAULT_INSTANCE = new ImProto.Packet();
+      DEFAULT_INSTANCE = new io.getbit.gim.sdk.protocol.ImProto.Packet();
     }
 
-    public static ImProto.Packet getDefaultInstance() {
+    public static io.getbit.gim.sdk.protocol.ImProto.Packet getDefaultInstance() {
       return DEFAULT_INSTANCE;
     }
 
@@ -954,7 +954,7 @@ public final class ImProto extends com.google.protobuf.GeneratedFile {
     }
 
     @java.lang.Override
-    public ImProto.Packet getDefaultInstanceForType() {
+    public io.getbit.gim.sdk.protocol.ImProto.Packet getDefaultInstanceForType() {
       return DEFAULT_INSTANCE;
     }
 
@@ -1078,20 +1078,20 @@ public final class ImProto extends com.google.protobuf.GeneratedFile {
 
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return ImProto.internal_static_gim_im_BindRequest_descriptor;
+      return io.getbit.gim.sdk.protocol.ImProto.internal_static_gim_im_BindRequest_descriptor;
     }
 
     @java.lang.Override
     public com.google.protobuf.Descriptors.Descriptor getDescriptorForType() {
-      return ImProto.internal_static_gim_im_BindRequest_descriptor;
+      return io.getbit.gim.sdk.protocol.ImProto.internal_static_gim_im_BindRequest_descriptor;
     }
 
     @java.lang.Override
     protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return ImProto.internal_static_gim_im_BindRequest_fieldAccessorTable
+      return io.getbit.gim.sdk.protocol.ImProto.internal_static_gim_im_BindRequest_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
-              ImProto.BindRequest.class, ImProto.BindRequest.Builder.class);
+              io.getbit.gim.sdk.protocol.ImProto.BindRequest.class, io.getbit.gim.sdk.protocol.ImProto.BindRequest.Builder.class);
     }
 
     public static final int USERID_FIELD_NUMBER = 1;
@@ -1343,10 +1343,10 @@ public final class ImProto extends com.google.protobuf.GeneratedFile {
       if (obj == this) {
        return true;
       }
-      if (!(obj instanceof ImProto.BindRequest)) {
+      if (!(obj instanceof io.getbit.gim.sdk.protocol.ImProto.BindRequest)) {
         return super.equals(obj);
       }
-      ImProto.BindRequest other = (ImProto.BindRequest) obj;
+      io.getbit.gim.sdk.protocol.ImProto.BindRequest other = (io.getbit.gim.sdk.protocol.ImProto.BindRequest) obj;
 
       if (!getUserId()
           .equals(other.getUserId())) return false;
@@ -1380,44 +1380,44 @@ public final class ImProto extends com.google.protobuf.GeneratedFile {
       return hash;
     }
 
-    public static ImProto.BindRequest parseFrom(
+    public static io.getbit.gim.sdk.protocol.ImProto.BindRequest parseFrom(
         java.nio.ByteBuffer data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static ImProto.BindRequest parseFrom(
+    public static io.getbit.gim.sdk.protocol.ImProto.BindRequest parseFrom(
         java.nio.ByteBuffer data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static ImProto.BindRequest parseFrom(
+    public static io.getbit.gim.sdk.protocol.ImProto.BindRequest parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static ImProto.BindRequest parseFrom(
+    public static io.getbit.gim.sdk.protocol.ImProto.BindRequest parseFrom(
         com.google.protobuf.ByteString data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static ImProto.BindRequest parseFrom(byte[] data)
+    public static io.getbit.gim.sdk.protocol.ImProto.BindRequest parseFrom(byte[] data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static ImProto.BindRequest parseFrom(
+    public static io.getbit.gim.sdk.protocol.ImProto.BindRequest parseFrom(
         byte[] data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static ImProto.BindRequest parseFrom(java.io.InputStream input)
+    public static io.getbit.gim.sdk.protocol.ImProto.BindRequest parseFrom(java.io.InputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessage
           .parseWithIOException(PARSER, input);
     }
-    public static ImProto.BindRequest parseFrom(
+    public static io.getbit.gim.sdk.protocol.ImProto.BindRequest parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
@@ -1425,26 +1425,26 @@ public final class ImProto extends com.google.protobuf.GeneratedFile {
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
-    public static ImProto.BindRequest parseDelimitedFrom(java.io.InputStream input)
+    public static io.getbit.gim.sdk.protocol.ImProto.BindRequest parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessage
           .parseDelimitedWithIOException(PARSER, input);
     }
 
-    public static ImProto.BindRequest parseDelimitedFrom(
+    public static io.getbit.gim.sdk.protocol.ImProto.BindRequest parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessage
           .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
-    public static ImProto.BindRequest parseFrom(
+    public static io.getbit.gim.sdk.protocol.ImProto.BindRequest parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessage
           .parseWithIOException(PARSER, input);
     }
-    public static ImProto.BindRequest parseFrom(
+    public static io.getbit.gim.sdk.protocol.ImProto.BindRequest parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
@@ -1457,7 +1457,7 @@ public final class ImProto extends com.google.protobuf.GeneratedFile {
     public static Builder newBuilder() {
       return DEFAULT_INSTANCE.toBuilder();
     }
-    public static Builder newBuilder(ImProto.BindRequest prototype) {
+    public static Builder newBuilder(io.getbit.gim.sdk.protocol.ImProto.BindRequest prototype) {
       return DEFAULT_INSTANCE.toBuilder().mergeFrom(prototype);
     }
     @java.lang.Override
@@ -1482,18 +1482,18 @@ public final class ImProto extends com.google.protobuf.GeneratedFile {
     public static final class Builder extends
         com.google.protobuf.GeneratedMessage.Builder<Builder> implements
         // @@protoc_insertion_point(builder_implements:gim.im.BindRequest)
-        ImProto.BindRequestOrBuilder {
+        io.getbit.gim.sdk.protocol.ImProto.BindRequestOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
           getDescriptor() {
-        return ImProto.internal_static_gim_im_BindRequest_descriptor;
+        return io.getbit.gim.sdk.protocol.ImProto.internal_static_gim_im_BindRequest_descriptor;
       }
 
       @java.lang.Override
       protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
           internalGetFieldAccessorTable() {
-        return ImProto.internal_static_gim_im_BindRequest_fieldAccessorTable
+        return io.getbit.gim.sdk.protocol.ImProto.internal_static_gim_im_BindRequest_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
-                ImProto.BindRequest.class, ImProto.BindRequest.Builder.class);
+                io.getbit.gim.sdk.protocol.ImProto.BindRequest.class, io.getbit.gim.sdk.protocol.ImProto.BindRequest.Builder.class);
       }
 
       // Construct using io.getbit.gim.sdk.protocol.ImProto.BindRequest.newBuilder()
@@ -1520,17 +1520,17 @@ public final class ImProto extends com.google.protobuf.GeneratedFile {
       @java.lang.Override
       public com.google.protobuf.Descriptors.Descriptor
           getDescriptorForType() {
-        return ImProto.internal_static_gim_im_BindRequest_descriptor;
+        return io.getbit.gim.sdk.protocol.ImProto.internal_static_gim_im_BindRequest_descriptor;
       }
 
       @java.lang.Override
-      public ImProto.BindRequest getDefaultInstanceForType() {
-        return ImProto.BindRequest.getDefaultInstance();
+      public io.getbit.gim.sdk.protocol.ImProto.BindRequest getDefaultInstanceForType() {
+        return io.getbit.gim.sdk.protocol.ImProto.BindRequest.getDefaultInstance();
       }
 
       @java.lang.Override
-      public ImProto.BindRequest build() {
-        ImProto.BindRequest result = buildPartial();
+      public io.getbit.gim.sdk.protocol.ImProto.BindRequest build() {
+        io.getbit.gim.sdk.protocol.ImProto.BindRequest result = buildPartial();
         if (!result.isInitialized()) {
           throw newUninitializedMessageException(result);
         }
@@ -1538,14 +1538,14 @@ public final class ImProto extends com.google.protobuf.GeneratedFile {
       }
 
       @java.lang.Override
-      public ImProto.BindRequest buildPartial() {
-        ImProto.BindRequest result = new ImProto.BindRequest(this);
+      public io.getbit.gim.sdk.protocol.ImProto.BindRequest buildPartial() {
+        io.getbit.gim.sdk.protocol.ImProto.BindRequest result = new io.getbit.gim.sdk.protocol.ImProto.BindRequest(this);
         if (bitField0_ != 0) { buildPartial0(result); }
         onBuilt();
         return result;
       }
 
-      private void buildPartial0(ImProto.BindRequest result) {
+      private void buildPartial0(io.getbit.gim.sdk.protocol.ImProto.BindRequest result) {
         int from_bitField0_ = bitField0_;
         if (((from_bitField0_ & 0x00000001) != 0)) {
           result.userId_ = userId_;
@@ -1563,16 +1563,16 @@ public final class ImProto extends com.google.protobuf.GeneratedFile {
 
       @java.lang.Override
       public Builder mergeFrom(com.google.protobuf.Message other) {
-        if (other instanceof ImProto.BindRequest) {
-          return mergeFrom((ImProto.BindRequest)other);
+        if (other instanceof io.getbit.gim.sdk.protocol.ImProto.BindRequest) {
+          return mergeFrom((io.getbit.gim.sdk.protocol.ImProto.BindRequest)other);
         } else {
           super.mergeFrom(other);
           return this;
         }
       }
 
-      public Builder mergeFrom(ImProto.BindRequest other) {
-        if (other == ImProto.BindRequest.getDefaultInstance()) return this;
+      public Builder mergeFrom(io.getbit.gim.sdk.protocol.ImProto.BindRequest other) {
+        if (other == io.getbit.gim.sdk.protocol.ImProto.BindRequest.getDefaultInstance()) return this;
         if (!other.getUserId().isEmpty()) {
           userId_ = other.userId_;
           bitField0_ |= 0x00000001;
@@ -2026,12 +2026,12 @@ public final class ImProto extends com.google.protobuf.GeneratedFile {
     }
 
     // @@protoc_insertion_point(class_scope:gim.im.BindRequest)
-    private static final ImProto.BindRequest DEFAULT_INSTANCE;
+    private static final io.getbit.gim.sdk.protocol.ImProto.BindRequest DEFAULT_INSTANCE;
     static {
-      DEFAULT_INSTANCE = new ImProto.BindRequest();
+      DEFAULT_INSTANCE = new io.getbit.gim.sdk.protocol.ImProto.BindRequest();
     }
 
-    public static ImProto.BindRequest getDefaultInstance() {
+    public static io.getbit.gim.sdk.protocol.ImProto.BindRequest getDefaultInstance() {
       return DEFAULT_INSTANCE;
     }
 
@@ -2067,7 +2067,7 @@ public final class ImProto extends com.google.protobuf.GeneratedFile {
     }
 
     @java.lang.Override
-    public ImProto.BindRequest getDefaultInstanceForType() {
+    public io.getbit.gim.sdk.protocol.ImProto.BindRequest getDefaultInstanceForType() {
       return DEFAULT_INSTANCE;
     }
 
@@ -2159,20 +2159,20 @@ public final class ImProto extends com.google.protobuf.GeneratedFile {
 
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return ImProto.internal_static_gim_im_BindResponse_descriptor;
+      return io.getbit.gim.sdk.protocol.ImProto.internal_static_gim_im_BindResponse_descriptor;
     }
 
     @java.lang.Override
     public com.google.protobuf.Descriptors.Descriptor getDescriptorForType() {
-      return ImProto.internal_static_gim_im_BindResponse_descriptor;
+      return io.getbit.gim.sdk.protocol.ImProto.internal_static_gim_im_BindResponse_descriptor;
     }
 
     @java.lang.Override
     protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return ImProto.internal_static_gim_im_BindResponse_fieldAccessorTable
+      return io.getbit.gim.sdk.protocol.ImProto.internal_static_gim_im_BindResponse_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
-              ImProto.BindResponse.class, ImProto.BindResponse.Builder.class);
+              io.getbit.gim.sdk.protocol.ImProto.BindResponse.class, io.getbit.gim.sdk.protocol.ImProto.BindResponse.Builder.class);
     }
 
     public static final int CODE_FIELD_NUMBER = 1;
@@ -2340,10 +2340,10 @@ public final class ImProto extends com.google.protobuf.GeneratedFile {
       if (obj == this) {
        return true;
       }
-      if (!(obj instanceof ImProto.BindResponse)) {
+      if (!(obj instanceof io.getbit.gim.sdk.protocol.ImProto.BindResponse)) {
         return super.equals(obj);
       }
-      ImProto.BindResponse other = (ImProto.BindResponse) obj;
+      io.getbit.gim.sdk.protocol.ImProto.BindResponse other = (io.getbit.gim.sdk.protocol.ImProto.BindResponse) obj;
 
       if (getCode()
           != other.getCode()) return false;
@@ -2373,44 +2373,44 @@ public final class ImProto extends com.google.protobuf.GeneratedFile {
       return hash;
     }
 
-    public static ImProto.BindResponse parseFrom(
+    public static io.getbit.gim.sdk.protocol.ImProto.BindResponse parseFrom(
         java.nio.ByteBuffer data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static ImProto.BindResponse parseFrom(
+    public static io.getbit.gim.sdk.protocol.ImProto.BindResponse parseFrom(
         java.nio.ByteBuffer data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static ImProto.BindResponse parseFrom(
+    public static io.getbit.gim.sdk.protocol.ImProto.BindResponse parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static ImProto.BindResponse parseFrom(
+    public static io.getbit.gim.sdk.protocol.ImProto.BindResponse parseFrom(
         com.google.protobuf.ByteString data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static ImProto.BindResponse parseFrom(byte[] data)
+    public static io.getbit.gim.sdk.protocol.ImProto.BindResponse parseFrom(byte[] data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static ImProto.BindResponse parseFrom(
+    public static io.getbit.gim.sdk.protocol.ImProto.BindResponse parseFrom(
         byte[] data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static ImProto.BindResponse parseFrom(java.io.InputStream input)
+    public static io.getbit.gim.sdk.protocol.ImProto.BindResponse parseFrom(java.io.InputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessage
           .parseWithIOException(PARSER, input);
     }
-    public static ImProto.BindResponse parseFrom(
+    public static io.getbit.gim.sdk.protocol.ImProto.BindResponse parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
@@ -2418,26 +2418,26 @@ public final class ImProto extends com.google.protobuf.GeneratedFile {
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
-    public static ImProto.BindResponse parseDelimitedFrom(java.io.InputStream input)
+    public static io.getbit.gim.sdk.protocol.ImProto.BindResponse parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessage
           .parseDelimitedWithIOException(PARSER, input);
     }
 
-    public static ImProto.BindResponse parseDelimitedFrom(
+    public static io.getbit.gim.sdk.protocol.ImProto.BindResponse parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessage
           .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
-    public static ImProto.BindResponse parseFrom(
+    public static io.getbit.gim.sdk.protocol.ImProto.BindResponse parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessage
           .parseWithIOException(PARSER, input);
     }
-    public static ImProto.BindResponse parseFrom(
+    public static io.getbit.gim.sdk.protocol.ImProto.BindResponse parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
@@ -2450,7 +2450,7 @@ public final class ImProto extends com.google.protobuf.GeneratedFile {
     public static Builder newBuilder() {
       return DEFAULT_INSTANCE.toBuilder();
     }
-    public static Builder newBuilder(ImProto.BindResponse prototype) {
+    public static Builder newBuilder(io.getbit.gim.sdk.protocol.ImProto.BindResponse prototype) {
       return DEFAULT_INSTANCE.toBuilder().mergeFrom(prototype);
     }
     @java.lang.Override
@@ -2475,18 +2475,18 @@ public final class ImProto extends com.google.protobuf.GeneratedFile {
     public static final class Builder extends
         com.google.protobuf.GeneratedMessage.Builder<Builder> implements
         // @@protoc_insertion_point(builder_implements:gim.im.BindResponse)
-        ImProto.BindResponseOrBuilder {
+        io.getbit.gim.sdk.protocol.ImProto.BindResponseOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
           getDescriptor() {
-        return ImProto.internal_static_gim_im_BindResponse_descriptor;
+        return io.getbit.gim.sdk.protocol.ImProto.internal_static_gim_im_BindResponse_descriptor;
       }
 
       @java.lang.Override
       protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
           internalGetFieldAccessorTable() {
-        return ImProto.internal_static_gim_im_BindResponse_fieldAccessorTable
+        return io.getbit.gim.sdk.protocol.ImProto.internal_static_gim_im_BindResponse_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
-                ImProto.BindResponse.class, ImProto.BindResponse.Builder.class);
+                io.getbit.gim.sdk.protocol.ImProto.BindResponse.class, io.getbit.gim.sdk.protocol.ImProto.BindResponse.Builder.class);
       }
 
       // Construct using io.getbit.gim.sdk.protocol.ImProto.BindResponse.newBuilder()
@@ -2512,17 +2512,17 @@ public final class ImProto extends com.google.protobuf.GeneratedFile {
       @java.lang.Override
       public com.google.protobuf.Descriptors.Descriptor
           getDescriptorForType() {
-        return ImProto.internal_static_gim_im_BindResponse_descriptor;
+        return io.getbit.gim.sdk.protocol.ImProto.internal_static_gim_im_BindResponse_descriptor;
       }
 
       @java.lang.Override
-      public ImProto.BindResponse getDefaultInstanceForType() {
-        return ImProto.BindResponse.getDefaultInstance();
+      public io.getbit.gim.sdk.protocol.ImProto.BindResponse getDefaultInstanceForType() {
+        return io.getbit.gim.sdk.protocol.ImProto.BindResponse.getDefaultInstance();
       }
 
       @java.lang.Override
-      public ImProto.BindResponse build() {
-        ImProto.BindResponse result = buildPartial();
+      public io.getbit.gim.sdk.protocol.ImProto.BindResponse build() {
+        io.getbit.gim.sdk.protocol.ImProto.BindResponse result = buildPartial();
         if (!result.isInitialized()) {
           throw newUninitializedMessageException(result);
         }
@@ -2530,14 +2530,14 @@ public final class ImProto extends com.google.protobuf.GeneratedFile {
       }
 
       @java.lang.Override
-      public ImProto.BindResponse buildPartial() {
-        ImProto.BindResponse result = new ImProto.BindResponse(this);
+      public io.getbit.gim.sdk.protocol.ImProto.BindResponse buildPartial() {
+        io.getbit.gim.sdk.protocol.ImProto.BindResponse result = new io.getbit.gim.sdk.protocol.ImProto.BindResponse(this);
         if (bitField0_ != 0) { buildPartial0(result); }
         onBuilt();
         return result;
       }
 
-      private void buildPartial0(ImProto.BindResponse result) {
+      private void buildPartial0(io.getbit.gim.sdk.protocol.ImProto.BindResponse result) {
         int from_bitField0_ = bitField0_;
         if (((from_bitField0_ & 0x00000001) != 0)) {
           result.code_ = code_;
@@ -2552,16 +2552,16 @@ public final class ImProto extends com.google.protobuf.GeneratedFile {
 
       @java.lang.Override
       public Builder mergeFrom(com.google.protobuf.Message other) {
-        if (other instanceof ImProto.BindResponse) {
-          return mergeFrom((ImProto.BindResponse)other);
+        if (other instanceof io.getbit.gim.sdk.protocol.ImProto.BindResponse) {
+          return mergeFrom((io.getbit.gim.sdk.protocol.ImProto.BindResponse)other);
         } else {
           super.mergeFrom(other);
           return this;
         }
       }
 
-      public Builder mergeFrom(ImProto.BindResponse other) {
-        if (other == ImProto.BindResponse.getDefaultInstance()) return this;
+      public Builder mergeFrom(io.getbit.gim.sdk.protocol.ImProto.BindResponse other) {
+        if (other == io.getbit.gim.sdk.protocol.ImProto.BindResponse.getDefaultInstance()) return this;
         if (other.getCode() != 0) {
           setCode(other.getCode());
         }
@@ -2863,12 +2863,12 @@ public final class ImProto extends com.google.protobuf.GeneratedFile {
     }
 
     // @@protoc_insertion_point(class_scope:gim.im.BindResponse)
-    private static final ImProto.BindResponse DEFAULT_INSTANCE;
+    private static final io.getbit.gim.sdk.protocol.ImProto.BindResponse DEFAULT_INSTANCE;
     static {
-      DEFAULT_INSTANCE = new ImProto.BindResponse();
+      DEFAULT_INSTANCE = new io.getbit.gim.sdk.protocol.ImProto.BindResponse();
     }
 
-    public static ImProto.BindResponse getDefaultInstance() {
+    public static io.getbit.gim.sdk.protocol.ImProto.BindResponse getDefaultInstance() {
       return DEFAULT_INSTANCE;
     }
 
@@ -2904,7 +2904,7 @@ public final class ImProto extends com.google.protobuf.GeneratedFile {
     }
 
     @java.lang.Override
-    public ImProto.BindResponse getDefaultInstanceForType() {
+    public io.getbit.gim.sdk.protocol.ImProto.BindResponse getDefaultInstanceForType() {
       return DEFAULT_INSTANCE;
     }
 
@@ -2950,20 +2950,20 @@ public final class ImProto extends com.google.protobuf.GeneratedFile {
 
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return ImProto.internal_static_gim_im_Heartbeat_descriptor;
+      return io.getbit.gim.sdk.protocol.ImProto.internal_static_gim_im_Heartbeat_descriptor;
     }
 
     @java.lang.Override
     public com.google.protobuf.Descriptors.Descriptor getDescriptorForType() {
-      return ImProto.internal_static_gim_im_Heartbeat_descriptor;
+      return io.getbit.gim.sdk.protocol.ImProto.internal_static_gim_im_Heartbeat_descriptor;
     }
 
     @java.lang.Override
     protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return ImProto.internal_static_gim_im_Heartbeat_fieldAccessorTable
+      return io.getbit.gim.sdk.protocol.ImProto.internal_static_gim_im_Heartbeat_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
-              ImProto.Heartbeat.class, ImProto.Heartbeat.Builder.class);
+              io.getbit.gim.sdk.protocol.ImProto.Heartbeat.class, io.getbit.gim.sdk.protocol.ImProto.Heartbeat.Builder.class);
     }
 
     public static final int CLIENTTIME_FIELD_NUMBER = 1;
@@ -3021,10 +3021,10 @@ public final class ImProto extends com.google.protobuf.GeneratedFile {
       if (obj == this) {
        return true;
       }
-      if (!(obj instanceof ImProto.Heartbeat)) {
+      if (!(obj instanceof io.getbit.gim.sdk.protocol.ImProto.Heartbeat)) {
         return super.equals(obj);
       }
-      ImProto.Heartbeat other = (ImProto.Heartbeat) obj;
+      io.getbit.gim.sdk.protocol.ImProto.Heartbeat other = (io.getbit.gim.sdk.protocol.ImProto.Heartbeat) obj;
 
       if (getClientTime()
           != other.getClientTime()) return false;
@@ -3047,44 +3047,44 @@ public final class ImProto extends com.google.protobuf.GeneratedFile {
       return hash;
     }
 
-    public static ImProto.Heartbeat parseFrom(
+    public static io.getbit.gim.sdk.protocol.ImProto.Heartbeat parseFrom(
         java.nio.ByteBuffer data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static ImProto.Heartbeat parseFrom(
+    public static io.getbit.gim.sdk.protocol.ImProto.Heartbeat parseFrom(
         java.nio.ByteBuffer data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static ImProto.Heartbeat parseFrom(
+    public static io.getbit.gim.sdk.protocol.ImProto.Heartbeat parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static ImProto.Heartbeat parseFrom(
+    public static io.getbit.gim.sdk.protocol.ImProto.Heartbeat parseFrom(
         com.google.protobuf.ByteString data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static ImProto.Heartbeat parseFrom(byte[] data)
+    public static io.getbit.gim.sdk.protocol.ImProto.Heartbeat parseFrom(byte[] data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static ImProto.Heartbeat parseFrom(
+    public static io.getbit.gim.sdk.protocol.ImProto.Heartbeat parseFrom(
         byte[] data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static ImProto.Heartbeat parseFrom(java.io.InputStream input)
+    public static io.getbit.gim.sdk.protocol.ImProto.Heartbeat parseFrom(java.io.InputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessage
           .parseWithIOException(PARSER, input);
     }
-    public static ImProto.Heartbeat parseFrom(
+    public static io.getbit.gim.sdk.protocol.ImProto.Heartbeat parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
@@ -3092,26 +3092,26 @@ public final class ImProto extends com.google.protobuf.GeneratedFile {
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
-    public static ImProto.Heartbeat parseDelimitedFrom(java.io.InputStream input)
+    public static io.getbit.gim.sdk.protocol.ImProto.Heartbeat parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessage
           .parseDelimitedWithIOException(PARSER, input);
     }
 
-    public static ImProto.Heartbeat parseDelimitedFrom(
+    public static io.getbit.gim.sdk.protocol.ImProto.Heartbeat parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessage
           .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
-    public static ImProto.Heartbeat parseFrom(
+    public static io.getbit.gim.sdk.protocol.ImProto.Heartbeat parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessage
           .parseWithIOException(PARSER, input);
     }
-    public static ImProto.Heartbeat parseFrom(
+    public static io.getbit.gim.sdk.protocol.ImProto.Heartbeat parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
@@ -3124,7 +3124,7 @@ public final class ImProto extends com.google.protobuf.GeneratedFile {
     public static Builder newBuilder() {
       return DEFAULT_INSTANCE.toBuilder();
     }
-    public static Builder newBuilder(ImProto.Heartbeat prototype) {
+    public static Builder newBuilder(io.getbit.gim.sdk.protocol.ImProto.Heartbeat prototype) {
       return DEFAULT_INSTANCE.toBuilder().mergeFrom(prototype);
     }
     @java.lang.Override
@@ -3149,18 +3149,18 @@ public final class ImProto extends com.google.protobuf.GeneratedFile {
     public static final class Builder extends
         com.google.protobuf.GeneratedMessage.Builder<Builder> implements
         // @@protoc_insertion_point(builder_implements:gim.im.Heartbeat)
-        ImProto.HeartbeatOrBuilder {
+        io.getbit.gim.sdk.protocol.ImProto.HeartbeatOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
           getDescriptor() {
-        return ImProto.internal_static_gim_im_Heartbeat_descriptor;
+        return io.getbit.gim.sdk.protocol.ImProto.internal_static_gim_im_Heartbeat_descriptor;
       }
 
       @java.lang.Override
       protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
           internalGetFieldAccessorTable() {
-        return ImProto.internal_static_gim_im_Heartbeat_fieldAccessorTable
+        return io.getbit.gim.sdk.protocol.ImProto.internal_static_gim_im_Heartbeat_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
-                ImProto.Heartbeat.class, ImProto.Heartbeat.Builder.class);
+                io.getbit.gim.sdk.protocol.ImProto.Heartbeat.class, io.getbit.gim.sdk.protocol.ImProto.Heartbeat.Builder.class);
       }
 
       // Construct using io.getbit.gim.sdk.protocol.ImProto.Heartbeat.newBuilder()
@@ -3184,17 +3184,17 @@ public final class ImProto extends com.google.protobuf.GeneratedFile {
       @java.lang.Override
       public com.google.protobuf.Descriptors.Descriptor
           getDescriptorForType() {
-        return ImProto.internal_static_gim_im_Heartbeat_descriptor;
+        return io.getbit.gim.sdk.protocol.ImProto.internal_static_gim_im_Heartbeat_descriptor;
       }
 
       @java.lang.Override
-      public ImProto.Heartbeat getDefaultInstanceForType() {
-        return ImProto.Heartbeat.getDefaultInstance();
+      public io.getbit.gim.sdk.protocol.ImProto.Heartbeat getDefaultInstanceForType() {
+        return io.getbit.gim.sdk.protocol.ImProto.Heartbeat.getDefaultInstance();
       }
 
       @java.lang.Override
-      public ImProto.Heartbeat build() {
-        ImProto.Heartbeat result = buildPartial();
+      public io.getbit.gim.sdk.protocol.ImProto.Heartbeat build() {
+        io.getbit.gim.sdk.protocol.ImProto.Heartbeat result = buildPartial();
         if (!result.isInitialized()) {
           throw newUninitializedMessageException(result);
         }
@@ -3202,14 +3202,14 @@ public final class ImProto extends com.google.protobuf.GeneratedFile {
       }
 
       @java.lang.Override
-      public ImProto.Heartbeat buildPartial() {
-        ImProto.Heartbeat result = new ImProto.Heartbeat(this);
+      public io.getbit.gim.sdk.protocol.ImProto.Heartbeat buildPartial() {
+        io.getbit.gim.sdk.protocol.ImProto.Heartbeat result = new io.getbit.gim.sdk.protocol.ImProto.Heartbeat(this);
         if (bitField0_ != 0) { buildPartial0(result); }
         onBuilt();
         return result;
       }
 
-      private void buildPartial0(ImProto.Heartbeat result) {
+      private void buildPartial0(io.getbit.gim.sdk.protocol.ImProto.Heartbeat result) {
         int from_bitField0_ = bitField0_;
         if (((from_bitField0_ & 0x00000001) != 0)) {
           result.clientTime_ = clientTime_;
@@ -3218,16 +3218,16 @@ public final class ImProto extends com.google.protobuf.GeneratedFile {
 
       @java.lang.Override
       public Builder mergeFrom(com.google.protobuf.Message other) {
-        if (other instanceof ImProto.Heartbeat) {
-          return mergeFrom((ImProto.Heartbeat)other);
+        if (other instanceof io.getbit.gim.sdk.protocol.ImProto.Heartbeat) {
+          return mergeFrom((io.getbit.gim.sdk.protocol.ImProto.Heartbeat)other);
         } else {
           super.mergeFrom(other);
           return this;
         }
       }
 
-      public Builder mergeFrom(ImProto.Heartbeat other) {
-        if (other == ImProto.Heartbeat.getDefaultInstance()) return this;
+      public Builder mergeFrom(io.getbit.gim.sdk.protocol.ImProto.Heartbeat other) {
+        if (other == io.getbit.gim.sdk.protocol.ImProto.Heartbeat.getDefaultInstance()) return this;
         if (other.getClientTime() != 0L) {
           setClientTime(other.getClientTime());
         }
@@ -3313,12 +3313,12 @@ public final class ImProto extends com.google.protobuf.GeneratedFile {
     }
 
     // @@protoc_insertion_point(class_scope:gim.im.Heartbeat)
-    private static final ImProto.Heartbeat DEFAULT_INSTANCE;
+    private static final io.getbit.gim.sdk.protocol.ImProto.Heartbeat DEFAULT_INSTANCE;
     static {
-      DEFAULT_INSTANCE = new ImProto.Heartbeat();
+      DEFAULT_INSTANCE = new io.getbit.gim.sdk.protocol.ImProto.Heartbeat();
     }
 
-    public static ImProto.Heartbeat getDefaultInstance() {
+    public static io.getbit.gim.sdk.protocol.ImProto.Heartbeat getDefaultInstance() {
       return DEFAULT_INSTANCE;
     }
 
@@ -3354,7 +3354,7 @@ public final class ImProto extends com.google.protobuf.GeneratedFile {
     }
 
     @java.lang.Override
-    public ImProto.Heartbeat getDefaultInstanceForType() {
+    public io.getbit.gim.sdk.protocol.ImProto.Heartbeat getDefaultInstanceForType() {
       return DEFAULT_INSTANCE;
     }
 
@@ -3400,20 +3400,20 @@ public final class ImProto extends com.google.protobuf.GeneratedFile {
 
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return ImProto.internal_static_gim_im_HeartbeatResponse_descriptor;
+      return io.getbit.gim.sdk.protocol.ImProto.internal_static_gim_im_HeartbeatResponse_descriptor;
     }
 
     @java.lang.Override
     public com.google.protobuf.Descriptors.Descriptor getDescriptorForType() {
-      return ImProto.internal_static_gim_im_HeartbeatResponse_descriptor;
+      return io.getbit.gim.sdk.protocol.ImProto.internal_static_gim_im_HeartbeatResponse_descriptor;
     }
 
     @java.lang.Override
     protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return ImProto.internal_static_gim_im_HeartbeatResponse_fieldAccessorTable
+      return io.getbit.gim.sdk.protocol.ImProto.internal_static_gim_im_HeartbeatResponse_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
-              ImProto.HeartbeatResponse.class, ImProto.HeartbeatResponse.Builder.class);
+              io.getbit.gim.sdk.protocol.ImProto.HeartbeatResponse.class, io.getbit.gim.sdk.protocol.ImProto.HeartbeatResponse.Builder.class);
     }
 
     public static final int SERVERTIME_FIELD_NUMBER = 1;
@@ -3471,10 +3471,10 @@ public final class ImProto extends com.google.protobuf.GeneratedFile {
       if (obj == this) {
        return true;
       }
-      if (!(obj instanceof ImProto.HeartbeatResponse)) {
+      if (!(obj instanceof io.getbit.gim.sdk.protocol.ImProto.HeartbeatResponse)) {
         return super.equals(obj);
       }
-      ImProto.HeartbeatResponse other = (ImProto.HeartbeatResponse) obj;
+      io.getbit.gim.sdk.protocol.ImProto.HeartbeatResponse other = (io.getbit.gim.sdk.protocol.ImProto.HeartbeatResponse) obj;
 
       if (getServerTime()
           != other.getServerTime()) return false;
@@ -3497,44 +3497,44 @@ public final class ImProto extends com.google.protobuf.GeneratedFile {
       return hash;
     }
 
-    public static ImProto.HeartbeatResponse parseFrom(
+    public static io.getbit.gim.sdk.protocol.ImProto.HeartbeatResponse parseFrom(
         java.nio.ByteBuffer data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static ImProto.HeartbeatResponse parseFrom(
+    public static io.getbit.gim.sdk.protocol.ImProto.HeartbeatResponse parseFrom(
         java.nio.ByteBuffer data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static ImProto.HeartbeatResponse parseFrom(
+    public static io.getbit.gim.sdk.protocol.ImProto.HeartbeatResponse parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static ImProto.HeartbeatResponse parseFrom(
+    public static io.getbit.gim.sdk.protocol.ImProto.HeartbeatResponse parseFrom(
         com.google.protobuf.ByteString data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static ImProto.HeartbeatResponse parseFrom(byte[] data)
+    public static io.getbit.gim.sdk.protocol.ImProto.HeartbeatResponse parseFrom(byte[] data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static ImProto.HeartbeatResponse parseFrom(
+    public static io.getbit.gim.sdk.protocol.ImProto.HeartbeatResponse parseFrom(
         byte[] data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static ImProto.HeartbeatResponse parseFrom(java.io.InputStream input)
+    public static io.getbit.gim.sdk.protocol.ImProto.HeartbeatResponse parseFrom(java.io.InputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessage
           .parseWithIOException(PARSER, input);
     }
-    public static ImProto.HeartbeatResponse parseFrom(
+    public static io.getbit.gim.sdk.protocol.ImProto.HeartbeatResponse parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
@@ -3542,26 +3542,26 @@ public final class ImProto extends com.google.protobuf.GeneratedFile {
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
-    public static ImProto.HeartbeatResponse parseDelimitedFrom(java.io.InputStream input)
+    public static io.getbit.gim.sdk.protocol.ImProto.HeartbeatResponse parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessage
           .parseDelimitedWithIOException(PARSER, input);
     }
 
-    public static ImProto.HeartbeatResponse parseDelimitedFrom(
+    public static io.getbit.gim.sdk.protocol.ImProto.HeartbeatResponse parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessage
           .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
-    public static ImProto.HeartbeatResponse parseFrom(
+    public static io.getbit.gim.sdk.protocol.ImProto.HeartbeatResponse parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessage
           .parseWithIOException(PARSER, input);
     }
-    public static ImProto.HeartbeatResponse parseFrom(
+    public static io.getbit.gim.sdk.protocol.ImProto.HeartbeatResponse parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
@@ -3574,7 +3574,7 @@ public final class ImProto extends com.google.protobuf.GeneratedFile {
     public static Builder newBuilder() {
       return DEFAULT_INSTANCE.toBuilder();
     }
-    public static Builder newBuilder(ImProto.HeartbeatResponse prototype) {
+    public static Builder newBuilder(io.getbit.gim.sdk.protocol.ImProto.HeartbeatResponse prototype) {
       return DEFAULT_INSTANCE.toBuilder().mergeFrom(prototype);
     }
     @java.lang.Override
@@ -3599,18 +3599,18 @@ public final class ImProto extends com.google.protobuf.GeneratedFile {
     public static final class Builder extends
         com.google.protobuf.GeneratedMessage.Builder<Builder> implements
         // @@protoc_insertion_point(builder_implements:gim.im.HeartbeatResponse)
-        ImProto.HeartbeatResponseOrBuilder {
+        io.getbit.gim.sdk.protocol.ImProto.HeartbeatResponseOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
           getDescriptor() {
-        return ImProto.internal_static_gim_im_HeartbeatResponse_descriptor;
+        return io.getbit.gim.sdk.protocol.ImProto.internal_static_gim_im_HeartbeatResponse_descriptor;
       }
 
       @java.lang.Override
       protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
           internalGetFieldAccessorTable() {
-        return ImProto.internal_static_gim_im_HeartbeatResponse_fieldAccessorTable
+        return io.getbit.gim.sdk.protocol.ImProto.internal_static_gim_im_HeartbeatResponse_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
-                ImProto.HeartbeatResponse.class, ImProto.HeartbeatResponse.Builder.class);
+                io.getbit.gim.sdk.protocol.ImProto.HeartbeatResponse.class, io.getbit.gim.sdk.protocol.ImProto.HeartbeatResponse.Builder.class);
       }
 
       // Construct using io.getbit.gim.sdk.protocol.ImProto.HeartbeatResponse.newBuilder()
@@ -3634,17 +3634,17 @@ public final class ImProto extends com.google.protobuf.GeneratedFile {
       @java.lang.Override
       public com.google.protobuf.Descriptors.Descriptor
           getDescriptorForType() {
-        return ImProto.internal_static_gim_im_HeartbeatResponse_descriptor;
+        return io.getbit.gim.sdk.protocol.ImProto.internal_static_gim_im_HeartbeatResponse_descriptor;
       }
 
       @java.lang.Override
-      public ImProto.HeartbeatResponse getDefaultInstanceForType() {
-        return ImProto.HeartbeatResponse.getDefaultInstance();
+      public io.getbit.gim.sdk.protocol.ImProto.HeartbeatResponse getDefaultInstanceForType() {
+        return io.getbit.gim.sdk.protocol.ImProto.HeartbeatResponse.getDefaultInstance();
       }
 
       @java.lang.Override
-      public ImProto.HeartbeatResponse build() {
-        ImProto.HeartbeatResponse result = buildPartial();
+      public io.getbit.gim.sdk.protocol.ImProto.HeartbeatResponse build() {
+        io.getbit.gim.sdk.protocol.ImProto.HeartbeatResponse result = buildPartial();
         if (!result.isInitialized()) {
           throw newUninitializedMessageException(result);
         }
@@ -3652,14 +3652,14 @@ public final class ImProto extends com.google.protobuf.GeneratedFile {
       }
 
       @java.lang.Override
-      public ImProto.HeartbeatResponse buildPartial() {
-        ImProto.HeartbeatResponse result = new ImProto.HeartbeatResponse(this);
+      public io.getbit.gim.sdk.protocol.ImProto.HeartbeatResponse buildPartial() {
+        io.getbit.gim.sdk.protocol.ImProto.HeartbeatResponse result = new io.getbit.gim.sdk.protocol.ImProto.HeartbeatResponse(this);
         if (bitField0_ != 0) { buildPartial0(result); }
         onBuilt();
         return result;
       }
 
-      private void buildPartial0(ImProto.HeartbeatResponse result) {
+      private void buildPartial0(io.getbit.gim.sdk.protocol.ImProto.HeartbeatResponse result) {
         int from_bitField0_ = bitField0_;
         if (((from_bitField0_ & 0x00000001) != 0)) {
           result.serverTime_ = serverTime_;
@@ -3668,16 +3668,16 @@ public final class ImProto extends com.google.protobuf.GeneratedFile {
 
       @java.lang.Override
       public Builder mergeFrom(com.google.protobuf.Message other) {
-        if (other instanceof ImProto.HeartbeatResponse) {
-          return mergeFrom((ImProto.HeartbeatResponse)other);
+        if (other instanceof io.getbit.gim.sdk.protocol.ImProto.HeartbeatResponse) {
+          return mergeFrom((io.getbit.gim.sdk.protocol.ImProto.HeartbeatResponse)other);
         } else {
           super.mergeFrom(other);
           return this;
         }
       }
 
-      public Builder mergeFrom(ImProto.HeartbeatResponse other) {
-        if (other == ImProto.HeartbeatResponse.getDefaultInstance()) return this;
+      public Builder mergeFrom(io.getbit.gim.sdk.protocol.ImProto.HeartbeatResponse other) {
+        if (other == io.getbit.gim.sdk.protocol.ImProto.HeartbeatResponse.getDefaultInstance()) return this;
         if (other.getServerTime() != 0L) {
           setServerTime(other.getServerTime());
         }
@@ -3763,12 +3763,12 @@ public final class ImProto extends com.google.protobuf.GeneratedFile {
     }
 
     // @@protoc_insertion_point(class_scope:gim.im.HeartbeatResponse)
-    private static final ImProto.HeartbeatResponse DEFAULT_INSTANCE;
+    private static final io.getbit.gim.sdk.protocol.ImProto.HeartbeatResponse DEFAULT_INSTANCE;
     static {
-      DEFAULT_INSTANCE = new ImProto.HeartbeatResponse();
+      DEFAULT_INSTANCE = new io.getbit.gim.sdk.protocol.ImProto.HeartbeatResponse();
     }
 
-    public static ImProto.HeartbeatResponse getDefaultInstance() {
+    public static io.getbit.gim.sdk.protocol.ImProto.HeartbeatResponse getDefaultInstance() {
       return DEFAULT_INSTANCE;
     }
 
@@ -3804,7 +3804,7 @@ public final class ImProto extends com.google.protobuf.GeneratedFile {
     }
 
     @java.lang.Override
-    public ImProto.HeartbeatResponse getDefaultInstanceForType() {
+    public io.getbit.gim.sdk.protocol.ImProto.HeartbeatResponse getDefaultInstanceForType() {
       return DEFAULT_INSTANCE;
     }
 
@@ -3875,20 +3875,20 @@ public final class ImProto extends com.google.protobuf.GeneratedFile {
 
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return ImProto.internal_static_gim_im_KickNotify_descriptor;
+      return io.getbit.gim.sdk.protocol.ImProto.internal_static_gim_im_KickNotify_descriptor;
     }
 
     @java.lang.Override
     public com.google.protobuf.Descriptors.Descriptor getDescriptorForType() {
-      return ImProto.internal_static_gim_im_KickNotify_descriptor;
+      return io.getbit.gim.sdk.protocol.ImProto.internal_static_gim_im_KickNotify_descriptor;
     }
 
     @java.lang.Override
     protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return ImProto.internal_static_gim_im_KickNotify_fieldAccessorTable
+      return io.getbit.gim.sdk.protocol.ImProto.internal_static_gim_im_KickNotify_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
-              ImProto.KickNotify.class, ImProto.KickNotify.Builder.class);
+              io.getbit.gim.sdk.protocol.ImProto.KickNotify.class, io.getbit.gim.sdk.protocol.ImProto.KickNotify.Builder.class);
     }
 
     public static final int CODE_FIELD_NUMBER = 1;
@@ -4003,10 +4003,10 @@ public final class ImProto extends com.google.protobuf.GeneratedFile {
       if (obj == this) {
        return true;
       }
-      if (!(obj instanceof ImProto.KickNotify)) {
+      if (!(obj instanceof io.getbit.gim.sdk.protocol.ImProto.KickNotify)) {
         return super.equals(obj);
       }
-      ImProto.KickNotify other = (ImProto.KickNotify) obj;
+      io.getbit.gim.sdk.protocol.ImProto.KickNotify other = (io.getbit.gim.sdk.protocol.ImProto.KickNotify) obj;
 
       if (getCode()
           != other.getCode()) return false;
@@ -4032,44 +4032,44 @@ public final class ImProto extends com.google.protobuf.GeneratedFile {
       return hash;
     }
 
-    public static ImProto.KickNotify parseFrom(
+    public static io.getbit.gim.sdk.protocol.ImProto.KickNotify parseFrom(
         java.nio.ByteBuffer data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static ImProto.KickNotify parseFrom(
+    public static io.getbit.gim.sdk.protocol.ImProto.KickNotify parseFrom(
         java.nio.ByteBuffer data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static ImProto.KickNotify parseFrom(
+    public static io.getbit.gim.sdk.protocol.ImProto.KickNotify parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static ImProto.KickNotify parseFrom(
+    public static io.getbit.gim.sdk.protocol.ImProto.KickNotify parseFrom(
         com.google.protobuf.ByteString data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static ImProto.KickNotify parseFrom(byte[] data)
+    public static io.getbit.gim.sdk.protocol.ImProto.KickNotify parseFrom(byte[] data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static ImProto.KickNotify parseFrom(
+    public static io.getbit.gim.sdk.protocol.ImProto.KickNotify parseFrom(
         byte[] data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static ImProto.KickNotify parseFrom(java.io.InputStream input)
+    public static io.getbit.gim.sdk.protocol.ImProto.KickNotify parseFrom(java.io.InputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessage
           .parseWithIOException(PARSER, input);
     }
-    public static ImProto.KickNotify parseFrom(
+    public static io.getbit.gim.sdk.protocol.ImProto.KickNotify parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
@@ -4077,26 +4077,26 @@ public final class ImProto extends com.google.protobuf.GeneratedFile {
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
-    public static ImProto.KickNotify parseDelimitedFrom(java.io.InputStream input)
+    public static io.getbit.gim.sdk.protocol.ImProto.KickNotify parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessage
           .parseDelimitedWithIOException(PARSER, input);
     }
 
-    public static ImProto.KickNotify parseDelimitedFrom(
+    public static io.getbit.gim.sdk.protocol.ImProto.KickNotify parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessage
           .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
-    public static ImProto.KickNotify parseFrom(
+    public static io.getbit.gim.sdk.protocol.ImProto.KickNotify parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessage
           .parseWithIOException(PARSER, input);
     }
-    public static ImProto.KickNotify parseFrom(
+    public static io.getbit.gim.sdk.protocol.ImProto.KickNotify parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
@@ -4109,7 +4109,7 @@ public final class ImProto extends com.google.protobuf.GeneratedFile {
     public static Builder newBuilder() {
       return DEFAULT_INSTANCE.toBuilder();
     }
-    public static Builder newBuilder(ImProto.KickNotify prototype) {
+    public static Builder newBuilder(io.getbit.gim.sdk.protocol.ImProto.KickNotify prototype) {
       return DEFAULT_INSTANCE.toBuilder().mergeFrom(prototype);
     }
     @java.lang.Override
@@ -4134,18 +4134,18 @@ public final class ImProto extends com.google.protobuf.GeneratedFile {
     public static final class Builder extends
         com.google.protobuf.GeneratedMessage.Builder<Builder> implements
         // @@protoc_insertion_point(builder_implements:gim.im.KickNotify)
-        ImProto.KickNotifyOrBuilder {
+        io.getbit.gim.sdk.protocol.ImProto.KickNotifyOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
           getDescriptor() {
-        return ImProto.internal_static_gim_im_KickNotify_descriptor;
+        return io.getbit.gim.sdk.protocol.ImProto.internal_static_gim_im_KickNotify_descriptor;
       }
 
       @java.lang.Override
       protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
           internalGetFieldAccessorTable() {
-        return ImProto.internal_static_gim_im_KickNotify_fieldAccessorTable
+        return io.getbit.gim.sdk.protocol.ImProto.internal_static_gim_im_KickNotify_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
-                ImProto.KickNotify.class, ImProto.KickNotify.Builder.class);
+                io.getbit.gim.sdk.protocol.ImProto.KickNotify.class, io.getbit.gim.sdk.protocol.ImProto.KickNotify.Builder.class);
       }
 
       // Construct using io.getbit.gim.sdk.protocol.ImProto.KickNotify.newBuilder()
@@ -4170,17 +4170,17 @@ public final class ImProto extends com.google.protobuf.GeneratedFile {
       @java.lang.Override
       public com.google.protobuf.Descriptors.Descriptor
           getDescriptorForType() {
-        return ImProto.internal_static_gim_im_KickNotify_descriptor;
+        return io.getbit.gim.sdk.protocol.ImProto.internal_static_gim_im_KickNotify_descriptor;
       }
 
       @java.lang.Override
-      public ImProto.KickNotify getDefaultInstanceForType() {
-        return ImProto.KickNotify.getDefaultInstance();
+      public io.getbit.gim.sdk.protocol.ImProto.KickNotify getDefaultInstanceForType() {
+        return io.getbit.gim.sdk.protocol.ImProto.KickNotify.getDefaultInstance();
       }
 
       @java.lang.Override
-      public ImProto.KickNotify build() {
-        ImProto.KickNotify result = buildPartial();
+      public io.getbit.gim.sdk.protocol.ImProto.KickNotify build() {
+        io.getbit.gim.sdk.protocol.ImProto.KickNotify result = buildPartial();
         if (!result.isInitialized()) {
           throw newUninitializedMessageException(result);
         }
@@ -4188,14 +4188,14 @@ public final class ImProto extends com.google.protobuf.GeneratedFile {
       }
 
       @java.lang.Override
-      public ImProto.KickNotify buildPartial() {
-        ImProto.KickNotify result = new ImProto.KickNotify(this);
+      public io.getbit.gim.sdk.protocol.ImProto.KickNotify buildPartial() {
+        io.getbit.gim.sdk.protocol.ImProto.KickNotify result = new io.getbit.gim.sdk.protocol.ImProto.KickNotify(this);
         if (bitField0_ != 0) { buildPartial0(result); }
         onBuilt();
         return result;
       }
 
-      private void buildPartial0(ImProto.KickNotify result) {
+      private void buildPartial0(io.getbit.gim.sdk.protocol.ImProto.KickNotify result) {
         int from_bitField0_ = bitField0_;
         if (((from_bitField0_ & 0x00000001) != 0)) {
           result.code_ = code_;
@@ -4207,16 +4207,16 @@ public final class ImProto extends com.google.protobuf.GeneratedFile {
 
       @java.lang.Override
       public Builder mergeFrom(com.google.protobuf.Message other) {
-        if (other instanceof ImProto.KickNotify) {
-          return mergeFrom((ImProto.KickNotify)other);
+        if (other instanceof io.getbit.gim.sdk.protocol.ImProto.KickNotify) {
+          return mergeFrom((io.getbit.gim.sdk.protocol.ImProto.KickNotify)other);
         } else {
           super.mergeFrom(other);
           return this;
         }
       }
 
-      public Builder mergeFrom(ImProto.KickNotify other) {
-        if (other == ImProto.KickNotify.getDefaultInstance()) return this;
+      public Builder mergeFrom(io.getbit.gim.sdk.protocol.ImProto.KickNotify other) {
+        if (other == io.getbit.gim.sdk.protocol.ImProto.KickNotify.getDefaultInstance()) return this;
         if (other.getCode() != 0) {
           setCode(other.getCode());
         }
@@ -4416,12 +4416,12 @@ public final class ImProto extends com.google.protobuf.GeneratedFile {
     }
 
     // @@protoc_insertion_point(class_scope:gim.im.KickNotify)
-    private static final ImProto.KickNotify DEFAULT_INSTANCE;
+    private static final io.getbit.gim.sdk.protocol.ImProto.KickNotify DEFAULT_INSTANCE;
     static {
-      DEFAULT_INSTANCE = new ImProto.KickNotify();
+      DEFAULT_INSTANCE = new io.getbit.gim.sdk.protocol.ImProto.KickNotify();
     }
 
-    public static ImProto.KickNotify getDefaultInstance() {
+    public static io.getbit.gim.sdk.protocol.ImProto.KickNotify getDefaultInstance() {
       return DEFAULT_INSTANCE;
     }
 
@@ -4457,7 +4457,7 @@ public final class ImProto extends com.google.protobuf.GeneratedFile {
     }
 
     @java.lang.Override
-    public ImProto.KickNotify getDefaultInstanceForType() {
+    public io.getbit.gim.sdk.protocol.ImProto.KickNotify getDefaultInstanceForType() {
       return DEFAULT_INSTANCE;
     }
 
@@ -4677,12 +4677,12 @@ java.lang.String defaultValue);
 
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return ImProto.internal_static_gim_im_ChatMessage_descriptor;
+      return io.getbit.gim.sdk.protocol.ImProto.internal_static_gim_im_ChatMessage_descriptor;
     }
 
     @java.lang.Override
     public com.google.protobuf.Descriptors.Descriptor getDescriptorForType() {
-      return ImProto.internal_static_gim_im_ChatMessage_descriptor;
+      return io.getbit.gim.sdk.protocol.ImProto.internal_static_gim_im_ChatMessage_descriptor;
     }
 
     @SuppressWarnings({"rawtypes"})
@@ -4700,9 +4700,9 @@ java.lang.String defaultValue);
     @java.lang.Override
     protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return ImProto.internal_static_gim_im_ChatMessage_fieldAccessorTable
+      return io.getbit.gim.sdk.protocol.ImProto.internal_static_gim_im_ChatMessage_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
-              ImProto.ChatMessage.class, ImProto.ChatMessage.Builder.class);
+              io.getbit.gim.sdk.protocol.ImProto.ChatMessage.class, io.getbit.gim.sdk.protocol.ImProto.ChatMessage.Builder.class);
     }
 
     public static final int MSGID_FIELD_NUMBER = 1;
@@ -4976,7 +4976,7 @@ java.lang.String defaultValue);
           java.lang.String, java.lang.String> defaultEntry =
               com.google.protobuf.MapEntry
               .<java.lang.String, java.lang.String>newDefaultInstance(
-                  ImProto.internal_static_gim_im_ChatMessage_ExtEntry_descriptor,
+                  io.getbit.gim.sdk.protocol.ImProto.internal_static_gim_im_ChatMessage_ExtEntry_descriptor, 
                   com.google.protobuf.WireFormat.FieldType.STRING,
                   "",
                   com.google.protobuf.WireFormat.FieldType.STRING,
@@ -5162,10 +5162,10 @@ java.lang.String defaultValue) {
       if (obj == this) {
        return true;
       }
-      if (!(obj instanceof ImProto.ChatMessage)) {
+      if (!(obj instanceof io.getbit.gim.sdk.protocol.ImProto.ChatMessage)) {
         return super.equals(obj);
       }
-      ImProto.ChatMessage other = (ImProto.ChatMessage) obj;
+      io.getbit.gim.sdk.protocol.ImProto.ChatMessage other = (io.getbit.gim.sdk.protocol.ImProto.ChatMessage) obj;
 
       if (!getMsgId()
           .equals(other.getMsgId())) return false;
@@ -5217,44 +5217,44 @@ java.lang.String defaultValue) {
       return hash;
     }
 
-    public static ImProto.ChatMessage parseFrom(
+    public static io.getbit.gim.sdk.protocol.ImProto.ChatMessage parseFrom(
         java.nio.ByteBuffer data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static ImProto.ChatMessage parseFrom(
+    public static io.getbit.gim.sdk.protocol.ImProto.ChatMessage parseFrom(
         java.nio.ByteBuffer data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static ImProto.ChatMessage parseFrom(
+    public static io.getbit.gim.sdk.protocol.ImProto.ChatMessage parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static ImProto.ChatMessage parseFrom(
+    public static io.getbit.gim.sdk.protocol.ImProto.ChatMessage parseFrom(
         com.google.protobuf.ByteString data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static ImProto.ChatMessage parseFrom(byte[] data)
+    public static io.getbit.gim.sdk.protocol.ImProto.ChatMessage parseFrom(byte[] data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static ImProto.ChatMessage parseFrom(
+    public static io.getbit.gim.sdk.protocol.ImProto.ChatMessage parseFrom(
         byte[] data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static ImProto.ChatMessage parseFrom(java.io.InputStream input)
+    public static io.getbit.gim.sdk.protocol.ImProto.ChatMessage parseFrom(java.io.InputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessage
           .parseWithIOException(PARSER, input);
     }
-    public static ImProto.ChatMessage parseFrom(
+    public static io.getbit.gim.sdk.protocol.ImProto.ChatMessage parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
@@ -5262,26 +5262,26 @@ java.lang.String defaultValue) {
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
-    public static ImProto.ChatMessage parseDelimitedFrom(java.io.InputStream input)
+    public static io.getbit.gim.sdk.protocol.ImProto.ChatMessage parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessage
           .parseDelimitedWithIOException(PARSER, input);
     }
 
-    public static ImProto.ChatMessage parseDelimitedFrom(
+    public static io.getbit.gim.sdk.protocol.ImProto.ChatMessage parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessage
           .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
-    public static ImProto.ChatMessage parseFrom(
+    public static io.getbit.gim.sdk.protocol.ImProto.ChatMessage parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessage
           .parseWithIOException(PARSER, input);
     }
-    public static ImProto.ChatMessage parseFrom(
+    public static io.getbit.gim.sdk.protocol.ImProto.ChatMessage parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
@@ -5294,7 +5294,7 @@ java.lang.String defaultValue) {
     public static Builder newBuilder() {
       return DEFAULT_INSTANCE.toBuilder();
     }
-    public static Builder newBuilder(ImProto.ChatMessage prototype) {
+    public static Builder newBuilder(io.getbit.gim.sdk.protocol.ImProto.ChatMessage prototype) {
       return DEFAULT_INSTANCE.toBuilder().mergeFrom(prototype);
     }
     @java.lang.Override
@@ -5320,10 +5320,10 @@ java.lang.String defaultValue) {
     public static final class Builder extends
         com.google.protobuf.GeneratedMessage.Builder<Builder> implements
         // @@protoc_insertion_point(builder_implements:gim.im.ChatMessage)
-        ImProto.ChatMessageOrBuilder {
+        io.getbit.gim.sdk.protocol.ImProto.ChatMessageOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
           getDescriptor() {
-        return ImProto.internal_static_gim_im_ChatMessage_descriptor;
+        return io.getbit.gim.sdk.protocol.ImProto.internal_static_gim_im_ChatMessage_descriptor;
       }
 
       @SuppressWarnings({"rawtypes"})
@@ -5351,9 +5351,9 @@ java.lang.String defaultValue) {
       @java.lang.Override
       protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
           internalGetFieldAccessorTable() {
-        return ImProto.internal_static_gim_im_ChatMessage_fieldAccessorTable
+        return io.getbit.gim.sdk.protocol.ImProto.internal_static_gim_im_ChatMessage_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
-                ImProto.ChatMessage.class, ImProto.ChatMessage.Builder.class);
+                io.getbit.gim.sdk.protocol.ImProto.ChatMessage.class, io.getbit.gim.sdk.protocol.ImProto.ChatMessage.Builder.class);
       }
 
       // Construct using io.getbit.gim.sdk.protocol.ImProto.ChatMessage.newBuilder()
@@ -5384,17 +5384,17 @@ java.lang.String defaultValue) {
       @java.lang.Override
       public com.google.protobuf.Descriptors.Descriptor
           getDescriptorForType() {
-        return ImProto.internal_static_gim_im_ChatMessage_descriptor;
+        return io.getbit.gim.sdk.protocol.ImProto.internal_static_gim_im_ChatMessage_descriptor;
       }
 
       @java.lang.Override
-      public ImProto.ChatMessage getDefaultInstanceForType() {
-        return ImProto.ChatMessage.getDefaultInstance();
+      public io.getbit.gim.sdk.protocol.ImProto.ChatMessage getDefaultInstanceForType() {
+        return io.getbit.gim.sdk.protocol.ImProto.ChatMessage.getDefaultInstance();
       }
 
       @java.lang.Override
-      public ImProto.ChatMessage build() {
-        ImProto.ChatMessage result = buildPartial();
+      public io.getbit.gim.sdk.protocol.ImProto.ChatMessage build() {
+        io.getbit.gim.sdk.protocol.ImProto.ChatMessage result = buildPartial();
         if (!result.isInitialized()) {
           throw newUninitializedMessageException(result);
         }
@@ -5402,14 +5402,14 @@ java.lang.String defaultValue) {
       }
 
       @java.lang.Override
-      public ImProto.ChatMessage buildPartial() {
-        ImProto.ChatMessage result = new ImProto.ChatMessage(this);
+      public io.getbit.gim.sdk.protocol.ImProto.ChatMessage buildPartial() {
+        io.getbit.gim.sdk.protocol.ImProto.ChatMessage result = new io.getbit.gim.sdk.protocol.ImProto.ChatMessage(this);
         if (bitField0_ != 0) { buildPartial0(result); }
         onBuilt();
         return result;
       }
 
-      private void buildPartial0(ImProto.ChatMessage result) {
+      private void buildPartial0(io.getbit.gim.sdk.protocol.ImProto.ChatMessage result) {
         int from_bitField0_ = bitField0_;
         if (((from_bitField0_ & 0x00000001) != 0)) {
           result.msgId_ = msgId_;
@@ -5440,16 +5440,16 @@ java.lang.String defaultValue) {
 
       @java.lang.Override
       public Builder mergeFrom(com.google.protobuf.Message other) {
-        if (other instanceof ImProto.ChatMessage) {
-          return mergeFrom((ImProto.ChatMessage)other);
+        if (other instanceof io.getbit.gim.sdk.protocol.ImProto.ChatMessage) {
+          return mergeFrom((io.getbit.gim.sdk.protocol.ImProto.ChatMessage)other);
         } else {
           super.mergeFrom(other);
           return this;
         }
       }
 
-      public Builder mergeFrom(ImProto.ChatMessage other) {
-        if (other == ImProto.ChatMessage.getDefaultInstance()) return this;
+      public Builder mergeFrom(io.getbit.gim.sdk.protocol.ImProto.ChatMessage other) {
+        if (other == io.getbit.gim.sdk.protocol.ImProto.ChatMessage.getDefaultInstance()) return this;
         if (!other.getMsgId().isEmpty()) {
           msgId_ = other.msgId_;
           bitField0_ |= 0x00000001;
@@ -6276,12 +6276,12 @@ java.lang.String defaultValue) {
     }
 
     // @@protoc_insertion_point(class_scope:gim.im.ChatMessage)
-    private static final ImProto.ChatMessage DEFAULT_INSTANCE;
+    private static final io.getbit.gim.sdk.protocol.ImProto.ChatMessage DEFAULT_INSTANCE;
     static {
-      DEFAULT_INSTANCE = new ImProto.ChatMessage();
+      DEFAULT_INSTANCE = new io.getbit.gim.sdk.protocol.ImProto.ChatMessage();
     }
 
-    public static ImProto.ChatMessage getDefaultInstance() {
+    public static io.getbit.gim.sdk.protocol.ImProto.ChatMessage getDefaultInstance() {
       return DEFAULT_INSTANCE;
     }
 
@@ -6317,7 +6317,7 @@ java.lang.String defaultValue) {
     }
 
     @java.lang.Override
-    public ImProto.ChatMessage getDefaultInstanceForType() {
+    public io.getbit.gim.sdk.protocol.ImProto.ChatMessage getDefaultInstanceForType() {
       return DEFAULT_INSTANCE;
     }
 
@@ -6419,20 +6419,20 @@ java.lang.String defaultValue) {
 
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return ImProto.internal_static_gim_im_ServerAck_descriptor;
+      return io.getbit.gim.sdk.protocol.ImProto.internal_static_gim_im_ServerAck_descriptor;
     }
 
     @java.lang.Override
     public com.google.protobuf.Descriptors.Descriptor getDescriptorForType() {
-      return ImProto.internal_static_gim_im_ServerAck_descriptor;
+      return io.getbit.gim.sdk.protocol.ImProto.internal_static_gim_im_ServerAck_descriptor;
     }
 
     @java.lang.Override
     protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return ImProto.internal_static_gim_im_ServerAck_fieldAccessorTable
+      return io.getbit.gim.sdk.protocol.ImProto.internal_static_gim_im_ServerAck_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
-              ImProto.ServerAck.class, ImProto.ServerAck.Builder.class);
+              io.getbit.gim.sdk.protocol.ImProto.ServerAck.class, io.getbit.gim.sdk.protocol.ImProto.ServerAck.Builder.class);
     }
 
     public static final int CLIENTREQUESTID_FIELD_NUMBER = 1;
@@ -6622,10 +6622,10 @@ java.lang.String defaultValue) {
       if (obj == this) {
        return true;
       }
-      if (!(obj instanceof ImProto.ServerAck)) {
+      if (!(obj instanceof io.getbit.gim.sdk.protocol.ImProto.ServerAck)) {
         return super.equals(obj);
       }
-      ImProto.ServerAck other = (ImProto.ServerAck) obj;
+      io.getbit.gim.sdk.protocol.ImProto.ServerAck other = (io.getbit.gim.sdk.protocol.ImProto.ServerAck) obj;
 
       if (!getClientRequestId()
           .equals(other.getClientRequestId())) return false;
@@ -6660,44 +6660,44 @@ java.lang.String defaultValue) {
       return hash;
     }
 
-    public static ImProto.ServerAck parseFrom(
+    public static io.getbit.gim.sdk.protocol.ImProto.ServerAck parseFrom(
         java.nio.ByteBuffer data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static ImProto.ServerAck parseFrom(
+    public static io.getbit.gim.sdk.protocol.ImProto.ServerAck parseFrom(
         java.nio.ByteBuffer data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static ImProto.ServerAck parseFrom(
+    public static io.getbit.gim.sdk.protocol.ImProto.ServerAck parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static ImProto.ServerAck parseFrom(
+    public static io.getbit.gim.sdk.protocol.ImProto.ServerAck parseFrom(
         com.google.protobuf.ByteString data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static ImProto.ServerAck parseFrom(byte[] data)
+    public static io.getbit.gim.sdk.protocol.ImProto.ServerAck parseFrom(byte[] data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static ImProto.ServerAck parseFrom(
+    public static io.getbit.gim.sdk.protocol.ImProto.ServerAck parseFrom(
         byte[] data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static ImProto.ServerAck parseFrom(java.io.InputStream input)
+    public static io.getbit.gim.sdk.protocol.ImProto.ServerAck parseFrom(java.io.InputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessage
           .parseWithIOException(PARSER, input);
     }
-    public static ImProto.ServerAck parseFrom(
+    public static io.getbit.gim.sdk.protocol.ImProto.ServerAck parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
@@ -6705,26 +6705,26 @@ java.lang.String defaultValue) {
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
-    public static ImProto.ServerAck parseDelimitedFrom(java.io.InputStream input)
+    public static io.getbit.gim.sdk.protocol.ImProto.ServerAck parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessage
           .parseDelimitedWithIOException(PARSER, input);
     }
 
-    public static ImProto.ServerAck parseDelimitedFrom(
+    public static io.getbit.gim.sdk.protocol.ImProto.ServerAck parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessage
           .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
-    public static ImProto.ServerAck parseFrom(
+    public static io.getbit.gim.sdk.protocol.ImProto.ServerAck parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessage
           .parseWithIOException(PARSER, input);
     }
-    public static ImProto.ServerAck parseFrom(
+    public static io.getbit.gim.sdk.protocol.ImProto.ServerAck parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
@@ -6737,7 +6737,7 @@ java.lang.String defaultValue) {
     public static Builder newBuilder() {
       return DEFAULT_INSTANCE.toBuilder();
     }
-    public static Builder newBuilder(ImProto.ServerAck prototype) {
+    public static Builder newBuilder(io.getbit.gim.sdk.protocol.ImProto.ServerAck prototype) {
       return DEFAULT_INSTANCE.toBuilder().mergeFrom(prototype);
     }
     @java.lang.Override
@@ -6762,18 +6762,18 @@ java.lang.String defaultValue) {
     public static final class Builder extends
         com.google.protobuf.GeneratedMessage.Builder<Builder> implements
         // @@protoc_insertion_point(builder_implements:gim.im.ServerAck)
-        ImProto.ServerAckOrBuilder {
+        io.getbit.gim.sdk.protocol.ImProto.ServerAckOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
           getDescriptor() {
-        return ImProto.internal_static_gim_im_ServerAck_descriptor;
+        return io.getbit.gim.sdk.protocol.ImProto.internal_static_gim_im_ServerAck_descriptor;
       }
 
       @java.lang.Override
       protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
           internalGetFieldAccessorTable() {
-        return ImProto.internal_static_gim_im_ServerAck_fieldAccessorTable
+        return io.getbit.gim.sdk.protocol.ImProto.internal_static_gim_im_ServerAck_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
-                ImProto.ServerAck.class, ImProto.ServerAck.Builder.class);
+                io.getbit.gim.sdk.protocol.ImProto.ServerAck.class, io.getbit.gim.sdk.protocol.ImProto.ServerAck.Builder.class);
       }
 
       // Construct using io.getbit.gim.sdk.protocol.ImProto.ServerAck.newBuilder()
@@ -6800,17 +6800,17 @@ java.lang.String defaultValue) {
       @java.lang.Override
       public com.google.protobuf.Descriptors.Descriptor
           getDescriptorForType() {
-        return ImProto.internal_static_gim_im_ServerAck_descriptor;
+        return io.getbit.gim.sdk.protocol.ImProto.internal_static_gim_im_ServerAck_descriptor;
       }
 
       @java.lang.Override
-      public ImProto.ServerAck getDefaultInstanceForType() {
-        return ImProto.ServerAck.getDefaultInstance();
+      public io.getbit.gim.sdk.protocol.ImProto.ServerAck getDefaultInstanceForType() {
+        return io.getbit.gim.sdk.protocol.ImProto.ServerAck.getDefaultInstance();
       }
 
       @java.lang.Override
-      public ImProto.ServerAck build() {
-        ImProto.ServerAck result = buildPartial();
+      public io.getbit.gim.sdk.protocol.ImProto.ServerAck build() {
+        io.getbit.gim.sdk.protocol.ImProto.ServerAck result = buildPartial();
         if (!result.isInitialized()) {
           throw newUninitializedMessageException(result);
         }
@@ -6818,14 +6818,14 @@ java.lang.String defaultValue) {
       }
 
       @java.lang.Override
-      public ImProto.ServerAck buildPartial() {
-        ImProto.ServerAck result = new ImProto.ServerAck(this);
+      public io.getbit.gim.sdk.protocol.ImProto.ServerAck buildPartial() {
+        io.getbit.gim.sdk.protocol.ImProto.ServerAck result = new io.getbit.gim.sdk.protocol.ImProto.ServerAck(this);
         if (bitField0_ != 0) { buildPartial0(result); }
         onBuilt();
         return result;
       }
 
-      private void buildPartial0(ImProto.ServerAck result) {
+      private void buildPartial0(io.getbit.gim.sdk.protocol.ImProto.ServerAck result) {
         int from_bitField0_ = bitField0_;
         if (((from_bitField0_ & 0x00000001) != 0)) {
           result.clientRequestId_ = clientRequestId_;
@@ -6843,16 +6843,16 @@ java.lang.String defaultValue) {
 
       @java.lang.Override
       public Builder mergeFrom(com.google.protobuf.Message other) {
-        if (other instanceof ImProto.ServerAck) {
-          return mergeFrom((ImProto.ServerAck)other);
+        if (other instanceof io.getbit.gim.sdk.protocol.ImProto.ServerAck) {
+          return mergeFrom((io.getbit.gim.sdk.protocol.ImProto.ServerAck)other);
         } else {
           super.mergeFrom(other);
           return this;
         }
       }
 
-      public Builder mergeFrom(ImProto.ServerAck other) {
-        if (other == ImProto.ServerAck.getDefaultInstance()) return this;
+      public Builder mergeFrom(io.getbit.gim.sdk.protocol.ImProto.ServerAck other) {
+        if (other == io.getbit.gim.sdk.protocol.ImProto.ServerAck.getDefaultInstance()) return this;
         if (!other.getClientRequestId().isEmpty()) {
           clientRequestId_ = other.clientRequestId_;
           bitField0_ |= 0x00000001;
@@ -7206,12 +7206,12 @@ java.lang.String defaultValue) {
     }
 
     // @@protoc_insertion_point(class_scope:gim.im.ServerAck)
-    private static final ImProto.ServerAck DEFAULT_INSTANCE;
+    private static final io.getbit.gim.sdk.protocol.ImProto.ServerAck DEFAULT_INSTANCE;
     static {
-      DEFAULT_INSTANCE = new ImProto.ServerAck();
+      DEFAULT_INSTANCE = new io.getbit.gim.sdk.protocol.ImProto.ServerAck();
     }
 
-    public static ImProto.ServerAck getDefaultInstance() {
+    public static io.getbit.gim.sdk.protocol.ImProto.ServerAck getDefaultInstance() {
       return DEFAULT_INSTANCE;
     }
 
@@ -7247,7 +7247,7 @@ java.lang.String defaultValue) {
     }
 
     @java.lang.Override
-    public ImProto.ServerAck getDefaultInstanceForType() {
+    public io.getbit.gim.sdk.protocol.ImProto.ServerAck getDefaultInstanceForType() {
       return DEFAULT_INSTANCE;
     }
 
@@ -7329,20 +7329,20 @@ java.lang.String defaultValue) {
 
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return ImProto.internal_static_gim_im_DeliveryAck_descriptor;
+      return io.getbit.gim.sdk.protocol.ImProto.internal_static_gim_im_DeliveryAck_descriptor;
     }
 
     @java.lang.Override
     public com.google.protobuf.Descriptors.Descriptor getDescriptorForType() {
-      return ImProto.internal_static_gim_im_DeliveryAck_descriptor;
+      return io.getbit.gim.sdk.protocol.ImProto.internal_static_gim_im_DeliveryAck_descriptor;
     }
 
     @java.lang.Override
     protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return ImProto.internal_static_gim_im_DeliveryAck_fieldAccessorTable
+      return io.getbit.gim.sdk.protocol.ImProto.internal_static_gim_im_DeliveryAck_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
-              ImProto.DeliveryAck.class, ImProto.DeliveryAck.Builder.class);
+              io.getbit.gim.sdk.protocol.ImProto.DeliveryAck.class, io.getbit.gim.sdk.protocol.ImProto.DeliveryAck.Builder.class);
     }
 
     public static final int MSGID_FIELD_NUMBER = 1;
@@ -7488,10 +7488,10 @@ java.lang.String defaultValue) {
       if (obj == this) {
        return true;
       }
-      if (!(obj instanceof ImProto.DeliveryAck)) {
+      if (!(obj instanceof io.getbit.gim.sdk.protocol.ImProto.DeliveryAck)) {
         return super.equals(obj);
       }
-      ImProto.DeliveryAck other = (ImProto.DeliveryAck) obj;
+      io.getbit.gim.sdk.protocol.ImProto.DeliveryAck other = (io.getbit.gim.sdk.protocol.ImProto.DeliveryAck) obj;
 
       if (!getMsgId()
           .equals(other.getMsgId())) return false;
@@ -7517,44 +7517,44 @@ java.lang.String defaultValue) {
       return hash;
     }
 
-    public static ImProto.DeliveryAck parseFrom(
+    public static io.getbit.gim.sdk.protocol.ImProto.DeliveryAck parseFrom(
         java.nio.ByteBuffer data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static ImProto.DeliveryAck parseFrom(
+    public static io.getbit.gim.sdk.protocol.ImProto.DeliveryAck parseFrom(
         java.nio.ByteBuffer data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static ImProto.DeliveryAck parseFrom(
+    public static io.getbit.gim.sdk.protocol.ImProto.DeliveryAck parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static ImProto.DeliveryAck parseFrom(
+    public static io.getbit.gim.sdk.protocol.ImProto.DeliveryAck parseFrom(
         com.google.protobuf.ByteString data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static ImProto.DeliveryAck parseFrom(byte[] data)
+    public static io.getbit.gim.sdk.protocol.ImProto.DeliveryAck parseFrom(byte[] data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static ImProto.DeliveryAck parseFrom(
+    public static io.getbit.gim.sdk.protocol.ImProto.DeliveryAck parseFrom(
         byte[] data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static ImProto.DeliveryAck parseFrom(java.io.InputStream input)
+    public static io.getbit.gim.sdk.protocol.ImProto.DeliveryAck parseFrom(java.io.InputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessage
           .parseWithIOException(PARSER, input);
     }
-    public static ImProto.DeliveryAck parseFrom(
+    public static io.getbit.gim.sdk.protocol.ImProto.DeliveryAck parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
@@ -7562,26 +7562,26 @@ java.lang.String defaultValue) {
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
-    public static ImProto.DeliveryAck parseDelimitedFrom(java.io.InputStream input)
+    public static io.getbit.gim.sdk.protocol.ImProto.DeliveryAck parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessage
           .parseDelimitedWithIOException(PARSER, input);
     }
 
-    public static ImProto.DeliveryAck parseDelimitedFrom(
+    public static io.getbit.gim.sdk.protocol.ImProto.DeliveryAck parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessage
           .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
-    public static ImProto.DeliveryAck parseFrom(
+    public static io.getbit.gim.sdk.protocol.ImProto.DeliveryAck parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessage
           .parseWithIOException(PARSER, input);
     }
-    public static ImProto.DeliveryAck parseFrom(
+    public static io.getbit.gim.sdk.protocol.ImProto.DeliveryAck parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
@@ -7594,7 +7594,7 @@ java.lang.String defaultValue) {
     public static Builder newBuilder() {
       return DEFAULT_INSTANCE.toBuilder();
     }
-    public static Builder newBuilder(ImProto.DeliveryAck prototype) {
+    public static Builder newBuilder(io.getbit.gim.sdk.protocol.ImProto.DeliveryAck prototype) {
       return DEFAULT_INSTANCE.toBuilder().mergeFrom(prototype);
     }
     @java.lang.Override
@@ -7619,18 +7619,18 @@ java.lang.String defaultValue) {
     public static final class Builder extends
         com.google.protobuf.GeneratedMessage.Builder<Builder> implements
         // @@protoc_insertion_point(builder_implements:gim.im.DeliveryAck)
-        ImProto.DeliveryAckOrBuilder {
+        io.getbit.gim.sdk.protocol.ImProto.DeliveryAckOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
           getDescriptor() {
-        return ImProto.internal_static_gim_im_DeliveryAck_descriptor;
+        return io.getbit.gim.sdk.protocol.ImProto.internal_static_gim_im_DeliveryAck_descriptor;
       }
 
       @java.lang.Override
       protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
           internalGetFieldAccessorTable() {
-        return ImProto.internal_static_gim_im_DeliveryAck_fieldAccessorTable
+        return io.getbit.gim.sdk.protocol.ImProto.internal_static_gim_im_DeliveryAck_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
-                ImProto.DeliveryAck.class, ImProto.DeliveryAck.Builder.class);
+                io.getbit.gim.sdk.protocol.ImProto.DeliveryAck.class, io.getbit.gim.sdk.protocol.ImProto.DeliveryAck.Builder.class);
       }
 
       // Construct using io.getbit.gim.sdk.protocol.ImProto.DeliveryAck.newBuilder()
@@ -7655,17 +7655,17 @@ java.lang.String defaultValue) {
       @java.lang.Override
       public com.google.protobuf.Descriptors.Descriptor
           getDescriptorForType() {
-        return ImProto.internal_static_gim_im_DeliveryAck_descriptor;
+        return io.getbit.gim.sdk.protocol.ImProto.internal_static_gim_im_DeliveryAck_descriptor;
       }
 
       @java.lang.Override
-      public ImProto.DeliveryAck getDefaultInstanceForType() {
-        return ImProto.DeliveryAck.getDefaultInstance();
+      public io.getbit.gim.sdk.protocol.ImProto.DeliveryAck getDefaultInstanceForType() {
+        return io.getbit.gim.sdk.protocol.ImProto.DeliveryAck.getDefaultInstance();
       }
 
       @java.lang.Override
-      public ImProto.DeliveryAck build() {
-        ImProto.DeliveryAck result = buildPartial();
+      public io.getbit.gim.sdk.protocol.ImProto.DeliveryAck build() {
+        io.getbit.gim.sdk.protocol.ImProto.DeliveryAck result = buildPartial();
         if (!result.isInitialized()) {
           throw newUninitializedMessageException(result);
         }
@@ -7673,14 +7673,14 @@ java.lang.String defaultValue) {
       }
 
       @java.lang.Override
-      public ImProto.DeliveryAck buildPartial() {
-        ImProto.DeliveryAck result = new ImProto.DeliveryAck(this);
+      public io.getbit.gim.sdk.protocol.ImProto.DeliveryAck buildPartial() {
+        io.getbit.gim.sdk.protocol.ImProto.DeliveryAck result = new io.getbit.gim.sdk.protocol.ImProto.DeliveryAck(this);
         if (bitField0_ != 0) { buildPartial0(result); }
         onBuilt();
         return result;
       }
 
-      private void buildPartial0(ImProto.DeliveryAck result) {
+      private void buildPartial0(io.getbit.gim.sdk.protocol.ImProto.DeliveryAck result) {
         int from_bitField0_ = bitField0_;
         if (((from_bitField0_ & 0x00000001) != 0)) {
           result.msgId_ = msgId_;
@@ -7692,16 +7692,16 @@ java.lang.String defaultValue) {
 
       @java.lang.Override
       public Builder mergeFrom(com.google.protobuf.Message other) {
-        if (other instanceof ImProto.DeliveryAck) {
-          return mergeFrom((ImProto.DeliveryAck)other);
+        if (other instanceof io.getbit.gim.sdk.protocol.ImProto.DeliveryAck) {
+          return mergeFrom((io.getbit.gim.sdk.protocol.ImProto.DeliveryAck)other);
         } else {
           super.mergeFrom(other);
           return this;
         }
       }
 
-      public Builder mergeFrom(ImProto.DeliveryAck other) {
-        if (other == ImProto.DeliveryAck.getDefaultInstance()) return this;
+      public Builder mergeFrom(io.getbit.gim.sdk.protocol.ImProto.DeliveryAck other) {
+        if (other == io.getbit.gim.sdk.protocol.ImProto.DeliveryAck.getDefaultInstance()) return this;
         if (!other.getMsgId().isEmpty()) {
           msgId_ = other.msgId_;
           bitField0_ |= 0x00000001;
@@ -7951,12 +7951,12 @@ java.lang.String defaultValue) {
     }
 
     // @@protoc_insertion_point(class_scope:gim.im.DeliveryAck)
-    private static final ImProto.DeliveryAck DEFAULT_INSTANCE;
+    private static final io.getbit.gim.sdk.protocol.ImProto.DeliveryAck DEFAULT_INSTANCE;
     static {
-      DEFAULT_INSTANCE = new ImProto.DeliveryAck();
+      DEFAULT_INSTANCE = new io.getbit.gim.sdk.protocol.ImProto.DeliveryAck();
     }
 
-    public static ImProto.DeliveryAck getDefaultInstance() {
+    public static io.getbit.gim.sdk.protocol.ImProto.DeliveryAck getDefaultInstance() {
       return DEFAULT_INSTANCE;
     }
 
@@ -7992,7 +7992,7 @@ java.lang.String defaultValue) {
     }
 
     @java.lang.Override
-    public ImProto.DeliveryAck getDefaultInstanceForType() {
+    public io.getbit.gim.sdk.protocol.ImProto.DeliveryAck getDefaultInstanceForType() {
       return DEFAULT_INSTANCE;
     }
 
@@ -8074,20 +8074,20 @@ java.lang.String defaultValue) {
 
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return ImProto.internal_static_gim_im_ReadReceipt_descriptor;
+      return io.getbit.gim.sdk.protocol.ImProto.internal_static_gim_im_ReadReceipt_descriptor;
     }
 
     @java.lang.Override
     public com.google.protobuf.Descriptors.Descriptor getDescriptorForType() {
-      return ImProto.internal_static_gim_im_ReadReceipt_descriptor;
+      return io.getbit.gim.sdk.protocol.ImProto.internal_static_gim_im_ReadReceipt_descriptor;
     }
 
     @java.lang.Override
     protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return ImProto.internal_static_gim_im_ReadReceipt_fieldAccessorTable
+      return io.getbit.gim.sdk.protocol.ImProto.internal_static_gim_im_ReadReceipt_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
-              ImProto.ReadReceipt.class, ImProto.ReadReceipt.Builder.class);
+              io.getbit.gim.sdk.protocol.ImProto.ReadReceipt.class, io.getbit.gim.sdk.protocol.ImProto.ReadReceipt.Builder.class);
     }
 
     public static final int CONVERSATIONID_FIELD_NUMBER = 1;
@@ -8233,10 +8233,10 @@ java.lang.String defaultValue) {
       if (obj == this) {
        return true;
       }
-      if (!(obj instanceof ImProto.ReadReceipt)) {
+      if (!(obj instanceof io.getbit.gim.sdk.protocol.ImProto.ReadReceipt)) {
         return super.equals(obj);
       }
-      ImProto.ReadReceipt other = (ImProto.ReadReceipt) obj;
+      io.getbit.gim.sdk.protocol.ImProto.ReadReceipt other = (io.getbit.gim.sdk.protocol.ImProto.ReadReceipt) obj;
 
       if (!getConversationId()
           .equals(other.getConversationId())) return false;
@@ -8262,44 +8262,44 @@ java.lang.String defaultValue) {
       return hash;
     }
 
-    public static ImProto.ReadReceipt parseFrom(
+    public static io.getbit.gim.sdk.protocol.ImProto.ReadReceipt parseFrom(
         java.nio.ByteBuffer data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static ImProto.ReadReceipt parseFrom(
+    public static io.getbit.gim.sdk.protocol.ImProto.ReadReceipt parseFrom(
         java.nio.ByteBuffer data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static ImProto.ReadReceipt parseFrom(
+    public static io.getbit.gim.sdk.protocol.ImProto.ReadReceipt parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static ImProto.ReadReceipt parseFrom(
+    public static io.getbit.gim.sdk.protocol.ImProto.ReadReceipt parseFrom(
         com.google.protobuf.ByteString data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static ImProto.ReadReceipt parseFrom(byte[] data)
+    public static io.getbit.gim.sdk.protocol.ImProto.ReadReceipt parseFrom(byte[] data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static ImProto.ReadReceipt parseFrom(
+    public static io.getbit.gim.sdk.protocol.ImProto.ReadReceipt parseFrom(
         byte[] data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static ImProto.ReadReceipt parseFrom(java.io.InputStream input)
+    public static io.getbit.gim.sdk.protocol.ImProto.ReadReceipt parseFrom(java.io.InputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessage
           .parseWithIOException(PARSER, input);
     }
-    public static ImProto.ReadReceipt parseFrom(
+    public static io.getbit.gim.sdk.protocol.ImProto.ReadReceipt parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
@@ -8307,26 +8307,26 @@ java.lang.String defaultValue) {
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
-    public static ImProto.ReadReceipt parseDelimitedFrom(java.io.InputStream input)
+    public static io.getbit.gim.sdk.protocol.ImProto.ReadReceipt parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessage
           .parseDelimitedWithIOException(PARSER, input);
     }
 
-    public static ImProto.ReadReceipt parseDelimitedFrom(
+    public static io.getbit.gim.sdk.protocol.ImProto.ReadReceipt parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessage
           .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
-    public static ImProto.ReadReceipt parseFrom(
+    public static io.getbit.gim.sdk.protocol.ImProto.ReadReceipt parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessage
           .parseWithIOException(PARSER, input);
     }
-    public static ImProto.ReadReceipt parseFrom(
+    public static io.getbit.gim.sdk.protocol.ImProto.ReadReceipt parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
@@ -8339,7 +8339,7 @@ java.lang.String defaultValue) {
     public static Builder newBuilder() {
       return DEFAULT_INSTANCE.toBuilder();
     }
-    public static Builder newBuilder(ImProto.ReadReceipt prototype) {
+    public static Builder newBuilder(io.getbit.gim.sdk.protocol.ImProto.ReadReceipt prototype) {
       return DEFAULT_INSTANCE.toBuilder().mergeFrom(prototype);
     }
     @java.lang.Override
@@ -8364,18 +8364,18 @@ java.lang.String defaultValue) {
     public static final class Builder extends
         com.google.protobuf.GeneratedMessage.Builder<Builder> implements
         // @@protoc_insertion_point(builder_implements:gim.im.ReadReceipt)
-        ImProto.ReadReceiptOrBuilder {
+        io.getbit.gim.sdk.protocol.ImProto.ReadReceiptOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
           getDescriptor() {
-        return ImProto.internal_static_gim_im_ReadReceipt_descriptor;
+        return io.getbit.gim.sdk.protocol.ImProto.internal_static_gim_im_ReadReceipt_descriptor;
       }
 
       @java.lang.Override
       protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
           internalGetFieldAccessorTable() {
-        return ImProto.internal_static_gim_im_ReadReceipt_fieldAccessorTable
+        return io.getbit.gim.sdk.protocol.ImProto.internal_static_gim_im_ReadReceipt_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
-                ImProto.ReadReceipt.class, ImProto.ReadReceipt.Builder.class);
+                io.getbit.gim.sdk.protocol.ImProto.ReadReceipt.class, io.getbit.gim.sdk.protocol.ImProto.ReadReceipt.Builder.class);
       }
 
       // Construct using io.getbit.gim.sdk.protocol.ImProto.ReadReceipt.newBuilder()
@@ -8400,17 +8400,17 @@ java.lang.String defaultValue) {
       @java.lang.Override
       public com.google.protobuf.Descriptors.Descriptor
           getDescriptorForType() {
-        return ImProto.internal_static_gim_im_ReadReceipt_descriptor;
+        return io.getbit.gim.sdk.protocol.ImProto.internal_static_gim_im_ReadReceipt_descriptor;
       }
 
       @java.lang.Override
-      public ImProto.ReadReceipt getDefaultInstanceForType() {
-        return ImProto.ReadReceipt.getDefaultInstance();
+      public io.getbit.gim.sdk.protocol.ImProto.ReadReceipt getDefaultInstanceForType() {
+        return io.getbit.gim.sdk.protocol.ImProto.ReadReceipt.getDefaultInstance();
       }
 
       @java.lang.Override
-      public ImProto.ReadReceipt build() {
-        ImProto.ReadReceipt result = buildPartial();
+      public io.getbit.gim.sdk.protocol.ImProto.ReadReceipt build() {
+        io.getbit.gim.sdk.protocol.ImProto.ReadReceipt result = buildPartial();
         if (!result.isInitialized()) {
           throw newUninitializedMessageException(result);
         }
@@ -8418,14 +8418,14 @@ java.lang.String defaultValue) {
       }
 
       @java.lang.Override
-      public ImProto.ReadReceipt buildPartial() {
-        ImProto.ReadReceipt result = new ImProto.ReadReceipt(this);
+      public io.getbit.gim.sdk.protocol.ImProto.ReadReceipt buildPartial() {
+        io.getbit.gim.sdk.protocol.ImProto.ReadReceipt result = new io.getbit.gim.sdk.protocol.ImProto.ReadReceipt(this);
         if (bitField0_ != 0) { buildPartial0(result); }
         onBuilt();
         return result;
       }
 
-      private void buildPartial0(ImProto.ReadReceipt result) {
+      private void buildPartial0(io.getbit.gim.sdk.protocol.ImProto.ReadReceipt result) {
         int from_bitField0_ = bitField0_;
         if (((from_bitField0_ & 0x00000001) != 0)) {
           result.conversationId_ = conversationId_;
@@ -8437,16 +8437,16 @@ java.lang.String defaultValue) {
 
       @java.lang.Override
       public Builder mergeFrom(com.google.protobuf.Message other) {
-        if (other instanceof ImProto.ReadReceipt) {
-          return mergeFrom((ImProto.ReadReceipt)other);
+        if (other instanceof io.getbit.gim.sdk.protocol.ImProto.ReadReceipt) {
+          return mergeFrom((io.getbit.gim.sdk.protocol.ImProto.ReadReceipt)other);
         } else {
           super.mergeFrom(other);
           return this;
         }
       }
 
-      public Builder mergeFrom(ImProto.ReadReceipt other) {
-        if (other == ImProto.ReadReceipt.getDefaultInstance()) return this;
+      public Builder mergeFrom(io.getbit.gim.sdk.protocol.ImProto.ReadReceipt other) {
+        if (other == io.getbit.gim.sdk.protocol.ImProto.ReadReceipt.getDefaultInstance()) return this;
         if (!other.getConversationId().isEmpty()) {
           conversationId_ = other.conversationId_;
           bitField0_ |= 0x00000001;
@@ -8696,12 +8696,12 @@ java.lang.String defaultValue) {
     }
 
     // @@protoc_insertion_point(class_scope:gim.im.ReadReceipt)
-    private static final ImProto.ReadReceipt DEFAULT_INSTANCE;
+    private static final io.getbit.gim.sdk.protocol.ImProto.ReadReceipt DEFAULT_INSTANCE;
     static {
-      DEFAULT_INSTANCE = new ImProto.ReadReceipt();
+      DEFAULT_INSTANCE = new io.getbit.gim.sdk.protocol.ImProto.ReadReceipt();
     }
 
-    public static ImProto.ReadReceipt getDefaultInstance() {
+    public static io.getbit.gim.sdk.protocol.ImProto.ReadReceipt getDefaultInstance() {
       return DEFAULT_INSTANCE;
     }
 
@@ -8737,7 +8737,7 @@ java.lang.String defaultValue) {
     }
 
     @java.lang.Override
-    public ImProto.ReadReceipt getDefaultInstanceForType() {
+    public io.getbit.gim.sdk.protocol.ImProto.ReadReceipt getDefaultInstanceForType() {
       return DEFAULT_INSTANCE;
     }
 
@@ -8829,20 +8829,20 @@ java.lang.String defaultValue) {
 
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return ImProto.internal_static_gim_im_MsgRecallRequest_descriptor;
+      return io.getbit.gim.sdk.protocol.ImProto.internal_static_gim_im_MsgRecallRequest_descriptor;
     }
 
     @java.lang.Override
     public com.google.protobuf.Descriptors.Descriptor getDescriptorForType() {
-      return ImProto.internal_static_gim_im_MsgRecallRequest_descriptor;
+      return io.getbit.gim.sdk.protocol.ImProto.internal_static_gim_im_MsgRecallRequest_descriptor;
     }
 
     @java.lang.Override
     protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return ImProto.internal_static_gim_im_MsgRecallRequest_fieldAccessorTable
+      return io.getbit.gim.sdk.protocol.ImProto.internal_static_gim_im_MsgRecallRequest_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
-              ImProto.MsgRecallRequest.class, ImProto.MsgRecallRequest.Builder.class);
+              io.getbit.gim.sdk.protocol.ImProto.MsgRecallRequest.class, io.getbit.gim.sdk.protocol.ImProto.MsgRecallRequest.Builder.class);
     }
 
     public static final int MSGID_FIELD_NUMBER = 1;
@@ -9010,10 +9010,10 @@ java.lang.String defaultValue) {
       if (obj == this) {
        return true;
       }
-      if (!(obj instanceof ImProto.MsgRecallRequest)) {
+      if (!(obj instanceof io.getbit.gim.sdk.protocol.ImProto.MsgRecallRequest)) {
         return super.equals(obj);
       }
-      ImProto.MsgRecallRequest other = (ImProto.MsgRecallRequest) obj;
+      io.getbit.gim.sdk.protocol.ImProto.MsgRecallRequest other = (io.getbit.gim.sdk.protocol.ImProto.MsgRecallRequest) obj;
 
       if (!getMsgId()
           .equals(other.getMsgId())) return false;
@@ -9043,44 +9043,44 @@ java.lang.String defaultValue) {
       return hash;
     }
 
-    public static ImProto.MsgRecallRequest parseFrom(
+    public static io.getbit.gim.sdk.protocol.ImProto.MsgRecallRequest parseFrom(
         java.nio.ByteBuffer data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static ImProto.MsgRecallRequest parseFrom(
+    public static io.getbit.gim.sdk.protocol.ImProto.MsgRecallRequest parseFrom(
         java.nio.ByteBuffer data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static ImProto.MsgRecallRequest parseFrom(
+    public static io.getbit.gim.sdk.protocol.ImProto.MsgRecallRequest parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static ImProto.MsgRecallRequest parseFrom(
+    public static io.getbit.gim.sdk.protocol.ImProto.MsgRecallRequest parseFrom(
         com.google.protobuf.ByteString data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static ImProto.MsgRecallRequest parseFrom(byte[] data)
+    public static io.getbit.gim.sdk.protocol.ImProto.MsgRecallRequest parseFrom(byte[] data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static ImProto.MsgRecallRequest parseFrom(
+    public static io.getbit.gim.sdk.protocol.ImProto.MsgRecallRequest parseFrom(
         byte[] data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static ImProto.MsgRecallRequest parseFrom(java.io.InputStream input)
+    public static io.getbit.gim.sdk.protocol.ImProto.MsgRecallRequest parseFrom(java.io.InputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessage
           .parseWithIOException(PARSER, input);
     }
-    public static ImProto.MsgRecallRequest parseFrom(
+    public static io.getbit.gim.sdk.protocol.ImProto.MsgRecallRequest parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
@@ -9088,26 +9088,26 @@ java.lang.String defaultValue) {
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
-    public static ImProto.MsgRecallRequest parseDelimitedFrom(java.io.InputStream input)
+    public static io.getbit.gim.sdk.protocol.ImProto.MsgRecallRequest parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessage
           .parseDelimitedWithIOException(PARSER, input);
     }
 
-    public static ImProto.MsgRecallRequest parseDelimitedFrom(
+    public static io.getbit.gim.sdk.protocol.ImProto.MsgRecallRequest parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessage
           .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
-    public static ImProto.MsgRecallRequest parseFrom(
+    public static io.getbit.gim.sdk.protocol.ImProto.MsgRecallRequest parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessage
           .parseWithIOException(PARSER, input);
     }
-    public static ImProto.MsgRecallRequest parseFrom(
+    public static io.getbit.gim.sdk.protocol.ImProto.MsgRecallRequest parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
@@ -9120,7 +9120,7 @@ java.lang.String defaultValue) {
     public static Builder newBuilder() {
       return DEFAULT_INSTANCE.toBuilder();
     }
-    public static Builder newBuilder(ImProto.MsgRecallRequest prototype) {
+    public static Builder newBuilder(io.getbit.gim.sdk.protocol.ImProto.MsgRecallRequest prototype) {
       return DEFAULT_INSTANCE.toBuilder().mergeFrom(prototype);
     }
     @java.lang.Override
@@ -9145,18 +9145,18 @@ java.lang.String defaultValue) {
     public static final class Builder extends
         com.google.protobuf.GeneratedMessage.Builder<Builder> implements
         // @@protoc_insertion_point(builder_implements:gim.im.MsgRecallRequest)
-        ImProto.MsgRecallRequestOrBuilder {
+        io.getbit.gim.sdk.protocol.ImProto.MsgRecallRequestOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
           getDescriptor() {
-        return ImProto.internal_static_gim_im_MsgRecallRequest_descriptor;
+        return io.getbit.gim.sdk.protocol.ImProto.internal_static_gim_im_MsgRecallRequest_descriptor;
       }
 
       @java.lang.Override
       protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
           internalGetFieldAccessorTable() {
-        return ImProto.internal_static_gim_im_MsgRecallRequest_fieldAccessorTable
+        return io.getbit.gim.sdk.protocol.ImProto.internal_static_gim_im_MsgRecallRequest_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
-                ImProto.MsgRecallRequest.class, ImProto.MsgRecallRequest.Builder.class);
+                io.getbit.gim.sdk.protocol.ImProto.MsgRecallRequest.class, io.getbit.gim.sdk.protocol.ImProto.MsgRecallRequest.Builder.class);
       }
 
       // Construct using io.getbit.gim.sdk.protocol.ImProto.MsgRecallRequest.newBuilder()
@@ -9182,17 +9182,17 @@ java.lang.String defaultValue) {
       @java.lang.Override
       public com.google.protobuf.Descriptors.Descriptor
           getDescriptorForType() {
-        return ImProto.internal_static_gim_im_MsgRecallRequest_descriptor;
+        return io.getbit.gim.sdk.protocol.ImProto.internal_static_gim_im_MsgRecallRequest_descriptor;
       }
 
       @java.lang.Override
-      public ImProto.MsgRecallRequest getDefaultInstanceForType() {
-        return ImProto.MsgRecallRequest.getDefaultInstance();
+      public io.getbit.gim.sdk.protocol.ImProto.MsgRecallRequest getDefaultInstanceForType() {
+        return io.getbit.gim.sdk.protocol.ImProto.MsgRecallRequest.getDefaultInstance();
       }
 
       @java.lang.Override
-      public ImProto.MsgRecallRequest build() {
-        ImProto.MsgRecallRequest result = buildPartial();
+      public io.getbit.gim.sdk.protocol.ImProto.MsgRecallRequest build() {
+        io.getbit.gim.sdk.protocol.ImProto.MsgRecallRequest result = buildPartial();
         if (!result.isInitialized()) {
           throw newUninitializedMessageException(result);
         }
@@ -9200,14 +9200,14 @@ java.lang.String defaultValue) {
       }
 
       @java.lang.Override
-      public ImProto.MsgRecallRequest buildPartial() {
-        ImProto.MsgRecallRequest result = new ImProto.MsgRecallRequest(this);
+      public io.getbit.gim.sdk.protocol.ImProto.MsgRecallRequest buildPartial() {
+        io.getbit.gim.sdk.protocol.ImProto.MsgRecallRequest result = new io.getbit.gim.sdk.protocol.ImProto.MsgRecallRequest(this);
         if (bitField0_ != 0) { buildPartial0(result); }
         onBuilt();
         return result;
       }
 
-      private void buildPartial0(ImProto.MsgRecallRequest result) {
+      private void buildPartial0(io.getbit.gim.sdk.protocol.ImProto.MsgRecallRequest result) {
         int from_bitField0_ = bitField0_;
         if (((from_bitField0_ & 0x00000001) != 0)) {
           result.msgId_ = msgId_;
@@ -9222,16 +9222,16 @@ java.lang.String defaultValue) {
 
       @java.lang.Override
       public Builder mergeFrom(com.google.protobuf.Message other) {
-        if (other instanceof ImProto.MsgRecallRequest) {
-          return mergeFrom((ImProto.MsgRecallRequest)other);
+        if (other instanceof io.getbit.gim.sdk.protocol.ImProto.MsgRecallRequest) {
+          return mergeFrom((io.getbit.gim.sdk.protocol.ImProto.MsgRecallRequest)other);
         } else {
           super.mergeFrom(other);
           return this;
         }
       }
 
-      public Builder mergeFrom(ImProto.MsgRecallRequest other) {
-        if (other == ImProto.MsgRecallRequest.getDefaultInstance()) return this;
+      public Builder mergeFrom(io.getbit.gim.sdk.protocol.ImProto.MsgRecallRequest other) {
+        if (other == io.getbit.gim.sdk.protocol.ImProto.MsgRecallRequest.getDefaultInstance()) return this;
         if (!other.getMsgId().isEmpty()) {
           msgId_ = other.msgId_;
           bitField0_ |= 0x00000001;
@@ -9533,12 +9533,12 @@ java.lang.String defaultValue) {
     }
 
     // @@protoc_insertion_point(class_scope:gim.im.MsgRecallRequest)
-    private static final ImProto.MsgRecallRequest DEFAULT_INSTANCE;
+    private static final io.getbit.gim.sdk.protocol.ImProto.MsgRecallRequest DEFAULT_INSTANCE;
     static {
-      DEFAULT_INSTANCE = new ImProto.MsgRecallRequest();
+      DEFAULT_INSTANCE = new io.getbit.gim.sdk.protocol.ImProto.MsgRecallRequest();
     }
 
-    public static ImProto.MsgRecallRequest getDefaultInstance() {
+    public static io.getbit.gim.sdk.protocol.ImProto.MsgRecallRequest getDefaultInstance() {
       return DEFAULT_INSTANCE;
     }
 
@@ -9574,7 +9574,7 @@ java.lang.String defaultValue) {
     }
 
     @java.lang.Override
-    public ImProto.MsgRecallRequest getDefaultInstanceForType() {
+    public io.getbit.gim.sdk.protocol.ImProto.MsgRecallRequest getDefaultInstanceForType() {
       return DEFAULT_INSTANCE;
     }
 
@@ -9687,20 +9687,20 @@ java.lang.String defaultValue) {
 
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return ImProto.internal_static_gim_im_MsgRecallNotify_descriptor;
+      return io.getbit.gim.sdk.protocol.ImProto.internal_static_gim_im_MsgRecallNotify_descriptor;
     }
 
     @java.lang.Override
     public com.google.protobuf.Descriptors.Descriptor getDescriptorForType() {
-      return ImProto.internal_static_gim_im_MsgRecallNotify_descriptor;
+      return io.getbit.gim.sdk.protocol.ImProto.internal_static_gim_im_MsgRecallNotify_descriptor;
     }
 
     @java.lang.Override
     protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return ImProto.internal_static_gim_im_MsgRecallNotify_fieldAccessorTable
+      return io.getbit.gim.sdk.protocol.ImProto.internal_static_gim_im_MsgRecallNotify_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
-              ImProto.MsgRecallNotify.class, ImProto.MsgRecallNotify.Builder.class);
+              io.getbit.gim.sdk.protocol.ImProto.MsgRecallNotify.class, io.getbit.gim.sdk.protocol.ImProto.MsgRecallNotify.Builder.class);
     }
 
     public static final int MSGID_FIELD_NUMBER = 1;
@@ -9921,10 +9921,10 @@ java.lang.String defaultValue) {
       if (obj == this) {
        return true;
       }
-      if (!(obj instanceof ImProto.MsgRecallNotify)) {
+      if (!(obj instanceof io.getbit.gim.sdk.protocol.ImProto.MsgRecallNotify)) {
         return super.equals(obj);
       }
-      ImProto.MsgRecallNotify other = (ImProto.MsgRecallNotify) obj;
+      io.getbit.gim.sdk.protocol.ImProto.MsgRecallNotify other = (io.getbit.gim.sdk.protocol.ImProto.MsgRecallNotify) obj;
 
       if (!getMsgId()
           .equals(other.getMsgId())) return false;
@@ -9958,44 +9958,44 @@ java.lang.String defaultValue) {
       return hash;
     }
 
-    public static ImProto.MsgRecallNotify parseFrom(
+    public static io.getbit.gim.sdk.protocol.ImProto.MsgRecallNotify parseFrom(
         java.nio.ByteBuffer data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static ImProto.MsgRecallNotify parseFrom(
+    public static io.getbit.gim.sdk.protocol.ImProto.MsgRecallNotify parseFrom(
         java.nio.ByteBuffer data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static ImProto.MsgRecallNotify parseFrom(
+    public static io.getbit.gim.sdk.protocol.ImProto.MsgRecallNotify parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static ImProto.MsgRecallNotify parseFrom(
+    public static io.getbit.gim.sdk.protocol.ImProto.MsgRecallNotify parseFrom(
         com.google.protobuf.ByteString data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static ImProto.MsgRecallNotify parseFrom(byte[] data)
+    public static io.getbit.gim.sdk.protocol.ImProto.MsgRecallNotify parseFrom(byte[] data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static ImProto.MsgRecallNotify parseFrom(
+    public static io.getbit.gim.sdk.protocol.ImProto.MsgRecallNotify parseFrom(
         byte[] data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static ImProto.MsgRecallNotify parseFrom(java.io.InputStream input)
+    public static io.getbit.gim.sdk.protocol.ImProto.MsgRecallNotify parseFrom(java.io.InputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessage
           .parseWithIOException(PARSER, input);
     }
-    public static ImProto.MsgRecallNotify parseFrom(
+    public static io.getbit.gim.sdk.protocol.ImProto.MsgRecallNotify parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
@@ -10003,26 +10003,26 @@ java.lang.String defaultValue) {
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
-    public static ImProto.MsgRecallNotify parseDelimitedFrom(java.io.InputStream input)
+    public static io.getbit.gim.sdk.protocol.ImProto.MsgRecallNotify parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessage
           .parseDelimitedWithIOException(PARSER, input);
     }
 
-    public static ImProto.MsgRecallNotify parseDelimitedFrom(
+    public static io.getbit.gim.sdk.protocol.ImProto.MsgRecallNotify parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessage
           .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
-    public static ImProto.MsgRecallNotify parseFrom(
+    public static io.getbit.gim.sdk.protocol.ImProto.MsgRecallNotify parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessage
           .parseWithIOException(PARSER, input);
     }
-    public static ImProto.MsgRecallNotify parseFrom(
+    public static io.getbit.gim.sdk.protocol.ImProto.MsgRecallNotify parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
@@ -10035,7 +10035,7 @@ java.lang.String defaultValue) {
     public static Builder newBuilder() {
       return DEFAULT_INSTANCE.toBuilder();
     }
-    public static Builder newBuilder(ImProto.MsgRecallNotify prototype) {
+    public static Builder newBuilder(io.getbit.gim.sdk.protocol.ImProto.MsgRecallNotify prototype) {
       return DEFAULT_INSTANCE.toBuilder().mergeFrom(prototype);
     }
     @java.lang.Override
@@ -10060,18 +10060,18 @@ java.lang.String defaultValue) {
     public static final class Builder extends
         com.google.protobuf.GeneratedMessage.Builder<Builder> implements
         // @@protoc_insertion_point(builder_implements:gim.im.MsgRecallNotify)
-        ImProto.MsgRecallNotifyOrBuilder {
+        io.getbit.gim.sdk.protocol.ImProto.MsgRecallNotifyOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
           getDescriptor() {
-        return ImProto.internal_static_gim_im_MsgRecallNotify_descriptor;
+        return io.getbit.gim.sdk.protocol.ImProto.internal_static_gim_im_MsgRecallNotify_descriptor;
       }
 
       @java.lang.Override
       protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
           internalGetFieldAccessorTable() {
-        return ImProto.internal_static_gim_im_MsgRecallNotify_fieldAccessorTable
+        return io.getbit.gim.sdk.protocol.ImProto.internal_static_gim_im_MsgRecallNotify_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
-                ImProto.MsgRecallNotify.class, ImProto.MsgRecallNotify.Builder.class);
+                io.getbit.gim.sdk.protocol.ImProto.MsgRecallNotify.class, io.getbit.gim.sdk.protocol.ImProto.MsgRecallNotify.Builder.class);
       }
 
       // Construct using io.getbit.gim.sdk.protocol.ImProto.MsgRecallNotify.newBuilder()
@@ -10098,17 +10098,17 @@ java.lang.String defaultValue) {
       @java.lang.Override
       public com.google.protobuf.Descriptors.Descriptor
           getDescriptorForType() {
-        return ImProto.internal_static_gim_im_MsgRecallNotify_descriptor;
+        return io.getbit.gim.sdk.protocol.ImProto.internal_static_gim_im_MsgRecallNotify_descriptor;
       }
 
       @java.lang.Override
-      public ImProto.MsgRecallNotify getDefaultInstanceForType() {
-        return ImProto.MsgRecallNotify.getDefaultInstance();
+      public io.getbit.gim.sdk.protocol.ImProto.MsgRecallNotify getDefaultInstanceForType() {
+        return io.getbit.gim.sdk.protocol.ImProto.MsgRecallNotify.getDefaultInstance();
       }
 
       @java.lang.Override
-      public ImProto.MsgRecallNotify build() {
-        ImProto.MsgRecallNotify result = buildPartial();
+      public io.getbit.gim.sdk.protocol.ImProto.MsgRecallNotify build() {
+        io.getbit.gim.sdk.protocol.ImProto.MsgRecallNotify result = buildPartial();
         if (!result.isInitialized()) {
           throw newUninitializedMessageException(result);
         }
@@ -10116,14 +10116,14 @@ java.lang.String defaultValue) {
       }
 
       @java.lang.Override
-      public ImProto.MsgRecallNotify buildPartial() {
-        ImProto.MsgRecallNotify result = new ImProto.MsgRecallNotify(this);
+      public io.getbit.gim.sdk.protocol.ImProto.MsgRecallNotify buildPartial() {
+        io.getbit.gim.sdk.protocol.ImProto.MsgRecallNotify result = new io.getbit.gim.sdk.protocol.ImProto.MsgRecallNotify(this);
         if (bitField0_ != 0) { buildPartial0(result); }
         onBuilt();
         return result;
       }
 
-      private void buildPartial0(ImProto.MsgRecallNotify result) {
+      private void buildPartial0(io.getbit.gim.sdk.protocol.ImProto.MsgRecallNotify result) {
         int from_bitField0_ = bitField0_;
         if (((from_bitField0_ & 0x00000001) != 0)) {
           result.msgId_ = msgId_;
@@ -10141,16 +10141,16 @@ java.lang.String defaultValue) {
 
       @java.lang.Override
       public Builder mergeFrom(com.google.protobuf.Message other) {
-        if (other instanceof ImProto.MsgRecallNotify) {
-          return mergeFrom((ImProto.MsgRecallNotify)other);
+        if (other instanceof io.getbit.gim.sdk.protocol.ImProto.MsgRecallNotify) {
+          return mergeFrom((io.getbit.gim.sdk.protocol.ImProto.MsgRecallNotify)other);
         } else {
           super.mergeFrom(other);
           return this;
         }
       }
 
-      public Builder mergeFrom(ImProto.MsgRecallNotify other) {
-        if (other == ImProto.MsgRecallNotify.getDefaultInstance()) return this;
+      public Builder mergeFrom(io.getbit.gim.sdk.protocol.ImProto.MsgRecallNotify other) {
+        if (other == io.getbit.gim.sdk.protocol.ImProto.MsgRecallNotify.getDefaultInstance()) return this;
         if (!other.getMsgId().isEmpty()) {
           msgId_ = other.msgId_;
           bitField0_ |= 0x00000001;
@@ -10554,12 +10554,12 @@ java.lang.String defaultValue) {
     }
 
     // @@protoc_insertion_point(class_scope:gim.im.MsgRecallNotify)
-    private static final ImProto.MsgRecallNotify DEFAULT_INSTANCE;
+    private static final io.getbit.gim.sdk.protocol.ImProto.MsgRecallNotify DEFAULT_INSTANCE;
     static {
-      DEFAULT_INSTANCE = new ImProto.MsgRecallNotify();
+      DEFAULT_INSTANCE = new io.getbit.gim.sdk.protocol.ImProto.MsgRecallNotify();
     }
 
-    public static ImProto.MsgRecallNotify getDefaultInstance() {
+    public static io.getbit.gim.sdk.protocol.ImProto.MsgRecallNotify getDefaultInstance() {
       return DEFAULT_INSTANCE;
     }
 
@@ -10595,7 +10595,7 @@ java.lang.String defaultValue) {
     }
 
     @java.lang.Override
-    public ImProto.MsgRecallNotify getDefaultInstanceForType() {
+    public io.getbit.gim.sdk.protocol.ImProto.MsgRecallNotify getDefaultInstanceForType() {
       return DEFAULT_INSTANCE;
     }
 
@@ -10679,20 +10679,20 @@ java.lang.String defaultValue) {
 
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return ImProto.internal_static_gim_im_OnlineStatusNotify_descriptor;
+      return io.getbit.gim.sdk.protocol.ImProto.internal_static_gim_im_OnlineStatusNotify_descriptor;
     }
 
     @java.lang.Override
     public com.google.protobuf.Descriptors.Descriptor getDescriptorForType() {
-      return ImProto.internal_static_gim_im_OnlineStatusNotify_descriptor;
+      return io.getbit.gim.sdk.protocol.ImProto.internal_static_gim_im_OnlineStatusNotify_descriptor;
     }
 
     @java.lang.Override
     protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return ImProto.internal_static_gim_im_OnlineStatusNotify_fieldAccessorTable
+      return io.getbit.gim.sdk.protocol.ImProto.internal_static_gim_im_OnlineStatusNotify_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
-              ImProto.OnlineStatusNotify.class, ImProto.OnlineStatusNotify.Builder.class);
+              io.getbit.gim.sdk.protocol.ImProto.OnlineStatusNotify.class, io.getbit.gim.sdk.protocol.ImProto.OnlineStatusNotify.Builder.class);
     }
 
     public static final int USERID_FIELD_NUMBER = 1;
@@ -10852,10 +10852,10 @@ java.lang.String defaultValue) {
       if (obj == this) {
        return true;
       }
-      if (!(obj instanceof ImProto.OnlineStatusNotify)) {
+      if (!(obj instanceof io.getbit.gim.sdk.protocol.ImProto.OnlineStatusNotify)) {
         return super.equals(obj);
       }
-      ImProto.OnlineStatusNotify other = (ImProto.OnlineStatusNotify) obj;
+      io.getbit.gim.sdk.protocol.ImProto.OnlineStatusNotify other = (io.getbit.gim.sdk.protocol.ImProto.OnlineStatusNotify) obj;
 
       if (!getUserId()
           .equals(other.getUserId())) return false;
@@ -10885,44 +10885,44 @@ java.lang.String defaultValue) {
       return hash;
     }
 
-    public static ImProto.OnlineStatusNotify parseFrom(
+    public static io.getbit.gim.sdk.protocol.ImProto.OnlineStatusNotify parseFrom(
         java.nio.ByteBuffer data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static ImProto.OnlineStatusNotify parseFrom(
+    public static io.getbit.gim.sdk.protocol.ImProto.OnlineStatusNotify parseFrom(
         java.nio.ByteBuffer data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static ImProto.OnlineStatusNotify parseFrom(
+    public static io.getbit.gim.sdk.protocol.ImProto.OnlineStatusNotify parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static ImProto.OnlineStatusNotify parseFrom(
+    public static io.getbit.gim.sdk.protocol.ImProto.OnlineStatusNotify parseFrom(
         com.google.protobuf.ByteString data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static ImProto.OnlineStatusNotify parseFrom(byte[] data)
+    public static io.getbit.gim.sdk.protocol.ImProto.OnlineStatusNotify parseFrom(byte[] data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static ImProto.OnlineStatusNotify parseFrom(
+    public static io.getbit.gim.sdk.protocol.ImProto.OnlineStatusNotify parseFrom(
         byte[] data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static ImProto.OnlineStatusNotify parseFrom(java.io.InputStream input)
+    public static io.getbit.gim.sdk.protocol.ImProto.OnlineStatusNotify parseFrom(java.io.InputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessage
           .parseWithIOException(PARSER, input);
     }
-    public static ImProto.OnlineStatusNotify parseFrom(
+    public static io.getbit.gim.sdk.protocol.ImProto.OnlineStatusNotify parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
@@ -10930,26 +10930,26 @@ java.lang.String defaultValue) {
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
-    public static ImProto.OnlineStatusNotify parseDelimitedFrom(java.io.InputStream input)
+    public static io.getbit.gim.sdk.protocol.ImProto.OnlineStatusNotify parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessage
           .parseDelimitedWithIOException(PARSER, input);
     }
 
-    public static ImProto.OnlineStatusNotify parseDelimitedFrom(
+    public static io.getbit.gim.sdk.protocol.ImProto.OnlineStatusNotify parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessage
           .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
-    public static ImProto.OnlineStatusNotify parseFrom(
+    public static io.getbit.gim.sdk.protocol.ImProto.OnlineStatusNotify parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessage
           .parseWithIOException(PARSER, input);
     }
-    public static ImProto.OnlineStatusNotify parseFrom(
+    public static io.getbit.gim.sdk.protocol.ImProto.OnlineStatusNotify parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
@@ -10962,7 +10962,7 @@ java.lang.String defaultValue) {
     public static Builder newBuilder() {
       return DEFAULT_INSTANCE.toBuilder();
     }
-    public static Builder newBuilder(ImProto.OnlineStatusNotify prototype) {
+    public static Builder newBuilder(io.getbit.gim.sdk.protocol.ImProto.OnlineStatusNotify prototype) {
       return DEFAULT_INSTANCE.toBuilder().mergeFrom(prototype);
     }
     @java.lang.Override
@@ -10987,18 +10987,18 @@ java.lang.String defaultValue) {
     public static final class Builder extends
         com.google.protobuf.GeneratedMessage.Builder<Builder> implements
         // @@protoc_insertion_point(builder_implements:gim.im.OnlineStatusNotify)
-        ImProto.OnlineStatusNotifyOrBuilder {
+        io.getbit.gim.sdk.protocol.ImProto.OnlineStatusNotifyOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
           getDescriptor() {
-        return ImProto.internal_static_gim_im_OnlineStatusNotify_descriptor;
+        return io.getbit.gim.sdk.protocol.ImProto.internal_static_gim_im_OnlineStatusNotify_descriptor;
       }
 
       @java.lang.Override
       protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
           internalGetFieldAccessorTable() {
-        return ImProto.internal_static_gim_im_OnlineStatusNotify_fieldAccessorTable
+        return io.getbit.gim.sdk.protocol.ImProto.internal_static_gim_im_OnlineStatusNotify_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
-                ImProto.OnlineStatusNotify.class, ImProto.OnlineStatusNotify.Builder.class);
+                io.getbit.gim.sdk.protocol.ImProto.OnlineStatusNotify.class, io.getbit.gim.sdk.protocol.ImProto.OnlineStatusNotify.Builder.class);
       }
 
       // Construct using io.getbit.gim.sdk.protocol.ImProto.OnlineStatusNotify.newBuilder()
@@ -11024,17 +11024,17 @@ java.lang.String defaultValue) {
       @java.lang.Override
       public com.google.protobuf.Descriptors.Descriptor
           getDescriptorForType() {
-        return ImProto.internal_static_gim_im_OnlineStatusNotify_descriptor;
+        return io.getbit.gim.sdk.protocol.ImProto.internal_static_gim_im_OnlineStatusNotify_descriptor;
       }
 
       @java.lang.Override
-      public ImProto.OnlineStatusNotify getDefaultInstanceForType() {
-        return ImProto.OnlineStatusNotify.getDefaultInstance();
+      public io.getbit.gim.sdk.protocol.ImProto.OnlineStatusNotify getDefaultInstanceForType() {
+        return io.getbit.gim.sdk.protocol.ImProto.OnlineStatusNotify.getDefaultInstance();
       }
 
       @java.lang.Override
-      public ImProto.OnlineStatusNotify build() {
-        ImProto.OnlineStatusNotify result = buildPartial();
+      public io.getbit.gim.sdk.protocol.ImProto.OnlineStatusNotify build() {
+        io.getbit.gim.sdk.protocol.ImProto.OnlineStatusNotify result = buildPartial();
         if (!result.isInitialized()) {
           throw newUninitializedMessageException(result);
         }
@@ -11042,14 +11042,14 @@ java.lang.String defaultValue) {
       }
 
       @java.lang.Override
-      public ImProto.OnlineStatusNotify buildPartial() {
-        ImProto.OnlineStatusNotify result = new ImProto.OnlineStatusNotify(this);
+      public io.getbit.gim.sdk.protocol.ImProto.OnlineStatusNotify buildPartial() {
+        io.getbit.gim.sdk.protocol.ImProto.OnlineStatusNotify result = new io.getbit.gim.sdk.protocol.ImProto.OnlineStatusNotify(this);
         if (bitField0_ != 0) { buildPartial0(result); }
         onBuilt();
         return result;
       }
 
-      private void buildPartial0(ImProto.OnlineStatusNotify result) {
+      private void buildPartial0(io.getbit.gim.sdk.protocol.ImProto.OnlineStatusNotify result) {
         int from_bitField0_ = bitField0_;
         if (((from_bitField0_ & 0x00000001) != 0)) {
           result.userId_ = userId_;
@@ -11064,16 +11064,16 @@ java.lang.String defaultValue) {
 
       @java.lang.Override
       public Builder mergeFrom(com.google.protobuf.Message other) {
-        if (other instanceof ImProto.OnlineStatusNotify) {
-          return mergeFrom((ImProto.OnlineStatusNotify)other);
+        if (other instanceof io.getbit.gim.sdk.protocol.ImProto.OnlineStatusNotify) {
+          return mergeFrom((io.getbit.gim.sdk.protocol.ImProto.OnlineStatusNotify)other);
         } else {
           super.mergeFrom(other);
           return this;
         }
       }
 
-      public Builder mergeFrom(ImProto.OnlineStatusNotify other) {
-        if (other == ImProto.OnlineStatusNotify.getDefaultInstance()) return this;
+      public Builder mergeFrom(io.getbit.gim.sdk.protocol.ImProto.OnlineStatusNotify other) {
+        if (other == io.getbit.gim.sdk.protocol.ImProto.OnlineStatusNotify.getDefaultInstance()) return this;
         if (!other.getUserId().isEmpty()) {
           userId_ = other.userId_;
           bitField0_ |= 0x00000001;
@@ -11355,12 +11355,12 @@ java.lang.String defaultValue) {
     }
 
     // @@protoc_insertion_point(class_scope:gim.im.OnlineStatusNotify)
-    private static final ImProto.OnlineStatusNotify DEFAULT_INSTANCE;
+    private static final io.getbit.gim.sdk.protocol.ImProto.OnlineStatusNotify DEFAULT_INSTANCE;
     static {
-      DEFAULT_INSTANCE = new ImProto.OnlineStatusNotify();
+      DEFAULT_INSTANCE = new io.getbit.gim.sdk.protocol.ImProto.OnlineStatusNotify();
     }
 
-    public static ImProto.OnlineStatusNotify getDefaultInstance() {
+    public static io.getbit.gim.sdk.protocol.ImProto.OnlineStatusNotify getDefaultInstance() {
       return DEFAULT_INSTANCE;
     }
 
@@ -11396,7 +11396,7 @@ java.lang.String defaultValue) {
     }
 
     @java.lang.Override
-    public ImProto.OnlineStatusNotify getDefaultInstanceForType() {
+    public io.getbit.gim.sdk.protocol.ImProto.OnlineStatusNotify getDefaultInstanceForType() {
       return DEFAULT_INSTANCE;
     }
 
@@ -11567,20 +11567,20 @@ java.lang.String defaultValue) {
 
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return ImProto.internal_static_gim_im_FriendRequestNotify_descriptor;
+      return io.getbit.gim.sdk.protocol.ImProto.internal_static_gim_im_FriendRequestNotify_descriptor;
     }
 
     @java.lang.Override
     public com.google.protobuf.Descriptors.Descriptor getDescriptorForType() {
-      return ImProto.internal_static_gim_im_FriendRequestNotify_descriptor;
+      return io.getbit.gim.sdk.protocol.ImProto.internal_static_gim_im_FriendRequestNotify_descriptor;
     }
 
     @java.lang.Override
     protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return ImProto.internal_static_gim_im_FriendRequestNotify_fieldAccessorTable
+      return io.getbit.gim.sdk.protocol.ImProto.internal_static_gim_im_FriendRequestNotify_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
-              ImProto.FriendRequestNotify.class, ImProto.FriendRequestNotify.Builder.class);
+              io.getbit.gim.sdk.protocol.ImProto.FriendRequestNotify.class, io.getbit.gim.sdk.protocol.ImProto.FriendRequestNotify.Builder.class);
     }
 
     public static final int SENDERID_FIELD_NUMBER = 1;
@@ -11975,10 +11975,10 @@ java.lang.String defaultValue) {
       if (obj == this) {
        return true;
       }
-      if (!(obj instanceof ImProto.FriendRequestNotify)) {
+      if (!(obj instanceof io.getbit.gim.sdk.protocol.ImProto.FriendRequestNotify)) {
         return super.equals(obj);
       }
-      ImProto.FriendRequestNotify other = (ImProto.FriendRequestNotify) obj;
+      io.getbit.gim.sdk.protocol.ImProto.FriendRequestNotify other = (io.getbit.gim.sdk.protocol.ImProto.FriendRequestNotify) obj;
 
       if (!getSenderId()
           .equals(other.getSenderId())) return false;
@@ -12024,44 +12024,44 @@ java.lang.String defaultValue) {
       return hash;
     }
 
-    public static ImProto.FriendRequestNotify parseFrom(
+    public static io.getbit.gim.sdk.protocol.ImProto.FriendRequestNotify parseFrom(
         java.nio.ByteBuffer data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static ImProto.FriendRequestNotify parseFrom(
+    public static io.getbit.gim.sdk.protocol.ImProto.FriendRequestNotify parseFrom(
         java.nio.ByteBuffer data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static ImProto.FriendRequestNotify parseFrom(
+    public static io.getbit.gim.sdk.protocol.ImProto.FriendRequestNotify parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static ImProto.FriendRequestNotify parseFrom(
+    public static io.getbit.gim.sdk.protocol.ImProto.FriendRequestNotify parseFrom(
         com.google.protobuf.ByteString data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static ImProto.FriendRequestNotify parseFrom(byte[] data)
+    public static io.getbit.gim.sdk.protocol.ImProto.FriendRequestNotify parseFrom(byte[] data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static ImProto.FriendRequestNotify parseFrom(
+    public static io.getbit.gim.sdk.protocol.ImProto.FriendRequestNotify parseFrom(
         byte[] data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static ImProto.FriendRequestNotify parseFrom(java.io.InputStream input)
+    public static io.getbit.gim.sdk.protocol.ImProto.FriendRequestNotify parseFrom(java.io.InputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessage
           .parseWithIOException(PARSER, input);
     }
-    public static ImProto.FriendRequestNotify parseFrom(
+    public static io.getbit.gim.sdk.protocol.ImProto.FriendRequestNotify parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
@@ -12069,26 +12069,26 @@ java.lang.String defaultValue) {
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
-    public static ImProto.FriendRequestNotify parseDelimitedFrom(java.io.InputStream input)
+    public static io.getbit.gim.sdk.protocol.ImProto.FriendRequestNotify parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessage
           .parseDelimitedWithIOException(PARSER, input);
     }
 
-    public static ImProto.FriendRequestNotify parseDelimitedFrom(
+    public static io.getbit.gim.sdk.protocol.ImProto.FriendRequestNotify parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessage
           .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
-    public static ImProto.FriendRequestNotify parseFrom(
+    public static io.getbit.gim.sdk.protocol.ImProto.FriendRequestNotify parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessage
           .parseWithIOException(PARSER, input);
     }
-    public static ImProto.FriendRequestNotify parseFrom(
+    public static io.getbit.gim.sdk.protocol.ImProto.FriendRequestNotify parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
@@ -12101,7 +12101,7 @@ java.lang.String defaultValue) {
     public static Builder newBuilder() {
       return DEFAULT_INSTANCE.toBuilder();
     }
-    public static Builder newBuilder(ImProto.FriendRequestNotify prototype) {
+    public static Builder newBuilder(io.getbit.gim.sdk.protocol.ImProto.FriendRequestNotify prototype) {
       return DEFAULT_INSTANCE.toBuilder().mergeFrom(prototype);
     }
     @java.lang.Override
@@ -12126,18 +12126,18 @@ java.lang.String defaultValue) {
     public static final class Builder extends
         com.google.protobuf.GeneratedMessage.Builder<Builder> implements
         // @@protoc_insertion_point(builder_implements:gim.im.FriendRequestNotify)
-        ImProto.FriendRequestNotifyOrBuilder {
+        io.getbit.gim.sdk.protocol.ImProto.FriendRequestNotifyOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
           getDescriptor() {
-        return ImProto.internal_static_gim_im_FriendRequestNotify_descriptor;
+        return io.getbit.gim.sdk.protocol.ImProto.internal_static_gim_im_FriendRequestNotify_descriptor;
       }
 
       @java.lang.Override
       protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
           internalGetFieldAccessorTable() {
-        return ImProto.internal_static_gim_im_FriendRequestNotify_fieldAccessorTable
+        return io.getbit.gim.sdk.protocol.ImProto.internal_static_gim_im_FriendRequestNotify_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
-                ImProto.FriendRequestNotify.class, ImProto.FriendRequestNotify.Builder.class);
+                io.getbit.gim.sdk.protocol.ImProto.FriendRequestNotify.class, io.getbit.gim.sdk.protocol.ImProto.FriendRequestNotify.Builder.class);
       }
 
       // Construct using io.getbit.gim.sdk.protocol.ImProto.FriendRequestNotify.newBuilder()
@@ -12167,17 +12167,17 @@ java.lang.String defaultValue) {
       @java.lang.Override
       public com.google.protobuf.Descriptors.Descriptor
           getDescriptorForType() {
-        return ImProto.internal_static_gim_im_FriendRequestNotify_descriptor;
+        return io.getbit.gim.sdk.protocol.ImProto.internal_static_gim_im_FriendRequestNotify_descriptor;
       }
 
       @java.lang.Override
-      public ImProto.FriendRequestNotify getDefaultInstanceForType() {
-        return ImProto.FriendRequestNotify.getDefaultInstance();
+      public io.getbit.gim.sdk.protocol.ImProto.FriendRequestNotify getDefaultInstanceForType() {
+        return io.getbit.gim.sdk.protocol.ImProto.FriendRequestNotify.getDefaultInstance();
       }
 
       @java.lang.Override
-      public ImProto.FriendRequestNotify build() {
-        ImProto.FriendRequestNotify result = buildPartial();
+      public io.getbit.gim.sdk.protocol.ImProto.FriendRequestNotify build() {
+        io.getbit.gim.sdk.protocol.ImProto.FriendRequestNotify result = buildPartial();
         if (!result.isInitialized()) {
           throw newUninitializedMessageException(result);
         }
@@ -12185,14 +12185,14 @@ java.lang.String defaultValue) {
       }
 
       @java.lang.Override
-      public ImProto.FriendRequestNotify buildPartial() {
-        ImProto.FriendRequestNotify result = new ImProto.FriendRequestNotify(this);
+      public io.getbit.gim.sdk.protocol.ImProto.FriendRequestNotify buildPartial() {
+        io.getbit.gim.sdk.protocol.ImProto.FriendRequestNotify result = new io.getbit.gim.sdk.protocol.ImProto.FriendRequestNotify(this);
         if (bitField0_ != 0) { buildPartial0(result); }
         onBuilt();
         return result;
       }
 
-      private void buildPartial0(ImProto.FriendRequestNotify result) {
+      private void buildPartial0(io.getbit.gim.sdk.protocol.ImProto.FriendRequestNotify result) {
         int from_bitField0_ = bitField0_;
         if (((from_bitField0_ & 0x00000001) != 0)) {
           result.senderId_ = senderId_;
@@ -12219,16 +12219,16 @@ java.lang.String defaultValue) {
 
       @java.lang.Override
       public Builder mergeFrom(com.google.protobuf.Message other) {
-        if (other instanceof ImProto.FriendRequestNotify) {
-          return mergeFrom((ImProto.FriendRequestNotify)other);
+        if (other instanceof io.getbit.gim.sdk.protocol.ImProto.FriendRequestNotify) {
+          return mergeFrom((io.getbit.gim.sdk.protocol.ImProto.FriendRequestNotify)other);
         } else {
           super.mergeFrom(other);
           return this;
         }
       }
 
-      public Builder mergeFrom(ImProto.FriendRequestNotify other) {
-        if (other == ImProto.FriendRequestNotify.getDefaultInstance()) return this;
+      public Builder mergeFrom(io.getbit.gim.sdk.protocol.ImProto.FriendRequestNotify other) {
+        if (other == io.getbit.gim.sdk.protocol.ImProto.FriendRequestNotify.getDefaultInstance()) return this;
         if (!other.getSenderId().isEmpty()) {
           senderId_ = other.senderId_;
           bitField0_ |= 0x00000001;
@@ -12948,12 +12948,12 @@ java.lang.String defaultValue) {
     }
 
     // @@protoc_insertion_point(class_scope:gim.im.FriendRequestNotify)
-    private static final ImProto.FriendRequestNotify DEFAULT_INSTANCE;
+    private static final io.getbit.gim.sdk.protocol.ImProto.FriendRequestNotify DEFAULT_INSTANCE;
     static {
-      DEFAULT_INSTANCE = new ImProto.FriendRequestNotify();
+      DEFAULT_INSTANCE = new io.getbit.gim.sdk.protocol.ImProto.FriendRequestNotify();
     }
 
-    public static ImProto.FriendRequestNotify getDefaultInstance() {
+    public static io.getbit.gim.sdk.protocol.ImProto.FriendRequestNotify getDefaultInstance() {
       return DEFAULT_INSTANCE;
     }
 
@@ -12989,7 +12989,7 @@ java.lang.String defaultValue) {
     }
 
     @java.lang.Override
-    public ImProto.FriendRequestNotify getDefaultInstanceForType() {
+    public io.getbit.gim.sdk.protocol.ImProto.FriendRequestNotify getDefaultInstanceForType() {
       return DEFAULT_INSTANCE;
     }
 
@@ -13081,20 +13081,20 @@ java.lang.String defaultValue) {
 
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return ImProto.internal_static_gim_im_FriendStatusNotify_descriptor;
+      return io.getbit.gim.sdk.protocol.ImProto.internal_static_gim_im_FriendStatusNotify_descriptor;
     }
 
     @java.lang.Override
     public com.google.protobuf.Descriptors.Descriptor getDescriptorForType() {
-      return ImProto.internal_static_gim_im_FriendStatusNotify_descriptor;
+      return io.getbit.gim.sdk.protocol.ImProto.internal_static_gim_im_FriendStatusNotify_descriptor;
     }
 
     @java.lang.Override
     protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return ImProto.internal_static_gim_im_FriendStatusNotify_fieldAccessorTable
+      return io.getbit.gim.sdk.protocol.ImProto.internal_static_gim_im_FriendStatusNotify_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
-              ImProto.FriendStatusNotify.class, ImProto.FriendStatusNotify.Builder.class);
+              io.getbit.gim.sdk.protocol.ImProto.FriendStatusNotify.class, io.getbit.gim.sdk.protocol.ImProto.FriendStatusNotify.Builder.class);
     }
 
     public static final int USERID_FIELD_NUMBER = 1;
@@ -13262,10 +13262,10 @@ java.lang.String defaultValue) {
       if (obj == this) {
        return true;
       }
-      if (!(obj instanceof ImProto.FriendStatusNotify)) {
+      if (!(obj instanceof io.getbit.gim.sdk.protocol.ImProto.FriendStatusNotify)) {
         return super.equals(obj);
       }
-      ImProto.FriendStatusNotify other = (ImProto.FriendStatusNotify) obj;
+      io.getbit.gim.sdk.protocol.ImProto.FriendStatusNotify other = (io.getbit.gim.sdk.protocol.ImProto.FriendStatusNotify) obj;
 
       if (!getUserId()
           .equals(other.getUserId())) return false;
@@ -13295,44 +13295,44 @@ java.lang.String defaultValue) {
       return hash;
     }
 
-    public static ImProto.FriendStatusNotify parseFrom(
+    public static io.getbit.gim.sdk.protocol.ImProto.FriendStatusNotify parseFrom(
         java.nio.ByteBuffer data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static ImProto.FriendStatusNotify parseFrom(
+    public static io.getbit.gim.sdk.protocol.ImProto.FriendStatusNotify parseFrom(
         java.nio.ByteBuffer data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static ImProto.FriendStatusNotify parseFrom(
+    public static io.getbit.gim.sdk.protocol.ImProto.FriendStatusNotify parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static ImProto.FriendStatusNotify parseFrom(
+    public static io.getbit.gim.sdk.protocol.ImProto.FriendStatusNotify parseFrom(
         com.google.protobuf.ByteString data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static ImProto.FriendStatusNotify parseFrom(byte[] data)
+    public static io.getbit.gim.sdk.protocol.ImProto.FriendStatusNotify parseFrom(byte[] data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static ImProto.FriendStatusNotify parseFrom(
+    public static io.getbit.gim.sdk.protocol.ImProto.FriendStatusNotify parseFrom(
         byte[] data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static ImProto.FriendStatusNotify parseFrom(java.io.InputStream input)
+    public static io.getbit.gim.sdk.protocol.ImProto.FriendStatusNotify parseFrom(java.io.InputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessage
           .parseWithIOException(PARSER, input);
     }
-    public static ImProto.FriendStatusNotify parseFrom(
+    public static io.getbit.gim.sdk.protocol.ImProto.FriendStatusNotify parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
@@ -13340,26 +13340,26 @@ java.lang.String defaultValue) {
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
-    public static ImProto.FriendStatusNotify parseDelimitedFrom(java.io.InputStream input)
+    public static io.getbit.gim.sdk.protocol.ImProto.FriendStatusNotify parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessage
           .parseDelimitedWithIOException(PARSER, input);
     }
 
-    public static ImProto.FriendStatusNotify parseDelimitedFrom(
+    public static io.getbit.gim.sdk.protocol.ImProto.FriendStatusNotify parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessage
           .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
-    public static ImProto.FriendStatusNotify parseFrom(
+    public static io.getbit.gim.sdk.protocol.ImProto.FriendStatusNotify parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessage
           .parseWithIOException(PARSER, input);
     }
-    public static ImProto.FriendStatusNotify parseFrom(
+    public static io.getbit.gim.sdk.protocol.ImProto.FriendStatusNotify parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
@@ -13372,7 +13372,7 @@ java.lang.String defaultValue) {
     public static Builder newBuilder() {
       return DEFAULT_INSTANCE.toBuilder();
     }
-    public static Builder newBuilder(ImProto.FriendStatusNotify prototype) {
+    public static Builder newBuilder(io.getbit.gim.sdk.protocol.ImProto.FriendStatusNotify prototype) {
       return DEFAULT_INSTANCE.toBuilder().mergeFrom(prototype);
     }
     @java.lang.Override
@@ -13397,18 +13397,18 @@ java.lang.String defaultValue) {
     public static final class Builder extends
         com.google.protobuf.GeneratedMessage.Builder<Builder> implements
         // @@protoc_insertion_point(builder_implements:gim.im.FriendStatusNotify)
-        ImProto.FriendStatusNotifyOrBuilder {
+        io.getbit.gim.sdk.protocol.ImProto.FriendStatusNotifyOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
           getDescriptor() {
-        return ImProto.internal_static_gim_im_FriendStatusNotify_descriptor;
+        return io.getbit.gim.sdk.protocol.ImProto.internal_static_gim_im_FriendStatusNotify_descriptor;
       }
 
       @java.lang.Override
       protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
           internalGetFieldAccessorTable() {
-        return ImProto.internal_static_gim_im_FriendStatusNotify_fieldAccessorTable
+        return io.getbit.gim.sdk.protocol.ImProto.internal_static_gim_im_FriendStatusNotify_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
-                ImProto.FriendStatusNotify.class, ImProto.FriendStatusNotify.Builder.class);
+                io.getbit.gim.sdk.protocol.ImProto.FriendStatusNotify.class, io.getbit.gim.sdk.protocol.ImProto.FriendStatusNotify.Builder.class);
       }
 
       // Construct using io.getbit.gim.sdk.protocol.ImProto.FriendStatusNotify.newBuilder()
@@ -13434,17 +13434,17 @@ java.lang.String defaultValue) {
       @java.lang.Override
       public com.google.protobuf.Descriptors.Descriptor
           getDescriptorForType() {
-        return ImProto.internal_static_gim_im_FriendStatusNotify_descriptor;
+        return io.getbit.gim.sdk.protocol.ImProto.internal_static_gim_im_FriendStatusNotify_descriptor;
       }
 
       @java.lang.Override
-      public ImProto.FriendStatusNotify getDefaultInstanceForType() {
-        return ImProto.FriendStatusNotify.getDefaultInstance();
+      public io.getbit.gim.sdk.protocol.ImProto.FriendStatusNotify getDefaultInstanceForType() {
+        return io.getbit.gim.sdk.protocol.ImProto.FriendStatusNotify.getDefaultInstance();
       }
 
       @java.lang.Override
-      public ImProto.FriendStatusNotify build() {
-        ImProto.FriendStatusNotify result = buildPartial();
+      public io.getbit.gim.sdk.protocol.ImProto.FriendStatusNotify build() {
+        io.getbit.gim.sdk.protocol.ImProto.FriendStatusNotify result = buildPartial();
         if (!result.isInitialized()) {
           throw newUninitializedMessageException(result);
         }
@@ -13452,14 +13452,14 @@ java.lang.String defaultValue) {
       }
 
       @java.lang.Override
-      public ImProto.FriendStatusNotify buildPartial() {
-        ImProto.FriendStatusNotify result = new ImProto.FriendStatusNotify(this);
+      public io.getbit.gim.sdk.protocol.ImProto.FriendStatusNotify buildPartial() {
+        io.getbit.gim.sdk.protocol.ImProto.FriendStatusNotify result = new io.getbit.gim.sdk.protocol.ImProto.FriendStatusNotify(this);
         if (bitField0_ != 0) { buildPartial0(result); }
         onBuilt();
         return result;
       }
 
-      private void buildPartial0(ImProto.FriendStatusNotify result) {
+      private void buildPartial0(io.getbit.gim.sdk.protocol.ImProto.FriendStatusNotify result) {
         int from_bitField0_ = bitField0_;
         if (((from_bitField0_ & 0x00000001) != 0)) {
           result.userId_ = userId_;
@@ -13474,16 +13474,16 @@ java.lang.String defaultValue) {
 
       @java.lang.Override
       public Builder mergeFrom(com.google.protobuf.Message other) {
-        if (other instanceof ImProto.FriendStatusNotify) {
-          return mergeFrom((ImProto.FriendStatusNotify)other);
+        if (other instanceof io.getbit.gim.sdk.protocol.ImProto.FriendStatusNotify) {
+          return mergeFrom((io.getbit.gim.sdk.protocol.ImProto.FriendStatusNotify)other);
         } else {
           super.mergeFrom(other);
           return this;
         }
       }
 
-      public Builder mergeFrom(ImProto.FriendStatusNotify other) {
-        if (other == ImProto.FriendStatusNotify.getDefaultInstance()) return this;
+      public Builder mergeFrom(io.getbit.gim.sdk.protocol.ImProto.FriendStatusNotify other) {
+        if (other == io.getbit.gim.sdk.protocol.ImProto.FriendStatusNotify.getDefaultInstance()) return this;
         if (!other.getUserId().isEmpty()) {
           userId_ = other.userId_;
           bitField0_ |= 0x00000001;
@@ -13785,12 +13785,12 @@ java.lang.String defaultValue) {
     }
 
     // @@protoc_insertion_point(class_scope:gim.im.FriendStatusNotify)
-    private static final ImProto.FriendStatusNotify DEFAULT_INSTANCE;
+    private static final io.getbit.gim.sdk.protocol.ImProto.FriendStatusNotify DEFAULT_INSTANCE;
     static {
-      DEFAULT_INSTANCE = new ImProto.FriendStatusNotify();
+      DEFAULT_INSTANCE = new io.getbit.gim.sdk.protocol.ImProto.FriendStatusNotify();
     }
 
-    public static ImProto.FriendStatusNotify getDefaultInstance() {
+    public static io.getbit.gim.sdk.protocol.ImProto.FriendStatusNotify getDefaultInstance() {
       return DEFAULT_INSTANCE;
     }
 
@@ -13826,7 +13826,7 @@ java.lang.String defaultValue) {
     }
 
     @java.lang.Override
-    public ImProto.FriendStatusNotify getDefaultInstanceForType() {
+    public io.getbit.gim.sdk.protocol.ImProto.FriendStatusNotify getDefaultInstanceForType() {
       return DEFAULT_INSTANCE;
     }
 
@@ -13915,20 +13915,20 @@ java.lang.String defaultValue) {
 
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return ImProto.internal_static_gim_im_GroupMemberNotify_descriptor;
+      return io.getbit.gim.sdk.protocol.ImProto.internal_static_gim_im_GroupMemberNotify_descriptor;
     }
 
     @java.lang.Override
     public com.google.protobuf.Descriptors.Descriptor getDescriptorForType() {
-      return ImProto.internal_static_gim_im_GroupMemberNotify_descriptor;
+      return io.getbit.gim.sdk.protocol.ImProto.internal_static_gim_im_GroupMemberNotify_descriptor;
     }
 
     @java.lang.Override
     protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return ImProto.internal_static_gim_im_GroupMemberNotify_fieldAccessorTable
+      return io.getbit.gim.sdk.protocol.ImProto.internal_static_gim_im_GroupMemberNotify_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
-              ImProto.GroupMemberNotify.class, ImProto.GroupMemberNotify.Builder.class);
+              io.getbit.gim.sdk.protocol.ImProto.GroupMemberNotify.class, io.getbit.gim.sdk.protocol.ImProto.GroupMemberNotify.Builder.class);
     }
 
     public static final int GROUPID_FIELD_NUMBER = 1;
@@ -14125,10 +14125,10 @@ java.lang.String defaultValue) {
       if (obj == this) {
        return true;
       }
-      if (!(obj instanceof ImProto.GroupMemberNotify)) {
+      if (!(obj instanceof io.getbit.gim.sdk.protocol.ImProto.GroupMemberNotify)) {
         return super.equals(obj);
       }
-      ImProto.GroupMemberNotify other = (ImProto.GroupMemberNotify) obj;
+      io.getbit.gim.sdk.protocol.ImProto.GroupMemberNotify other = (io.getbit.gim.sdk.protocol.ImProto.GroupMemberNotify) obj;
 
       if (!getGroupId()
           .equals(other.getGroupId())) return false;
@@ -14162,44 +14162,44 @@ java.lang.String defaultValue) {
       return hash;
     }
 
-    public static ImProto.GroupMemberNotify parseFrom(
+    public static io.getbit.gim.sdk.protocol.ImProto.GroupMemberNotify parseFrom(
         java.nio.ByteBuffer data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static ImProto.GroupMemberNotify parseFrom(
+    public static io.getbit.gim.sdk.protocol.ImProto.GroupMemberNotify parseFrom(
         java.nio.ByteBuffer data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static ImProto.GroupMemberNotify parseFrom(
+    public static io.getbit.gim.sdk.protocol.ImProto.GroupMemberNotify parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static ImProto.GroupMemberNotify parseFrom(
+    public static io.getbit.gim.sdk.protocol.ImProto.GroupMemberNotify parseFrom(
         com.google.protobuf.ByteString data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static ImProto.GroupMemberNotify parseFrom(byte[] data)
+    public static io.getbit.gim.sdk.protocol.ImProto.GroupMemberNotify parseFrom(byte[] data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static ImProto.GroupMemberNotify parseFrom(
+    public static io.getbit.gim.sdk.protocol.ImProto.GroupMemberNotify parseFrom(
         byte[] data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static ImProto.GroupMemberNotify parseFrom(java.io.InputStream input)
+    public static io.getbit.gim.sdk.protocol.ImProto.GroupMemberNotify parseFrom(java.io.InputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessage
           .parseWithIOException(PARSER, input);
     }
-    public static ImProto.GroupMemberNotify parseFrom(
+    public static io.getbit.gim.sdk.protocol.ImProto.GroupMemberNotify parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
@@ -14207,26 +14207,26 @@ java.lang.String defaultValue) {
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
-    public static ImProto.GroupMemberNotify parseDelimitedFrom(java.io.InputStream input)
+    public static io.getbit.gim.sdk.protocol.ImProto.GroupMemberNotify parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessage
           .parseDelimitedWithIOException(PARSER, input);
     }
 
-    public static ImProto.GroupMemberNotify parseDelimitedFrom(
+    public static io.getbit.gim.sdk.protocol.ImProto.GroupMemberNotify parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessage
           .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
-    public static ImProto.GroupMemberNotify parseFrom(
+    public static io.getbit.gim.sdk.protocol.ImProto.GroupMemberNotify parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessage
           .parseWithIOException(PARSER, input);
     }
-    public static ImProto.GroupMemberNotify parseFrom(
+    public static io.getbit.gim.sdk.protocol.ImProto.GroupMemberNotify parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
@@ -14239,7 +14239,7 @@ java.lang.String defaultValue) {
     public static Builder newBuilder() {
       return DEFAULT_INSTANCE.toBuilder();
     }
-    public static Builder newBuilder(ImProto.GroupMemberNotify prototype) {
+    public static Builder newBuilder(io.getbit.gim.sdk.protocol.ImProto.GroupMemberNotify prototype) {
       return DEFAULT_INSTANCE.toBuilder().mergeFrom(prototype);
     }
     @java.lang.Override
@@ -14264,18 +14264,18 @@ java.lang.String defaultValue) {
     public static final class Builder extends
         com.google.protobuf.GeneratedMessage.Builder<Builder> implements
         // @@protoc_insertion_point(builder_implements:gim.im.GroupMemberNotify)
-        ImProto.GroupMemberNotifyOrBuilder {
+        io.getbit.gim.sdk.protocol.ImProto.GroupMemberNotifyOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
           getDescriptor() {
-        return ImProto.internal_static_gim_im_GroupMemberNotify_descriptor;
+        return io.getbit.gim.sdk.protocol.ImProto.internal_static_gim_im_GroupMemberNotify_descriptor;
       }
 
       @java.lang.Override
       protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
           internalGetFieldAccessorTable() {
-        return ImProto.internal_static_gim_im_GroupMemberNotify_fieldAccessorTable
+        return io.getbit.gim.sdk.protocol.ImProto.internal_static_gim_im_GroupMemberNotify_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
-                ImProto.GroupMemberNotify.class, ImProto.GroupMemberNotify.Builder.class);
+                io.getbit.gim.sdk.protocol.ImProto.GroupMemberNotify.class, io.getbit.gim.sdk.protocol.ImProto.GroupMemberNotify.Builder.class);
       }
 
       // Construct using io.getbit.gim.sdk.protocol.ImProto.GroupMemberNotify.newBuilder()
@@ -14302,17 +14302,17 @@ java.lang.String defaultValue) {
       @java.lang.Override
       public com.google.protobuf.Descriptors.Descriptor
           getDescriptorForType() {
-        return ImProto.internal_static_gim_im_GroupMemberNotify_descriptor;
+        return io.getbit.gim.sdk.protocol.ImProto.internal_static_gim_im_GroupMemberNotify_descriptor;
       }
 
       @java.lang.Override
-      public ImProto.GroupMemberNotify getDefaultInstanceForType() {
-        return ImProto.GroupMemberNotify.getDefaultInstance();
+      public io.getbit.gim.sdk.protocol.ImProto.GroupMemberNotify getDefaultInstanceForType() {
+        return io.getbit.gim.sdk.protocol.ImProto.GroupMemberNotify.getDefaultInstance();
       }
 
       @java.lang.Override
-      public ImProto.GroupMemberNotify build() {
-        ImProto.GroupMemberNotify result = buildPartial();
+      public io.getbit.gim.sdk.protocol.ImProto.GroupMemberNotify build() {
+        io.getbit.gim.sdk.protocol.ImProto.GroupMemberNotify result = buildPartial();
         if (!result.isInitialized()) {
           throw newUninitializedMessageException(result);
         }
@@ -14320,14 +14320,14 @@ java.lang.String defaultValue) {
       }
 
       @java.lang.Override
-      public ImProto.GroupMemberNotify buildPartial() {
-        ImProto.GroupMemberNotify result = new ImProto.GroupMemberNotify(this);
+      public io.getbit.gim.sdk.protocol.ImProto.GroupMemberNotify buildPartial() {
+        io.getbit.gim.sdk.protocol.ImProto.GroupMemberNotify result = new io.getbit.gim.sdk.protocol.ImProto.GroupMemberNotify(this);
         if (bitField0_ != 0) { buildPartial0(result); }
         onBuilt();
         return result;
       }
 
-      private void buildPartial0(ImProto.GroupMemberNotify result) {
+      private void buildPartial0(io.getbit.gim.sdk.protocol.ImProto.GroupMemberNotify result) {
         int from_bitField0_ = bitField0_;
         if (((from_bitField0_ & 0x00000001) != 0)) {
           result.groupId_ = groupId_;
@@ -14345,16 +14345,16 @@ java.lang.String defaultValue) {
 
       @java.lang.Override
       public Builder mergeFrom(com.google.protobuf.Message other) {
-        if (other instanceof ImProto.GroupMemberNotify) {
-          return mergeFrom((ImProto.GroupMemberNotify)other);
+        if (other instanceof io.getbit.gim.sdk.protocol.ImProto.GroupMemberNotify) {
+          return mergeFrom((io.getbit.gim.sdk.protocol.ImProto.GroupMemberNotify)other);
         } else {
           super.mergeFrom(other);
           return this;
         }
       }
 
-      public Builder mergeFrom(ImProto.GroupMemberNotify other) {
-        if (other == ImProto.GroupMemberNotify.getDefaultInstance()) return this;
+      public Builder mergeFrom(io.getbit.gim.sdk.protocol.ImProto.GroupMemberNotify other) {
+        if (other == io.getbit.gim.sdk.protocol.ImProto.GroupMemberNotify.getDefaultInstance()) return this;
         if (!other.getGroupId().isEmpty()) {
           groupId_ = other.groupId_;
           bitField0_ |= 0x00000001;
@@ -14698,12 +14698,12 @@ java.lang.String defaultValue) {
     }
 
     // @@protoc_insertion_point(class_scope:gim.im.GroupMemberNotify)
-    private static final ImProto.GroupMemberNotify DEFAULT_INSTANCE;
+    private static final io.getbit.gim.sdk.protocol.ImProto.GroupMemberNotify DEFAULT_INSTANCE;
     static {
-      DEFAULT_INSTANCE = new ImProto.GroupMemberNotify();
+      DEFAULT_INSTANCE = new io.getbit.gim.sdk.protocol.ImProto.GroupMemberNotify();
     }
 
-    public static ImProto.GroupMemberNotify getDefaultInstance() {
+    public static io.getbit.gim.sdk.protocol.ImProto.GroupMemberNotify getDefaultInstance() {
       return DEFAULT_INSTANCE;
     }
 
@@ -14739,7 +14739,7 @@ java.lang.String defaultValue) {
     }
 
     @java.lang.Override
-    public ImProto.GroupMemberNotify getDefaultInstanceForType() {
+    public io.getbit.gim.sdk.protocol.ImProto.GroupMemberNotify getDefaultInstanceForType() {
       return DEFAULT_INSTANCE;
     }
 
@@ -14865,20 +14865,20 @@ java.lang.String defaultValue) {
 
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return ImProto.internal_static_gim_im_GroupNotify_descriptor;
+      return io.getbit.gim.sdk.protocol.ImProto.internal_static_gim_im_GroupNotify_descriptor;
     }
 
     @java.lang.Override
     public com.google.protobuf.Descriptors.Descriptor getDescriptorForType() {
-      return ImProto.internal_static_gim_im_GroupNotify_descriptor;
+      return io.getbit.gim.sdk.protocol.ImProto.internal_static_gim_im_GroupNotify_descriptor;
     }
 
     @java.lang.Override
     protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return ImProto.internal_static_gim_im_GroupNotify_fieldAccessorTable
+      return io.getbit.gim.sdk.protocol.ImProto.internal_static_gim_im_GroupNotify_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
-              ImProto.GroupNotify.class, ImProto.GroupNotify.Builder.class);
+              io.getbit.gim.sdk.protocol.ImProto.GroupNotify.class, io.getbit.gim.sdk.protocol.ImProto.GroupNotify.Builder.class);
     }
 
     public static final int GROUPID_FIELD_NUMBER = 1;
@@ -15144,10 +15144,10 @@ java.lang.String defaultValue) {
       if (obj == this) {
        return true;
       }
-      if (!(obj instanceof ImProto.GroupNotify)) {
+      if (!(obj instanceof io.getbit.gim.sdk.protocol.ImProto.GroupNotify)) {
         return super.equals(obj);
       }
-      ImProto.GroupNotify other = (ImProto.GroupNotify) obj;
+      io.getbit.gim.sdk.protocol.ImProto.GroupNotify other = (io.getbit.gim.sdk.protocol.ImProto.GroupNotify) obj;
 
       if (!getGroupId()
           .equals(other.getGroupId())) return false;
@@ -15185,44 +15185,44 @@ java.lang.String defaultValue) {
       return hash;
     }
 
-    public static ImProto.GroupNotify parseFrom(
+    public static io.getbit.gim.sdk.protocol.ImProto.GroupNotify parseFrom(
         java.nio.ByteBuffer data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static ImProto.GroupNotify parseFrom(
+    public static io.getbit.gim.sdk.protocol.ImProto.GroupNotify parseFrom(
         java.nio.ByteBuffer data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static ImProto.GroupNotify parseFrom(
+    public static io.getbit.gim.sdk.protocol.ImProto.GroupNotify parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static ImProto.GroupNotify parseFrom(
+    public static io.getbit.gim.sdk.protocol.ImProto.GroupNotify parseFrom(
         com.google.protobuf.ByteString data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static ImProto.GroupNotify parseFrom(byte[] data)
+    public static io.getbit.gim.sdk.protocol.ImProto.GroupNotify parseFrom(byte[] data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static ImProto.GroupNotify parseFrom(
+    public static io.getbit.gim.sdk.protocol.ImProto.GroupNotify parseFrom(
         byte[] data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static ImProto.GroupNotify parseFrom(java.io.InputStream input)
+    public static io.getbit.gim.sdk.protocol.ImProto.GroupNotify parseFrom(java.io.InputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessage
           .parseWithIOException(PARSER, input);
     }
-    public static ImProto.GroupNotify parseFrom(
+    public static io.getbit.gim.sdk.protocol.ImProto.GroupNotify parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
@@ -15230,26 +15230,26 @@ java.lang.String defaultValue) {
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
-    public static ImProto.GroupNotify parseDelimitedFrom(java.io.InputStream input)
+    public static io.getbit.gim.sdk.protocol.ImProto.GroupNotify parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessage
           .parseDelimitedWithIOException(PARSER, input);
     }
 
-    public static ImProto.GroupNotify parseDelimitedFrom(
+    public static io.getbit.gim.sdk.protocol.ImProto.GroupNotify parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessage
           .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
-    public static ImProto.GroupNotify parseFrom(
+    public static io.getbit.gim.sdk.protocol.ImProto.GroupNotify parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessage
           .parseWithIOException(PARSER, input);
     }
-    public static ImProto.GroupNotify parseFrom(
+    public static io.getbit.gim.sdk.protocol.ImProto.GroupNotify parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
@@ -15262,7 +15262,7 @@ java.lang.String defaultValue) {
     public static Builder newBuilder() {
       return DEFAULT_INSTANCE.toBuilder();
     }
-    public static Builder newBuilder(ImProto.GroupNotify prototype) {
+    public static Builder newBuilder(io.getbit.gim.sdk.protocol.ImProto.GroupNotify prototype) {
       return DEFAULT_INSTANCE.toBuilder().mergeFrom(prototype);
     }
     @java.lang.Override
@@ -15287,18 +15287,18 @@ java.lang.String defaultValue) {
     public static final class Builder extends
         com.google.protobuf.GeneratedMessage.Builder<Builder> implements
         // @@protoc_insertion_point(builder_implements:gim.im.GroupNotify)
-        ImProto.GroupNotifyOrBuilder {
+        io.getbit.gim.sdk.protocol.ImProto.GroupNotifyOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
           getDescriptor() {
-        return ImProto.internal_static_gim_im_GroupNotify_descriptor;
+        return io.getbit.gim.sdk.protocol.ImProto.internal_static_gim_im_GroupNotify_descriptor;
       }
 
       @java.lang.Override
       protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
           internalGetFieldAccessorTable() {
-        return ImProto.internal_static_gim_im_GroupNotify_fieldAccessorTable
+        return io.getbit.gim.sdk.protocol.ImProto.internal_static_gim_im_GroupNotify_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
-                ImProto.GroupNotify.class, ImProto.GroupNotify.Builder.class);
+                io.getbit.gim.sdk.protocol.ImProto.GroupNotify.class, io.getbit.gim.sdk.protocol.ImProto.GroupNotify.Builder.class);
       }
 
       // Construct using io.getbit.gim.sdk.protocol.ImProto.GroupNotify.newBuilder()
@@ -15326,17 +15326,17 @@ java.lang.String defaultValue) {
       @java.lang.Override
       public com.google.protobuf.Descriptors.Descriptor
           getDescriptorForType() {
-        return ImProto.internal_static_gim_im_GroupNotify_descriptor;
+        return io.getbit.gim.sdk.protocol.ImProto.internal_static_gim_im_GroupNotify_descriptor;
       }
 
       @java.lang.Override
-      public ImProto.GroupNotify getDefaultInstanceForType() {
-        return ImProto.GroupNotify.getDefaultInstance();
+      public io.getbit.gim.sdk.protocol.ImProto.GroupNotify getDefaultInstanceForType() {
+        return io.getbit.gim.sdk.protocol.ImProto.GroupNotify.getDefaultInstance();
       }
 
       @java.lang.Override
-      public ImProto.GroupNotify build() {
-        ImProto.GroupNotify result = buildPartial();
+      public io.getbit.gim.sdk.protocol.ImProto.GroupNotify build() {
+        io.getbit.gim.sdk.protocol.ImProto.GroupNotify result = buildPartial();
         if (!result.isInitialized()) {
           throw newUninitializedMessageException(result);
         }
@@ -15344,14 +15344,14 @@ java.lang.String defaultValue) {
       }
 
       @java.lang.Override
-      public ImProto.GroupNotify buildPartial() {
-        ImProto.GroupNotify result = new ImProto.GroupNotify(this);
+      public io.getbit.gim.sdk.protocol.ImProto.GroupNotify buildPartial() {
+        io.getbit.gim.sdk.protocol.ImProto.GroupNotify result = new io.getbit.gim.sdk.protocol.ImProto.GroupNotify(this);
         if (bitField0_ != 0) { buildPartial0(result); }
         onBuilt();
         return result;
       }
 
-      private void buildPartial0(ImProto.GroupNotify result) {
+      private void buildPartial0(io.getbit.gim.sdk.protocol.ImProto.GroupNotify result) {
         int from_bitField0_ = bitField0_;
         if (((from_bitField0_ & 0x00000001) != 0)) {
           result.groupId_ = groupId_;
@@ -15372,16 +15372,16 @@ java.lang.String defaultValue) {
 
       @java.lang.Override
       public Builder mergeFrom(com.google.protobuf.Message other) {
-        if (other instanceof ImProto.GroupNotify) {
-          return mergeFrom((ImProto.GroupNotify)other);
+        if (other instanceof io.getbit.gim.sdk.protocol.ImProto.GroupNotify) {
+          return mergeFrom((io.getbit.gim.sdk.protocol.ImProto.GroupNotify)other);
         } else {
           super.mergeFrom(other);
           return this;
         }
       }
 
-      public Builder mergeFrom(ImProto.GroupNotify other) {
-        if (other == ImProto.GroupNotify.getDefaultInstance()) return this;
+      public Builder mergeFrom(io.getbit.gim.sdk.protocol.ImProto.GroupNotify other) {
+        if (other == io.getbit.gim.sdk.protocol.ImProto.GroupNotify.getDefaultInstance()) return this;
         if (!other.getGroupId().isEmpty()) {
           groupId_ = other.groupId_;
           bitField0_ |= 0x00000001;
@@ -15867,12 +15867,12 @@ java.lang.String defaultValue) {
     }
 
     // @@protoc_insertion_point(class_scope:gim.im.GroupNotify)
-    private static final ImProto.GroupNotify DEFAULT_INSTANCE;
+    private static final io.getbit.gim.sdk.protocol.ImProto.GroupNotify DEFAULT_INSTANCE;
     static {
-      DEFAULT_INSTANCE = new ImProto.GroupNotify();
+      DEFAULT_INSTANCE = new io.getbit.gim.sdk.protocol.ImProto.GroupNotify();
     }
 
-    public static ImProto.GroupNotify getDefaultInstance() {
+    public static io.getbit.gim.sdk.protocol.ImProto.GroupNotify getDefaultInstance() {
       return DEFAULT_INSTANCE;
     }
 
@@ -15908,7 +15908,7 @@ java.lang.String defaultValue) {
     }
 
     @java.lang.Override
-    public ImProto.GroupNotify getDefaultInstanceForType() {
+    public io.getbit.gim.sdk.protocol.ImProto.GroupNotify getDefaultInstanceForType() {
       return DEFAULT_INSTANCE;
     }
 
@@ -16034,20 +16034,20 @@ java.lang.String defaultValue) {
 
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return ImProto.internal_static_gim_im_GroupJoinRequestNotify_descriptor;
+      return io.getbit.gim.sdk.protocol.ImProto.internal_static_gim_im_GroupJoinRequestNotify_descriptor;
     }
 
     @java.lang.Override
     public com.google.protobuf.Descriptors.Descriptor getDescriptorForType() {
-      return ImProto.internal_static_gim_im_GroupJoinRequestNotify_descriptor;
+      return io.getbit.gim.sdk.protocol.ImProto.internal_static_gim_im_GroupJoinRequestNotify_descriptor;
     }
 
     @java.lang.Override
     protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return ImProto.internal_static_gim_im_GroupJoinRequestNotify_fieldAccessorTable
+      return io.getbit.gim.sdk.protocol.ImProto.internal_static_gim_im_GroupJoinRequestNotify_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
-              ImProto.GroupJoinRequestNotify.class, ImProto.GroupJoinRequestNotify.Builder.class);
+              io.getbit.gim.sdk.protocol.ImProto.GroupJoinRequestNotify.class, io.getbit.gim.sdk.protocol.ImProto.GroupJoinRequestNotify.Builder.class);
     }
 
     public static final int GROUPID_FIELD_NUMBER = 1;
@@ -16313,10 +16313,10 @@ java.lang.String defaultValue) {
       if (obj == this) {
        return true;
       }
-      if (!(obj instanceof ImProto.GroupJoinRequestNotify)) {
+      if (!(obj instanceof io.getbit.gim.sdk.protocol.ImProto.GroupJoinRequestNotify)) {
         return super.equals(obj);
       }
-      ImProto.GroupJoinRequestNotify other = (ImProto.GroupJoinRequestNotify) obj;
+      io.getbit.gim.sdk.protocol.ImProto.GroupJoinRequestNotify other = (io.getbit.gim.sdk.protocol.ImProto.GroupJoinRequestNotify) obj;
 
       if (!getGroupId()
           .equals(other.getGroupId())) return false;
@@ -16354,44 +16354,44 @@ java.lang.String defaultValue) {
       return hash;
     }
 
-    public static ImProto.GroupJoinRequestNotify parseFrom(
+    public static io.getbit.gim.sdk.protocol.ImProto.GroupJoinRequestNotify parseFrom(
         java.nio.ByteBuffer data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static ImProto.GroupJoinRequestNotify parseFrom(
+    public static io.getbit.gim.sdk.protocol.ImProto.GroupJoinRequestNotify parseFrom(
         java.nio.ByteBuffer data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static ImProto.GroupJoinRequestNotify parseFrom(
+    public static io.getbit.gim.sdk.protocol.ImProto.GroupJoinRequestNotify parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static ImProto.GroupJoinRequestNotify parseFrom(
+    public static io.getbit.gim.sdk.protocol.ImProto.GroupJoinRequestNotify parseFrom(
         com.google.protobuf.ByteString data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static ImProto.GroupJoinRequestNotify parseFrom(byte[] data)
+    public static io.getbit.gim.sdk.protocol.ImProto.GroupJoinRequestNotify parseFrom(byte[] data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static ImProto.GroupJoinRequestNotify parseFrom(
+    public static io.getbit.gim.sdk.protocol.ImProto.GroupJoinRequestNotify parseFrom(
         byte[] data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static ImProto.GroupJoinRequestNotify parseFrom(java.io.InputStream input)
+    public static io.getbit.gim.sdk.protocol.ImProto.GroupJoinRequestNotify parseFrom(java.io.InputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessage
           .parseWithIOException(PARSER, input);
     }
-    public static ImProto.GroupJoinRequestNotify parseFrom(
+    public static io.getbit.gim.sdk.protocol.ImProto.GroupJoinRequestNotify parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
@@ -16399,26 +16399,26 @@ java.lang.String defaultValue) {
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
-    public static ImProto.GroupJoinRequestNotify parseDelimitedFrom(java.io.InputStream input)
+    public static io.getbit.gim.sdk.protocol.ImProto.GroupJoinRequestNotify parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessage
           .parseDelimitedWithIOException(PARSER, input);
     }
 
-    public static ImProto.GroupJoinRequestNotify parseDelimitedFrom(
+    public static io.getbit.gim.sdk.protocol.ImProto.GroupJoinRequestNotify parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessage
           .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
-    public static ImProto.GroupJoinRequestNotify parseFrom(
+    public static io.getbit.gim.sdk.protocol.ImProto.GroupJoinRequestNotify parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessage
           .parseWithIOException(PARSER, input);
     }
-    public static ImProto.GroupJoinRequestNotify parseFrom(
+    public static io.getbit.gim.sdk.protocol.ImProto.GroupJoinRequestNotify parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
@@ -16431,7 +16431,7 @@ java.lang.String defaultValue) {
     public static Builder newBuilder() {
       return DEFAULT_INSTANCE.toBuilder();
     }
-    public static Builder newBuilder(ImProto.GroupJoinRequestNotify prototype) {
+    public static Builder newBuilder(io.getbit.gim.sdk.protocol.ImProto.GroupJoinRequestNotify prototype) {
       return DEFAULT_INSTANCE.toBuilder().mergeFrom(prototype);
     }
     @java.lang.Override
@@ -16456,18 +16456,18 @@ java.lang.String defaultValue) {
     public static final class Builder extends
         com.google.protobuf.GeneratedMessage.Builder<Builder> implements
         // @@protoc_insertion_point(builder_implements:gim.im.GroupJoinRequestNotify)
-        ImProto.GroupJoinRequestNotifyOrBuilder {
+        io.getbit.gim.sdk.protocol.ImProto.GroupJoinRequestNotifyOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
           getDescriptor() {
-        return ImProto.internal_static_gim_im_GroupJoinRequestNotify_descriptor;
+        return io.getbit.gim.sdk.protocol.ImProto.internal_static_gim_im_GroupJoinRequestNotify_descriptor;
       }
 
       @java.lang.Override
       protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
           internalGetFieldAccessorTable() {
-        return ImProto.internal_static_gim_im_GroupJoinRequestNotify_fieldAccessorTable
+        return io.getbit.gim.sdk.protocol.ImProto.internal_static_gim_im_GroupJoinRequestNotify_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
-                ImProto.GroupJoinRequestNotify.class, ImProto.GroupJoinRequestNotify.Builder.class);
+                io.getbit.gim.sdk.protocol.ImProto.GroupJoinRequestNotify.class, io.getbit.gim.sdk.protocol.ImProto.GroupJoinRequestNotify.Builder.class);
       }
 
       // Construct using io.getbit.gim.sdk.protocol.ImProto.GroupJoinRequestNotify.newBuilder()
@@ -16495,17 +16495,17 @@ java.lang.String defaultValue) {
       @java.lang.Override
       public com.google.protobuf.Descriptors.Descriptor
           getDescriptorForType() {
-        return ImProto.internal_static_gim_im_GroupJoinRequestNotify_descriptor;
+        return io.getbit.gim.sdk.protocol.ImProto.internal_static_gim_im_GroupJoinRequestNotify_descriptor;
       }
 
       @java.lang.Override
-      public ImProto.GroupJoinRequestNotify getDefaultInstanceForType() {
-        return ImProto.GroupJoinRequestNotify.getDefaultInstance();
+      public io.getbit.gim.sdk.protocol.ImProto.GroupJoinRequestNotify getDefaultInstanceForType() {
+        return io.getbit.gim.sdk.protocol.ImProto.GroupJoinRequestNotify.getDefaultInstance();
       }
 
       @java.lang.Override
-      public ImProto.GroupJoinRequestNotify build() {
-        ImProto.GroupJoinRequestNotify result = buildPartial();
+      public io.getbit.gim.sdk.protocol.ImProto.GroupJoinRequestNotify build() {
+        io.getbit.gim.sdk.protocol.ImProto.GroupJoinRequestNotify result = buildPartial();
         if (!result.isInitialized()) {
           throw newUninitializedMessageException(result);
         }
@@ -16513,14 +16513,14 @@ java.lang.String defaultValue) {
       }
 
       @java.lang.Override
-      public ImProto.GroupJoinRequestNotify buildPartial() {
-        ImProto.GroupJoinRequestNotify result = new ImProto.GroupJoinRequestNotify(this);
+      public io.getbit.gim.sdk.protocol.ImProto.GroupJoinRequestNotify buildPartial() {
+        io.getbit.gim.sdk.protocol.ImProto.GroupJoinRequestNotify result = new io.getbit.gim.sdk.protocol.ImProto.GroupJoinRequestNotify(this);
         if (bitField0_ != 0) { buildPartial0(result); }
         onBuilt();
         return result;
       }
 
-      private void buildPartial0(ImProto.GroupJoinRequestNotify result) {
+      private void buildPartial0(io.getbit.gim.sdk.protocol.ImProto.GroupJoinRequestNotify result) {
         int from_bitField0_ = bitField0_;
         if (((from_bitField0_ & 0x00000001) != 0)) {
           result.groupId_ = groupId_;
@@ -16541,16 +16541,16 @@ java.lang.String defaultValue) {
 
       @java.lang.Override
       public Builder mergeFrom(com.google.protobuf.Message other) {
-        if (other instanceof ImProto.GroupJoinRequestNotify) {
-          return mergeFrom((ImProto.GroupJoinRequestNotify)other);
+        if (other instanceof io.getbit.gim.sdk.protocol.ImProto.GroupJoinRequestNotify) {
+          return mergeFrom((io.getbit.gim.sdk.protocol.ImProto.GroupJoinRequestNotify)other);
         } else {
           super.mergeFrom(other);
           return this;
         }
       }
 
-      public Builder mergeFrom(ImProto.GroupJoinRequestNotify other) {
-        if (other == ImProto.GroupJoinRequestNotify.getDefaultInstance()) return this;
+      public Builder mergeFrom(io.getbit.gim.sdk.protocol.ImProto.GroupJoinRequestNotify other) {
+        if (other == io.getbit.gim.sdk.protocol.ImProto.GroupJoinRequestNotify.getDefaultInstance()) return this;
         if (!other.getGroupId().isEmpty()) {
           groupId_ = other.groupId_;
           bitField0_ |= 0x00000001;
@@ -17036,12 +17036,12 @@ java.lang.String defaultValue) {
     }
 
     // @@protoc_insertion_point(class_scope:gim.im.GroupJoinRequestNotify)
-    private static final ImProto.GroupJoinRequestNotify DEFAULT_INSTANCE;
+    private static final io.getbit.gim.sdk.protocol.ImProto.GroupJoinRequestNotify DEFAULT_INSTANCE;
     static {
-      DEFAULT_INSTANCE = new ImProto.GroupJoinRequestNotify();
+      DEFAULT_INSTANCE = new io.getbit.gim.sdk.protocol.ImProto.GroupJoinRequestNotify();
     }
 
-    public static ImProto.GroupJoinRequestNotify getDefaultInstance() {
+    public static io.getbit.gim.sdk.protocol.ImProto.GroupJoinRequestNotify getDefaultInstance() {
       return DEFAULT_INSTANCE;
     }
 
@@ -17077,7 +17077,7 @@ java.lang.String defaultValue) {
     }
 
     @java.lang.Override
-    public ImProto.GroupJoinRequestNotify getDefaultInstanceForType() {
+    public io.getbit.gim.sdk.protocol.ImProto.GroupJoinRequestNotify getDefaultInstanceForType() {
       return DEFAULT_INSTANCE;
     }
 
@@ -17159,7 +17159,7 @@ java.lang.String defaultValue) {
 
     /**
      * <pre>
-     * 通话唯一ID（服务端创建会话时生成，回传给双方）
+     * 通话唯一ID（主叫未传时由服务端创建会话生成：回传主叫走 callAck(9)，转发被叫走 callRequest(4)）
      * </pre>
      *
      * <code>string callId = 5;</code>
@@ -17168,7 +17168,7 @@ java.lang.String defaultValue) {
     java.lang.String getCallId();
     /**
      * <pre>
-     * 通话唯一ID（服务端创建会话时生成，回传给双方）
+     * 通话唯一ID（主叫未传时由服务端创建会话生成：回传主叫走 callAck(9)，转发被叫走 callRequest(4)）
      * </pre>
      *
      * <code>string callId = 5;</code>
@@ -17211,20 +17211,20 @@ java.lang.String defaultValue) {
 
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return ImProto.internal_static_gim_im_RtcSignal_descriptor;
+      return io.getbit.gim.sdk.protocol.ImProto.internal_static_gim_im_RtcSignal_descriptor;
     }
 
     @java.lang.Override
     public com.google.protobuf.Descriptors.Descriptor getDescriptorForType() {
-      return ImProto.internal_static_gim_im_RtcSignal_descriptor;
+      return io.getbit.gim.sdk.protocol.ImProto.internal_static_gim_im_RtcSignal_descriptor;
     }
 
     @java.lang.Override
     protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return ImProto.internal_static_gim_im_RtcSignal_fieldAccessorTable
+      return io.getbit.gim.sdk.protocol.ImProto.internal_static_gim_im_RtcSignal_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
-              ImProto.RtcSignal.class, ImProto.RtcSignal.Builder.class);
+              io.getbit.gim.sdk.protocol.ImProto.RtcSignal.class, io.getbit.gim.sdk.protocol.ImProto.RtcSignal.Builder.class);
     }
 
     public static final int SIGNALTYPE_FIELD_NUMBER = 1;
@@ -17388,7 +17388,7 @@ java.lang.String defaultValue) {
     private volatile java.lang.Object callId_ = "";
     /**
      * <pre>
-     * 通话唯一ID（服务端创建会话时生成，回传给双方）
+     * 通话唯一ID（主叫未传时由服务端创建会话生成：回传主叫走 callAck(9)，转发被叫走 callRequest(4)）
      * </pre>
      *
      * <code>string callId = 5;</code>
@@ -17409,7 +17409,7 @@ java.lang.String defaultValue) {
     }
     /**
      * <pre>
-     * 通话唯一ID（服务端创建会话时生成，回传给双方）
+     * 通话唯一ID（主叫未传时由服务端创建会话生成：回传主叫走 callAck(9)，转发被叫走 callRequest(4)）
      * </pre>
      *
      * <code>string callId = 5;</code>
@@ -17498,10 +17498,10 @@ java.lang.String defaultValue) {
       if (obj == this) {
        return true;
       }
-      if (!(obj instanceof ImProto.RtcSignal)) {
+      if (!(obj instanceof io.getbit.gim.sdk.protocol.ImProto.RtcSignal)) {
         return super.equals(obj);
       }
-      ImProto.RtcSignal other = (ImProto.RtcSignal) obj;
+      io.getbit.gim.sdk.protocol.ImProto.RtcSignal other = (io.getbit.gim.sdk.protocol.ImProto.RtcSignal) obj;
 
       if (getSignalType()
           != other.getSignalType()) return false;
@@ -17539,44 +17539,44 @@ java.lang.String defaultValue) {
       return hash;
     }
 
-    public static ImProto.RtcSignal parseFrom(
+    public static io.getbit.gim.sdk.protocol.ImProto.RtcSignal parseFrom(
         java.nio.ByteBuffer data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static ImProto.RtcSignal parseFrom(
+    public static io.getbit.gim.sdk.protocol.ImProto.RtcSignal parseFrom(
         java.nio.ByteBuffer data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static ImProto.RtcSignal parseFrom(
+    public static io.getbit.gim.sdk.protocol.ImProto.RtcSignal parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static ImProto.RtcSignal parseFrom(
+    public static io.getbit.gim.sdk.protocol.ImProto.RtcSignal parseFrom(
         com.google.protobuf.ByteString data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static ImProto.RtcSignal parseFrom(byte[] data)
+    public static io.getbit.gim.sdk.protocol.ImProto.RtcSignal parseFrom(byte[] data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static ImProto.RtcSignal parseFrom(
+    public static io.getbit.gim.sdk.protocol.ImProto.RtcSignal parseFrom(
         byte[] data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static ImProto.RtcSignal parseFrom(java.io.InputStream input)
+    public static io.getbit.gim.sdk.protocol.ImProto.RtcSignal parseFrom(java.io.InputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessage
           .parseWithIOException(PARSER, input);
     }
-    public static ImProto.RtcSignal parseFrom(
+    public static io.getbit.gim.sdk.protocol.ImProto.RtcSignal parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
@@ -17584,26 +17584,26 @@ java.lang.String defaultValue) {
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
-    public static ImProto.RtcSignal parseDelimitedFrom(java.io.InputStream input)
+    public static io.getbit.gim.sdk.protocol.ImProto.RtcSignal parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessage
           .parseDelimitedWithIOException(PARSER, input);
     }
 
-    public static ImProto.RtcSignal parseDelimitedFrom(
+    public static io.getbit.gim.sdk.protocol.ImProto.RtcSignal parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessage
           .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
-    public static ImProto.RtcSignal parseFrom(
+    public static io.getbit.gim.sdk.protocol.ImProto.RtcSignal parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessage
           .parseWithIOException(PARSER, input);
     }
-    public static ImProto.RtcSignal parseFrom(
+    public static io.getbit.gim.sdk.protocol.ImProto.RtcSignal parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
@@ -17616,7 +17616,7 @@ java.lang.String defaultValue) {
     public static Builder newBuilder() {
       return DEFAULT_INSTANCE.toBuilder();
     }
-    public static Builder newBuilder(ImProto.RtcSignal prototype) {
+    public static Builder newBuilder(io.getbit.gim.sdk.protocol.ImProto.RtcSignal prototype) {
       return DEFAULT_INSTANCE.toBuilder().mergeFrom(prototype);
     }
     @java.lang.Override
@@ -17641,18 +17641,18 @@ java.lang.String defaultValue) {
     public static final class Builder extends
         com.google.protobuf.GeneratedMessage.Builder<Builder> implements
         // @@protoc_insertion_point(builder_implements:gim.im.RtcSignal)
-        ImProto.RtcSignalOrBuilder {
+        io.getbit.gim.sdk.protocol.ImProto.RtcSignalOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
           getDescriptor() {
-        return ImProto.internal_static_gim_im_RtcSignal_descriptor;
+        return io.getbit.gim.sdk.protocol.ImProto.internal_static_gim_im_RtcSignal_descriptor;
       }
 
       @java.lang.Override
       protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
           internalGetFieldAccessorTable() {
-        return ImProto.internal_static_gim_im_RtcSignal_fieldAccessorTable
+        return io.getbit.gim.sdk.protocol.ImProto.internal_static_gim_im_RtcSignal_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
-                ImProto.RtcSignal.class, ImProto.RtcSignal.Builder.class);
+                io.getbit.gim.sdk.protocol.ImProto.RtcSignal.class, io.getbit.gim.sdk.protocol.ImProto.RtcSignal.Builder.class);
       }
 
       // Construct using io.getbit.gim.sdk.protocol.ImProto.RtcSignal.newBuilder()
@@ -17680,17 +17680,17 @@ java.lang.String defaultValue) {
       @java.lang.Override
       public com.google.protobuf.Descriptors.Descriptor
           getDescriptorForType() {
-        return ImProto.internal_static_gim_im_RtcSignal_descriptor;
+        return io.getbit.gim.sdk.protocol.ImProto.internal_static_gim_im_RtcSignal_descriptor;
       }
 
       @java.lang.Override
-      public ImProto.RtcSignal getDefaultInstanceForType() {
-        return ImProto.RtcSignal.getDefaultInstance();
+      public io.getbit.gim.sdk.protocol.ImProto.RtcSignal getDefaultInstanceForType() {
+        return io.getbit.gim.sdk.protocol.ImProto.RtcSignal.getDefaultInstance();
       }
 
       @java.lang.Override
-      public ImProto.RtcSignal build() {
-        ImProto.RtcSignal result = buildPartial();
+      public io.getbit.gim.sdk.protocol.ImProto.RtcSignal build() {
+        io.getbit.gim.sdk.protocol.ImProto.RtcSignal result = buildPartial();
         if (!result.isInitialized()) {
           throw newUninitializedMessageException(result);
         }
@@ -17698,14 +17698,14 @@ java.lang.String defaultValue) {
       }
 
       @java.lang.Override
-      public ImProto.RtcSignal buildPartial() {
-        ImProto.RtcSignal result = new ImProto.RtcSignal(this);
+      public io.getbit.gim.sdk.protocol.ImProto.RtcSignal buildPartial() {
+        io.getbit.gim.sdk.protocol.ImProto.RtcSignal result = new io.getbit.gim.sdk.protocol.ImProto.RtcSignal(this);
         if (bitField0_ != 0) { buildPartial0(result); }
         onBuilt();
         return result;
       }
 
-      private void buildPartial0(ImProto.RtcSignal result) {
+      private void buildPartial0(io.getbit.gim.sdk.protocol.ImProto.RtcSignal result) {
         int from_bitField0_ = bitField0_;
         if (((from_bitField0_ & 0x00000001) != 0)) {
           result.signalType_ = signalType_;
@@ -17726,16 +17726,16 @@ java.lang.String defaultValue) {
 
       @java.lang.Override
       public Builder mergeFrom(com.google.protobuf.Message other) {
-        if (other instanceof ImProto.RtcSignal) {
-          return mergeFrom((ImProto.RtcSignal)other);
+        if (other instanceof io.getbit.gim.sdk.protocol.ImProto.RtcSignal) {
+          return mergeFrom((io.getbit.gim.sdk.protocol.ImProto.RtcSignal)other);
         } else {
           super.mergeFrom(other);
           return this;
         }
       }
 
-      public Builder mergeFrom(ImProto.RtcSignal other) {
-        if (other == ImProto.RtcSignal.getDefaultInstance()) return this;
+      public Builder mergeFrom(io.getbit.gim.sdk.protocol.ImProto.RtcSignal other) {
+        if (other == io.getbit.gim.sdk.protocol.ImProto.RtcSignal.getDefaultInstance()) return this;
         if (other.getSignalType() != 0) {
           setSignalType(other.getSignalType());
         }
@@ -18148,7 +18148,7 @@ java.lang.String defaultValue) {
       private java.lang.Object callId_ = "";
       /**
        * <pre>
-       * 通话唯一ID（服务端创建会话时生成，回传给双方）
+       * 通话唯一ID（主叫未传时由服务端创建会话生成：回传主叫走 callAck(9)，转发被叫走 callRequest(4)）
        * </pre>
        *
        * <code>string callId = 5;</code>
@@ -18168,7 +18168,7 @@ java.lang.String defaultValue) {
       }
       /**
        * <pre>
-       * 通话唯一ID（服务端创建会话时生成，回传给双方）
+       * 通话唯一ID（主叫未传时由服务端创建会话生成：回传主叫走 callAck(9)，转发被叫走 callRequest(4)）
        * </pre>
        *
        * <code>string callId = 5;</code>
@@ -18189,7 +18189,7 @@ java.lang.String defaultValue) {
       }
       /**
        * <pre>
-       * 通话唯一ID（服务端创建会话时生成，回传给双方）
+       * 通话唯一ID（主叫未传时由服务端创建会话生成：回传主叫走 callAck(9)，转发被叫走 callRequest(4)）
        * </pre>
        *
        * <code>string callId = 5;</code>
@@ -18206,7 +18206,7 @@ java.lang.String defaultValue) {
       }
       /**
        * <pre>
-       * 通话唯一ID（服务端创建会话时生成，回传给双方）
+       * 通话唯一ID（主叫未传时由服务端创建会话生成：回传主叫走 callAck(9)，转发被叫走 callRequest(4)）
        * </pre>
        *
        * <code>string callId = 5;</code>
@@ -18220,7 +18220,7 @@ java.lang.String defaultValue) {
       }
       /**
        * <pre>
-       * 通话唯一ID（服务端创建会话时生成，回传给双方）
+       * 通话唯一ID（主叫未传时由服务端创建会话生成：回传主叫走 callAck(9)，转发被叫走 callRequest(4)）
        * </pre>
        *
        * <code>string callId = 5;</code>
@@ -18241,12 +18241,12 @@ java.lang.String defaultValue) {
     }
 
     // @@protoc_insertion_point(class_scope:gim.im.RtcSignal)
-    private static final ImProto.RtcSignal DEFAULT_INSTANCE;
+    private static final io.getbit.gim.sdk.protocol.ImProto.RtcSignal DEFAULT_INSTANCE;
     static {
-      DEFAULT_INSTANCE = new ImProto.RtcSignal();
+      DEFAULT_INSTANCE = new io.getbit.gim.sdk.protocol.ImProto.RtcSignal();
     }
 
-    public static ImProto.RtcSignal getDefaultInstance() {
+    public static io.getbit.gim.sdk.protocol.ImProto.RtcSignal getDefaultInstance() {
       return DEFAULT_INSTANCE;
     }
 
@@ -18282,7 +18282,7 @@ java.lang.String defaultValue) {
     }
 
     @java.lang.Override
-    public ImProto.RtcSignal getDefaultInstanceForType() {
+    public io.getbit.gim.sdk.protocol.ImProto.RtcSignal getDefaultInstanceForType() {
       return DEFAULT_INSTANCE;
     }
 
@@ -18294,7 +18294,7 @@ java.lang.String defaultValue) {
 
     /**
      * <pre>
-     * 信令类型（与 RtcSignal 枚举一致）
+     * 信令类型（与 RtcSignal 枚举一致，1~8 媒体信令，20~27 群通话生命周期信令，mediaState=100 跨场景共用）
      * </pre>
      *
      * <code>int32 signalType = 1;</code>
@@ -18344,7 +18344,7 @@ java.lang.String defaultValue) {
 
     /**
      * <pre>
-     * JSON: SDP / ICE candidate / 通话类型等数据
+     * JSON: SDP / ICE candidate / 通话类型 / 成员快照等数据
      * </pre>
      *
      * <code>string payload = 4;</code>
@@ -18353,7 +18353,7 @@ java.lang.String defaultValue) {
     java.lang.String getPayload();
     /**
      * <pre>
-     * JSON: SDP / ICE candidate / 通话类型等数据
+     * JSON: SDP / ICE candidate / 通话类型 / 成员快照等数据
      * </pre>
      *
      * <code>string payload = 4;</code>
@@ -18381,6 +18381,36 @@ java.lang.String defaultValue) {
      */
     com.google.protobuf.ByteString
         getCallIdBytes();
+
+    /**
+     * <pre>
+     * 群通话房间唯一ID（服务端创建房间时生成，回传给成员）
+     * </pre>
+     *
+     * <code>string roomId = 6;</code>
+     * @return The roomId.
+     */
+    java.lang.String getRoomId();
+    /**
+     * <pre>
+     * 群通话房间唯一ID（服务端创建房间时生成，回传给成员）
+     * </pre>
+     *
+     * <code>string roomId = 6;</code>
+     * @return The bytes for roomId.
+     */
+    com.google.protobuf.ByteString
+        getRoomIdBytes();
+
+    /**
+     * <pre>
+     * 通话模式：0-Mesh(P2P直连) 1-SFU（服务端按房间实际模式回填）
+     * </pre>
+     *
+     * <code>int32 mode = 7;</code>
+     * @return The mode.
+     */
+    int getMode();
   }
   /**
    * <pre>
@@ -18412,31 +18442,32 @@ java.lang.String defaultValue) {
       groupId_ = "";
       payload_ = "";
       callId_ = "";
+      roomId_ = "";
     }
 
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return ImProto.internal_static_gim_im_RtcGroup_descriptor;
+      return io.getbit.gim.sdk.protocol.ImProto.internal_static_gim_im_RtcGroup_descriptor;
     }
 
     @java.lang.Override
     public com.google.protobuf.Descriptors.Descriptor getDescriptorForType() {
-      return ImProto.internal_static_gim_im_RtcGroup_descriptor;
+      return io.getbit.gim.sdk.protocol.ImProto.internal_static_gim_im_RtcGroup_descriptor;
     }
 
     @java.lang.Override
     protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return ImProto.internal_static_gim_im_RtcGroup_fieldAccessorTable
+      return io.getbit.gim.sdk.protocol.ImProto.internal_static_gim_im_RtcGroup_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
-              ImProto.RtcGroup.class, ImProto.RtcGroup.Builder.class);
+              io.getbit.gim.sdk.protocol.ImProto.RtcGroup.class, io.getbit.gim.sdk.protocol.ImProto.RtcGroup.Builder.class);
     }
 
     public static final int SIGNALTYPE_FIELD_NUMBER = 1;
     private int signalType_ = 0;
     /**
      * <pre>
-     * 信令类型（与 RtcSignal 枚举一致）
+     * 信令类型（与 RtcSignal 枚举一致，1~8 媒体信令，20~27 群通话生命周期信令，mediaState=100 跨场景共用）
      * </pre>
      *
      * <code>int32 signalType = 1;</code>
@@ -18546,7 +18577,7 @@ java.lang.String defaultValue) {
     private volatile java.lang.Object payload_ = "";
     /**
      * <pre>
-     * JSON: SDP / ICE candidate / 通话类型等数据
+     * JSON: SDP / ICE candidate / 通话类型 / 成员快照等数据
      * </pre>
      *
      * <code>string payload = 4;</code>
@@ -18567,7 +18598,7 @@ java.lang.String defaultValue) {
     }
     /**
      * <pre>
-     * JSON: SDP / ICE candidate / 通话类型等数据
+     * JSON: SDP / ICE candidate / 通话类型 / 成员快照等数据
      * </pre>
      *
      * <code>string payload = 4;</code>
@@ -18635,6 +18666,68 @@ java.lang.String defaultValue) {
       }
     }
 
+    public static final int ROOMID_FIELD_NUMBER = 6;
+    @SuppressWarnings("serial")
+    private volatile java.lang.Object roomId_ = "";
+    /**
+     * <pre>
+     * 群通话房间唯一ID（服务端创建房间时生成，回传给成员）
+     * </pre>
+     *
+     * <code>string roomId = 6;</code>
+     * @return The roomId.
+     */
+    @java.lang.Override
+    public java.lang.String getRoomId() {
+      java.lang.Object ref = roomId_;
+      if (ref instanceof java.lang.String) {
+        return (java.lang.String) ref;
+      } else {
+        com.google.protobuf.ByteString bs = 
+            (com.google.protobuf.ByteString) ref;
+        java.lang.String s = bs.toStringUtf8();
+        roomId_ = s;
+        return s;
+      }
+    }
+    /**
+     * <pre>
+     * 群通话房间唯一ID（服务端创建房间时生成，回传给成员）
+     * </pre>
+     *
+     * <code>string roomId = 6;</code>
+     * @return The bytes for roomId.
+     */
+    @java.lang.Override
+    public com.google.protobuf.ByteString
+        getRoomIdBytes() {
+      java.lang.Object ref = roomId_;
+      if (ref instanceof java.lang.String) {
+        com.google.protobuf.ByteString b = 
+            com.google.protobuf.ByteString.copyFromUtf8(
+                (java.lang.String) ref);
+        roomId_ = b;
+        return b;
+      } else {
+        return (com.google.protobuf.ByteString) ref;
+      }
+    }
+
+    public static final int MODE_FIELD_NUMBER = 7;
+    private int mode_ = 0;
+    /**
+     * <pre>
+     * 通话模式：0-Mesh(P2P直连) 1-SFU（服务端按房间实际模式回填）
+     * </pre>
+     *
+     * <code>int32 mode = 7;</code>
+     * @return The mode.
+     */
+    @java.lang.Override
+    public int getMode() {
+      return mode_;
+    }
+
     private byte memoizedIsInitialized = -1;
     @java.lang.Override
     public final boolean isInitialized() {
@@ -18664,6 +18757,12 @@ java.lang.String defaultValue) {
       if (!com.google.protobuf.GeneratedMessage.isStringEmpty(callId_)) {
         com.google.protobuf.GeneratedMessage.writeString(output, 5, callId_);
       }
+      if (!com.google.protobuf.GeneratedMessage.isStringEmpty(roomId_)) {
+        com.google.protobuf.GeneratedMessage.writeString(output, 6, roomId_);
+      }
+      if (mode_ != 0) {
+        output.writeInt32(7, mode_);
+      }
       getUnknownFields().writeTo(output);
     }
     private int computeSerializedSize_0() {
@@ -18684,6 +18783,13 @@ java.lang.String defaultValue) {
       if (!com.google.protobuf.GeneratedMessage.isStringEmpty(callId_)) {
         size += com.google.protobuf.GeneratedMessage.computeStringSize(5, callId_);
       }
+      if (!com.google.protobuf.GeneratedMessage.isStringEmpty(roomId_)) {
+        size += com.google.protobuf.GeneratedMessage.computeStringSize(6, roomId_);
+      }
+      if (mode_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeInt32Size(7, mode_);
+      }
       return size;
     }
     @java.lang.Override
@@ -18703,10 +18809,10 @@ java.lang.String defaultValue) {
       if (obj == this) {
        return true;
       }
-      if (!(obj instanceof ImProto.RtcGroup)) {
+      if (!(obj instanceof io.getbit.gim.sdk.protocol.ImProto.RtcGroup)) {
         return super.equals(obj);
       }
-      ImProto.RtcGroup other = (ImProto.RtcGroup) obj;
+      io.getbit.gim.sdk.protocol.ImProto.RtcGroup other = (io.getbit.gim.sdk.protocol.ImProto.RtcGroup) obj;
 
       if (getSignalType()
           != other.getSignalType()) return false;
@@ -18718,6 +18824,10 @@ java.lang.String defaultValue) {
           .equals(other.getPayload())) return false;
       if (!getCallId()
           .equals(other.getCallId())) return false;
+      if (!getRoomId()
+          .equals(other.getRoomId())) return false;
+      if (getMode()
+          != other.getMode()) return false;
       if (!getUnknownFields().equals(other.getUnknownFields())) return false;
       return true;
     }
@@ -18739,49 +18849,53 @@ java.lang.String defaultValue) {
       hash = (53 * hash) + getPayload().hashCode();
       hash = (37 * hash) + CALLID_FIELD_NUMBER;
       hash = (53 * hash) + getCallId().hashCode();
+      hash = (37 * hash) + ROOMID_FIELD_NUMBER;
+      hash = (53 * hash) + getRoomId().hashCode();
+      hash = (37 * hash) + MODE_FIELD_NUMBER;
+      hash = (53 * hash) + getMode();
       hash = (29 * hash) + getUnknownFields().hashCode();
       memoizedHashCode = hash;
       return hash;
     }
 
-    public static ImProto.RtcGroup parseFrom(
+    public static io.getbit.gim.sdk.protocol.ImProto.RtcGroup parseFrom(
         java.nio.ByteBuffer data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static ImProto.RtcGroup parseFrom(
+    public static io.getbit.gim.sdk.protocol.ImProto.RtcGroup parseFrom(
         java.nio.ByteBuffer data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static ImProto.RtcGroup parseFrom(
+    public static io.getbit.gim.sdk.protocol.ImProto.RtcGroup parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static ImProto.RtcGroup parseFrom(
+    public static io.getbit.gim.sdk.protocol.ImProto.RtcGroup parseFrom(
         com.google.protobuf.ByteString data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static ImProto.RtcGroup parseFrom(byte[] data)
+    public static io.getbit.gim.sdk.protocol.ImProto.RtcGroup parseFrom(byte[] data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static ImProto.RtcGroup parseFrom(
+    public static io.getbit.gim.sdk.protocol.ImProto.RtcGroup parseFrom(
         byte[] data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static ImProto.RtcGroup parseFrom(java.io.InputStream input)
+    public static io.getbit.gim.sdk.protocol.ImProto.RtcGroup parseFrom(java.io.InputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessage
           .parseWithIOException(PARSER, input);
     }
-    public static ImProto.RtcGroup parseFrom(
+    public static io.getbit.gim.sdk.protocol.ImProto.RtcGroup parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
@@ -18789,26 +18903,26 @@ java.lang.String defaultValue) {
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
-    public static ImProto.RtcGroup parseDelimitedFrom(java.io.InputStream input)
+    public static io.getbit.gim.sdk.protocol.ImProto.RtcGroup parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessage
           .parseDelimitedWithIOException(PARSER, input);
     }
 
-    public static ImProto.RtcGroup parseDelimitedFrom(
+    public static io.getbit.gim.sdk.protocol.ImProto.RtcGroup parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessage
           .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
-    public static ImProto.RtcGroup parseFrom(
+    public static io.getbit.gim.sdk.protocol.ImProto.RtcGroup parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessage
           .parseWithIOException(PARSER, input);
     }
-    public static ImProto.RtcGroup parseFrom(
+    public static io.getbit.gim.sdk.protocol.ImProto.RtcGroup parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
@@ -18821,7 +18935,7 @@ java.lang.String defaultValue) {
     public static Builder newBuilder() {
       return DEFAULT_INSTANCE.toBuilder();
     }
-    public static Builder newBuilder(ImProto.RtcGroup prototype) {
+    public static Builder newBuilder(io.getbit.gim.sdk.protocol.ImProto.RtcGroup prototype) {
       return DEFAULT_INSTANCE.toBuilder().mergeFrom(prototype);
     }
     @java.lang.Override
@@ -18846,18 +18960,18 @@ java.lang.String defaultValue) {
     public static final class Builder extends
         com.google.protobuf.GeneratedMessage.Builder<Builder> implements
         // @@protoc_insertion_point(builder_implements:gim.im.RtcGroup)
-        ImProto.RtcGroupOrBuilder {
+        io.getbit.gim.sdk.protocol.ImProto.RtcGroupOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
           getDescriptor() {
-        return ImProto.internal_static_gim_im_RtcGroup_descriptor;
+        return io.getbit.gim.sdk.protocol.ImProto.internal_static_gim_im_RtcGroup_descriptor;
       }
 
       @java.lang.Override
       protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
           internalGetFieldAccessorTable() {
-        return ImProto.internal_static_gim_im_RtcGroup_fieldAccessorTable
+        return io.getbit.gim.sdk.protocol.ImProto.internal_static_gim_im_RtcGroup_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
-                ImProto.RtcGroup.class, ImProto.RtcGroup.Builder.class);
+                io.getbit.gim.sdk.protocol.ImProto.RtcGroup.class, io.getbit.gim.sdk.protocol.ImProto.RtcGroup.Builder.class);
       }
 
       // Construct using io.getbit.gim.sdk.protocol.ImProto.RtcGroup.newBuilder()
@@ -18879,23 +18993,25 @@ java.lang.String defaultValue) {
         groupId_ = "";
         payload_ = "";
         callId_ = "";
+        roomId_ = "";
+        mode_ = 0;
         return this;
       }
 
       @java.lang.Override
       public com.google.protobuf.Descriptors.Descriptor
           getDescriptorForType() {
-        return ImProto.internal_static_gim_im_RtcGroup_descriptor;
+        return io.getbit.gim.sdk.protocol.ImProto.internal_static_gim_im_RtcGroup_descriptor;
       }
 
       @java.lang.Override
-      public ImProto.RtcGroup getDefaultInstanceForType() {
-        return ImProto.RtcGroup.getDefaultInstance();
+      public io.getbit.gim.sdk.protocol.ImProto.RtcGroup getDefaultInstanceForType() {
+        return io.getbit.gim.sdk.protocol.ImProto.RtcGroup.getDefaultInstance();
       }
 
       @java.lang.Override
-      public ImProto.RtcGroup build() {
-        ImProto.RtcGroup result = buildPartial();
+      public io.getbit.gim.sdk.protocol.ImProto.RtcGroup build() {
+        io.getbit.gim.sdk.protocol.ImProto.RtcGroup result = buildPartial();
         if (!result.isInitialized()) {
           throw newUninitializedMessageException(result);
         }
@@ -18903,14 +19019,14 @@ java.lang.String defaultValue) {
       }
 
       @java.lang.Override
-      public ImProto.RtcGroup buildPartial() {
-        ImProto.RtcGroup result = new ImProto.RtcGroup(this);
+      public io.getbit.gim.sdk.protocol.ImProto.RtcGroup buildPartial() {
+        io.getbit.gim.sdk.protocol.ImProto.RtcGroup result = new io.getbit.gim.sdk.protocol.ImProto.RtcGroup(this);
         if (bitField0_ != 0) { buildPartial0(result); }
         onBuilt();
         return result;
       }
 
-      private void buildPartial0(ImProto.RtcGroup result) {
+      private void buildPartial0(io.getbit.gim.sdk.protocol.ImProto.RtcGroup result) {
         int from_bitField0_ = bitField0_;
         if (((from_bitField0_ & 0x00000001) != 0)) {
           result.signalType_ = signalType_;
@@ -18927,20 +19043,26 @@ java.lang.String defaultValue) {
         if (((from_bitField0_ & 0x00000010) != 0)) {
           result.callId_ = callId_;
         }
+        if (((from_bitField0_ & 0x00000020) != 0)) {
+          result.roomId_ = roomId_;
+        }
+        if (((from_bitField0_ & 0x00000040) != 0)) {
+          result.mode_ = mode_;
+        }
       }
 
       @java.lang.Override
       public Builder mergeFrom(com.google.protobuf.Message other) {
-        if (other instanceof ImProto.RtcGroup) {
-          return mergeFrom((ImProto.RtcGroup)other);
+        if (other instanceof io.getbit.gim.sdk.protocol.ImProto.RtcGroup) {
+          return mergeFrom((io.getbit.gim.sdk.protocol.ImProto.RtcGroup)other);
         } else {
           super.mergeFrom(other);
           return this;
         }
       }
 
-      public Builder mergeFrom(ImProto.RtcGroup other) {
-        if (other == ImProto.RtcGroup.getDefaultInstance()) return this;
+      public Builder mergeFrom(io.getbit.gim.sdk.protocol.ImProto.RtcGroup other) {
+        if (other == io.getbit.gim.sdk.protocol.ImProto.RtcGroup.getDefaultInstance()) return this;
         if (other.getSignalType() != 0) {
           setSignalType(other.getSignalType());
         }
@@ -18963,6 +19085,14 @@ java.lang.String defaultValue) {
           callId_ = other.callId_;
           bitField0_ |= 0x00000010;
           onChanged();
+        }
+        if (!other.getRoomId().isEmpty()) {
+          roomId_ = other.roomId_;
+          bitField0_ |= 0x00000020;
+          onChanged();
+        }
+        if (other.getMode() != 0) {
+          setMode(other.getMode());
         }
         this.mergeUnknownFields(other.getUnknownFields());
         onChanged();
@@ -19013,6 +19143,16 @@ java.lang.String defaultValue) {
                 bitField0_ |= 0x00000010;
                 break;
               } // case 42
+              case 50: {
+                roomId_ = input.readStringRequireUtf8();
+                bitField0_ |= 0x00000020;
+                break;
+              } // case 50
+              case 56: {
+                mode_ = input.readInt32();
+                bitField0_ |= 0x00000040;
+                break;
+              } // case 56
               default: {
                 if (!super.parseUnknownField(input, extensionRegistry, tag)) {
                   done = true; // was an endgroup tag
@@ -19033,7 +19173,7 @@ java.lang.String defaultValue) {
       private int signalType_ ;
       /**
        * <pre>
-       * 信令类型（与 RtcSignal 枚举一致）
+       * 信令类型（与 RtcSignal 枚举一致，1~8 媒体信令，20~27 群通话生命周期信令，mediaState=100 跨场景共用）
        * </pre>
        *
        * <code>int32 signalType = 1;</code>
@@ -19045,7 +19185,7 @@ java.lang.String defaultValue) {
       }
       /**
        * <pre>
-       * 信令类型（与 RtcSignal 枚举一致）
+       * 信令类型（与 RtcSignal 枚举一致，1~8 媒体信令，20~27 群通话生命周期信令，mediaState=100 跨场景共用）
        * </pre>
        *
        * <code>int32 signalType = 1;</code>
@@ -19061,7 +19201,7 @@ java.lang.String defaultValue) {
       }
       /**
        * <pre>
-       * 信令类型（与 RtcSignal 枚举一致）
+       * 信令类型（与 RtcSignal 枚举一致，1~8 媒体信令，20~27 群通话生命周期信令，mediaState=100 跨场景共用）
        * </pre>
        *
        * <code>int32 signalType = 1;</code>
@@ -19261,7 +19401,7 @@ java.lang.String defaultValue) {
       private java.lang.Object payload_ = "";
       /**
        * <pre>
-       * JSON: SDP / ICE candidate / 通话类型等数据
+       * JSON: SDP / ICE candidate / 通话类型 / 成员快照等数据
        * </pre>
        *
        * <code>string payload = 4;</code>
@@ -19281,7 +19421,7 @@ java.lang.String defaultValue) {
       }
       /**
        * <pre>
-       * JSON: SDP / ICE candidate / 通话类型等数据
+       * JSON: SDP / ICE candidate / 通话类型 / 成员快照等数据
        * </pre>
        *
        * <code>string payload = 4;</code>
@@ -19302,7 +19442,7 @@ java.lang.String defaultValue) {
       }
       /**
        * <pre>
-       * JSON: SDP / ICE candidate / 通话类型等数据
+       * JSON: SDP / ICE candidate / 通话类型 / 成员快照等数据
        * </pre>
        *
        * <code>string payload = 4;</code>
@@ -19319,7 +19459,7 @@ java.lang.String defaultValue) {
       }
       /**
        * <pre>
-       * JSON: SDP / ICE candidate / 通话类型等数据
+       * JSON: SDP / ICE candidate / 通话类型 / 成员快照等数据
        * </pre>
        *
        * <code>string payload = 4;</code>
@@ -19333,7 +19473,7 @@ java.lang.String defaultValue) {
       }
       /**
        * <pre>
-       * JSON: SDP / ICE candidate / 通话类型等数据
+       * JSON: SDP / ICE candidate / 通话类型 / 成员快照等数据
        * </pre>
        *
        * <code>string payload = 4;</code>
@@ -19442,16 +19582,152 @@ java.lang.String defaultValue) {
         return this;
       }
 
+      private java.lang.Object roomId_ = "";
+      /**
+       * <pre>
+       * 群通话房间唯一ID（服务端创建房间时生成，回传给成员）
+       * </pre>
+       *
+       * <code>string roomId = 6;</code>
+       * @return The roomId.
+       */
+      public java.lang.String getRoomId() {
+        java.lang.Object ref = roomId_;
+        if (!(ref instanceof java.lang.String)) {
+          com.google.protobuf.ByteString bs =
+              (com.google.protobuf.ByteString) ref;
+          java.lang.String s = bs.toStringUtf8();
+          roomId_ = s;
+          return s;
+        } else {
+          return (java.lang.String) ref;
+        }
+      }
+      /**
+       * <pre>
+       * 群通话房间唯一ID（服务端创建房间时生成，回传给成员）
+       * </pre>
+       *
+       * <code>string roomId = 6;</code>
+       * @return The bytes for roomId.
+       */
+      public com.google.protobuf.ByteString
+          getRoomIdBytes() {
+        java.lang.Object ref = roomId_;
+        if (ref instanceof String) {
+          com.google.protobuf.ByteString b = 
+              com.google.protobuf.ByteString.copyFromUtf8(
+                  (java.lang.String) ref);
+          roomId_ = b;
+          return b;
+        } else {
+          return (com.google.protobuf.ByteString) ref;
+        }
+      }
+      /**
+       * <pre>
+       * 群通话房间唯一ID（服务端创建房间时生成，回传给成员）
+       * </pre>
+       *
+       * <code>string roomId = 6;</code>
+       * @param value The roomId to set.
+       * @return This builder for chaining.
+       */
+      public Builder setRoomId(
+          java.lang.String value) {
+        java.util.Objects.requireNonNull(value);
+        roomId_ = value;
+        bitField0_ |= 0x00000020;
+        onChanged();
+        return this;
+      }
+      /**
+       * <pre>
+       * 群通话房间唯一ID（服务端创建房间时生成，回传给成员）
+       * </pre>
+       *
+       * <code>string roomId = 6;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearRoomId() {
+        roomId_ = getDefaultInstance().getRoomId();
+        bitField0_ = (bitField0_ & ~0x00000020);
+        onChanged();
+        return this;
+      }
+      /**
+       * <pre>
+       * 群通话房间唯一ID（服务端创建房间时生成，回传给成员）
+       * </pre>
+       *
+       * <code>string roomId = 6;</code>
+       * @param value The bytes for roomId to set.
+       * @return This builder for chaining.
+       */
+      public Builder setRoomIdBytes(
+          com.google.protobuf.ByteString value) {
+        java.util.Objects.requireNonNull(value);
+        checkByteStringIsUtf8(value);
+        roomId_ = value;
+        bitField0_ |= 0x00000020;
+        onChanged();
+        return this;
+      }
+
+      private int mode_ ;
+      /**
+       * <pre>
+       * 通话模式：0-Mesh(P2P直连) 1-SFU（服务端按房间实际模式回填）
+       * </pre>
+       *
+       * <code>int32 mode = 7;</code>
+       * @return The mode.
+       */
+      @java.lang.Override
+      public int getMode() {
+        return mode_;
+      }
+      /**
+       * <pre>
+       * 通话模式：0-Mesh(P2P直连) 1-SFU（服务端按房间实际模式回填）
+       * </pre>
+       *
+       * <code>int32 mode = 7;</code>
+       * @param value The mode to set.
+       * @return This builder for chaining.
+       */
+      public Builder setMode(int value) {
+
+        mode_ = value;
+        bitField0_ |= 0x00000040;
+        onChanged();
+        return this;
+      }
+      /**
+       * <pre>
+       * 通话模式：0-Mesh(P2P直连) 1-SFU（服务端按房间实际模式回填）
+       * </pre>
+       *
+       * <code>int32 mode = 7;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearMode() {
+        bitField0_ = (bitField0_ & ~0x00000040);
+        mode_ = 0;
+        onChanged();
+        return this;
+      }
+
       // @@protoc_insertion_point(builder_scope:gim.im.RtcGroup)
     }
 
     // @@protoc_insertion_point(class_scope:gim.im.RtcGroup)
-    private static final ImProto.RtcGroup DEFAULT_INSTANCE;
+    private static final io.getbit.gim.sdk.protocol.ImProto.RtcGroup DEFAULT_INSTANCE;
     static {
-      DEFAULT_INSTANCE = new ImProto.RtcGroup();
+      DEFAULT_INSTANCE = new io.getbit.gim.sdk.protocol.ImProto.RtcGroup();
     }
 
-    public static ImProto.RtcGroup getDefaultInstance() {
+    public static io.getbit.gim.sdk.protocol.ImProto.RtcGroup getDefaultInstance() {
       return DEFAULT_INSTANCE;
     }
 
@@ -19487,7 +19763,7 @@ java.lang.String defaultValue) {
     }
 
     @java.lang.Override
-    public ImProto.RtcGroup getDefaultInstanceForType() {
+    public io.getbit.gim.sdk.protocol.ImProto.RtcGroup getDefaultInstanceForType() {
       return DEFAULT_INSTANCE;
     }
 
@@ -19649,11 +19925,11 @@ java.lang.String defaultValue) {
       "\016\n\006status\030\004 \001(\005\022\017\n\007message\030\005 \001(\t\"f\n\tRtcS" +
       "ignal\022\022\n\nsignalType\030\001 \001(\005\022\020\n\010senderId\030\002 " +
       "\001(\t\022\022\n\nreceiverId\030\003 \001(\t\022\017\n\007payload\030\004 \001(\t" +
-      "\022\016\n\006callId\030\005 \001(\t\"b\n\010RtcGroup\022\022\n\nsignalTy" +
-      "pe\030\001 \001(\005\022\020\n\010senderId\030\002 \001(\t\022\017\n\007groupId\030\003 " +
-      "\001(\t\022\017\n\007payload\030\004 \001(\t\022\016\n\006callId\030\005 \001(\tB)\n\034" +
-      "io.getbit.gim.protocol.codecB\007ImProtoP\000b" +
-      "\006proto3"
+      "\022\016\n\006callId\030\005 \001(\t\"\200\001\n\010RtcGroup\022\022\n\nsignalT" +
+      "ype\030\001 \001(\005\022\020\n\010senderId\030\002 \001(\t\022\017\n\007groupId\030\003" +
+      " \001(\t\022\017\n\007payload\030\004 \001(\t\022\016\n\006callId\030\005 \001(\t\022\016\n" +
+      "\006roomId\030\006 \001(\t\022\014\n\004mode\030\007 \001(\005B\'\n\032io.getbit" +
+      ".gim.sdk.protocolB\007ImProtoP\000b\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -19784,7 +20060,7 @@ java.lang.String defaultValue) {
     internal_static_gim_im_RtcGroup_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_gim_im_RtcGroup_descriptor,
-        new java.lang.String[] { "SignalType", "SenderId", "GroupId", "Payload", "CallId", });
+        new java.lang.String[] { "SignalType", "SenderId", "GroupId", "Payload", "CallId", "RoomId", "Mode", });
     descriptor.resolveAllFeaturesImmutable();
   }
 
