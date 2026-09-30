@@ -145,26 +145,29 @@ object PacketCodec {
         return create(Cmd.DELIVERY_ACK, seq = 0L, body = body)
     }
 
-    /** 构建已读回执 Packet */
-    fun buildReadReceipt(conversationId: String, lastReadMsgId: String): ImProto.Packet {
+    /** 构建已读回执 Packet（单聊必传 receiverId，服务端直接转发给对方；群聊留空） */
+    fun buildReadReceipt(conversationId: String, lastReadMsgId: String, receiverId: String = ""): ImProto.Packet {
         val body = ImProto.ReadReceipt.newBuilder()
             .setConversationId(conversationId)
             .setLastReadMsgId(lastReadMsgId)
+            .setReceiverId(receiverId)
             .build()
         return create(Cmd.READ_RECEIPT, seq = 0L, body = body)
     }
 
-    /** 构建消息撤回请求 Packet */
+    /** 构建消息撤回请求 Packet（单聊必传 receiverId，服务端直接推送撤回通知；群聊留空） */
     fun buildMsgRecallReq(
         msgId: String,
         conversationId: String,
         chatType: Int,
         requestId: String? = null,
+        receiverId: String = "",
     ): ImProto.Packet {
         val body = ImProto.MsgRecallRequest.newBuilder()
             .setMsgId(msgId)
             .setConversationId(conversationId)
             .setChatType(chatType)
+            .setReceiverId(receiverId)
             .build()
         return create(Cmd.MSG_RECALL_REQ, seq = 0L, requestId = requestId, body = body)
     }
