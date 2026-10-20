@@ -1,5 +1,7 @@
 # GIM IM SDK (Android)
 
+[**中文**](README.md) | [English](README.en.md)
+
 高性能、开箱即用的 **Android IM 客户端 SDK**，基于 **Kotlin + Protobuf + WebRTC** 构建，对接 [gim-sdk-java](https://github.com/gogym/gim-sdk-java) 服务端，覆盖长连接管理、单聊/群聊消息收发、心跳保活、自动重连、被踢下线处理、1:1 音视频通话与群视频通话（Mesh + SFU）等能力。
 
 A high-performance, ready-to-use IM client SDK for Android built on **Kotlin + Protobuf + WebRTC**, paired with the [gim-sdk-java](https://github.com/gogym/gim-sdk-java) server. Covers long-connection management, 1:1 / group chat, heartbeat, auto-reconnect, kick handling, 1:1 calls and group calls (Mesh + SFU).
@@ -240,20 +242,20 @@ override fun onRtcSignal(packet: ImProto.Packet) {
 
 ## 文档索引 / Documentation
 
-完整文档位于仓库 `wiki/` 目录，同步发布到 GitHub Wiki：
+完整文档已发布到 GitHub Wiki（[中文](https://github.com/gogym/gim-sdk-android/wiki/Home) | [English](https://github.com/gogym/gim-sdk-android/wiki/Home-EN)）：
 
-- [Wiki 首页](wiki/Home.md)
-- [快速开始](wiki/快速开始.md)
-- [架构概览](wiki/架构概览.md)
-- [核心概念：Packet 与协议编解码](wiki/核心概念：Packet与协议编解码.md)
-- [核心概念：连接与认证](wiki/核心概念：连接与认证.md)
-- [核心概念：事件监听与消息收发](wiki/核心概念：事件监听与消息收发.md)
-- [消息能力：单聊与群聊](wiki/消息能力：单聊与群聊.md)
-- [消息能力：心跳与自动重连](wiki/消息能力：心跳与自动重连.md)
-- [WebRTC：1:1 通话](wiki/WebRTC：1对1通话.md)
-- [WebRTC：群视频通话（Mesh + SFU）](wiki/WebRTC：群视频通话.md)
-- [配置参考：ImConfig](wiki/配置参考：ImConfig.md)
-- [Android 集成与生命周期](wiki/Android集成与生命周期.md)
+- [Wiki 首页](https://github.com/gogym/gim-sdk-android/wiki/Home)
+- [快速开始](https://github.com/gogym/gim-sdk-android/wiki/快速开始)
+- [架构概览](https://github.com/gogym/gim-sdk-android/wiki/架构概览)
+- [核心概念：Packet 与协议编解码](https://github.com/gogym/gim-sdk-android/wiki/核心概念：Packet与协议编解码)
+- [核心概念：连接与认证](https://github.com/gogym/gim-sdk-android/wiki/核心概念：连接与认证)
+- [核心概念：事件监听与消息收发](https://github.com/gogym/gim-sdk-android/wiki/核心概念：事件监听与消息收发)
+- [消息能力：单聊与群聊](https://github.com/gogym/gim-sdk-android/wiki/消息能力：单聊与群聊)
+- [消息能力：心跳与自动重连](https://github.com/gogym/gim-sdk-android/wiki/消息能力：心跳与自动重连)
+- [WebRTC：1:1 通话](https://github.com/gogym/gim-sdk-android/wiki/WebRTC：1对1通话)
+- [WebRTC：群视频通话（Mesh + SFU）](https://github.com/gogym/gim-sdk-android/wiki/WebRTC：群视频通话)
+- [配置参考：ImConfig](https://github.com/gogym/gim-sdk-android/wiki/配置参考：ImConfig)
+- [Android 集成与生命周期](https://github.com/gogym/gim-sdk-android/wiki/Android集成与生命周期)
 
 ---
 

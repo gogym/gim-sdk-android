@@ -1,5 +1,7 @@
 # GIM IM SDK (Android) 使用文档
 
+[**中文**](Home) | [English](Home-EN)
+
 欢迎使用 **GIM IM SDK (Android)** —— 基于 Kotlin + Protobuf + WebRTC 构建、开箱即用的 Android IM **客户端** SDK，对接 [gim-sdk-java](https://github.com/gogym/gim-sdk-java) 服务端。
 
 ## 简介
